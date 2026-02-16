@@ -1,0 +1,125 @@
+{
+  // ========================================
+  // LaTeX Workshop: Build Tools
+  // ========================================
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": ["%DOCFILE%"]
+    },
+    {
+      "name": "makeglossaries",
+      "command": "makeglossaries-lite",
+      "args": ["%DOCFILE%"]
+    }
+  ],
+
+  // ========================================
+  // LaTeX Workshop: Build Recipes
+  // ========================================
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "Full Build",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "makeglossaries",
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "Quick Build (pdflatex only)",
+      "tools": ["pdflatex"]
+    },
+    {
+      "name": "With Bibliography",
+      "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+    }
+  ],
+
+  // ========================================
+  // LaTeX Workshop: Build Behavior
+  // ========================================
+  "latex-workshop.latex.recipe.default": "Full Build",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.build.forceRecipeUsage": true,
+  "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.ist",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.synctex.gz"
+  ],
+
+  // ========================================
+  // LaTeX Workshop: PDF Viewer
+  // ========================================
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+  "latex-workshop.synctex.afterBuild.enabled": true,
+
+  // ========================================
+  // LaTeX Workshop: Intellisense
+  // ========================================
+  "latex-workshop.intellisense.citation.backend": "bibtex",
+  "latex-workshop.intellisense.citation.label": "bibtex key",
+  "latex-workshop.intellisense.package.enabled": true,
+  "latex-workshop.intellisense.unimathsymbols.enabled": true,
+
+  // ========================================
+  // LaTeX Workshop: Messages & Logging
+  // ========================================
+  "latex-workshop.message.error.show": false,
+  "latex-workshop.message.warning.show": false,
+  "latex-workshop.message.information.show": false,
+
+  // ========================================
+  // Editor Settings for LaTeX
+  // ========================================
+  "editor.wordWrap": "on",
+  "[latex]": {
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "[bibtex]": {
+    "editor.tabSize": 2
+  },
+
+  // ========================================
+  // File Associations
+  // ========================================
+  "files.associations": {
+    "*.tex": "latex",
+    "*.bib": "bibtex"
+  }
+}

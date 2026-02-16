@@ -1,0 +1,197 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+% Encoding and language
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% Fonts and typography
+\usepackage{lmodern}
+\hbadness=10000
+\hfuzz=\maxdimen
+
+% Page layout
+\usepackage[a4paper,margin=25mm]{geometry}
+
+% Graphics and tables
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{array}
+\usepackage{longtable}
+
+% Math
+\usepackage{amsmath,amssymb,amsthm}
+
+% URLs and hyperlinks
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\Urlmuskip=0mu plus 1mu\relax
+
+% Code listings
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!10},
+  commentstyle=\color{green!60!black},
+  keywordstyle=\color{blue},
+  stringstyle=\color{red}
+}
+
+% Bibliography — Harvard / author–year
+\usepackage{natbib}
+\citestyle{authoryear}
+\bibliographystyle{agsm}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\leftmark}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{27.2pt}
+
+% Spacing and formatting
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{dirtytalk}
+
+% Glossaries and acronyms
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\input{acronym-definitions.tex}
+
+% Custom commands
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+% Document metadata
+\title{\vspace{1cm}A Generic Report Template\\\large Subtitle}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+  \centering
+  {\scshape\LARGE Name of Paper \par}
+  \vspace{1.5cm}
+  {\huge\bfseries Module - Module Code \par}
+  \vspace{0.5cm}
+  {\Large Patrick THOMPSON - 2433678 \par}
+  \vspace{2cm}
+  \vfill      
+  \includegraphics[width=0.25\textwidth]{images/aru_logo.png}     
+  \vspace{2cm}\\
+  \HRule\\[0.4cm]
+  {\large \today \par}
+\end{titlepage}
+
+% Abstract
+\begin{abstract} % 300 words
+\par \textbf{Purpose:} Lorem impsum... 
+
+\par \textbf{Method:} Lorem impsum... 
+
+\par \textbf{Findings:} Lorem impsum... 
+
+\par \textbf{Conclusion:} Lorem impsum...
+\end{abstract}
+
+% Table of contents and other lists
+\tableofcontents
+\printglossary[type=\acronymtype]
+\listoffigures
+%\listoftables
+
+\clearpage
+
+%--------C.1 Introduction--------
+\chapter{Introduction}  
+\label{ch:introduction}
+Lorem impsum...
+
+\section{Section Name}
+\label{sec:section-name}
+Lorem impsum...
+
+%--------C.2 Name of Chapter--------
+\chapter{Chapter 2}  
+\label{ch:chapter-two}
+Lorem impsum...
+
+\section{Section Name}
+\label{sec:section-name}
+Lorem impsum...
+
+\subsection{SubSection Name}
+\label{subsec:subsection-name}
+Lorem impsum...
+
+%--------C.NS: CONCLUSIONS--------
+\chapter{Conclusions}
+\label{ch:conclusions}
+Lorem impsum...
+\clearpage
+
+Word count (Chapters 1–N): XXX words, calculated in accordance with standard academic convention, excluding references, figures, tables, captions, running headers, and front matter.
+
+%----------------------------------------------------------------------
+% Appendices
+%\appendix
+%\chapter{Additional Material}
+%\label{app:additional}
+%Include supplementary tables, derivations, detailed calculations, or code listings.
+%----------------------------------------------------------------------
+\clearpage
+%----------------------------------------------------------------------
+% Bibliography
+\bibliography{C:/Users/UserPC/OneDrive/Desktop/research/bib/master} % Zotero master .bib file
+%----------------------------------------------------------------------
+\end{document}
+
+% --EXAMPLE FORMATTING SNIPPETS--
+
+%\begin{enumerate}
+%    \item Your current position and responsibilities
+%    \item Your organization and sector
+%    \item Brief overview of your professional journey
+%\end{enumerate}
+
+%\begin{itemize}
+%    \item Overview of the research challege / problem area
+%    \item Why the problem exists / persists
+%    \item Observable patterns
+%\end{itemize}
+
+% Example figure
+%\begin{figure}[H]
+%    \centering
+%    % \includegraphics[width=0.7\textwidth]{figures/example.png}
+%    \caption{Example figure caption. Figures should be self-explanatory with descriptive captions.}
+%    \label{fig:example}
+%\end{figure}
+
+% Example table
+%\begin{table}[H]
+%    \centering
+%    \caption{Example table with professional formatting.}
+%    \label{tab:example}
+%    \begin{tabular}{@{}lcc@{}}
+%        \toprule
+%        Parameter & Value & Unit \\
+%        \midrule
+%        Temperature & 25.3 & °C \\
+%        Pressure & 1.01 & bar \\
+%        Flow rate & 2.5 & L/min \\
+%        \bottomrule
+%    \end{tabular}
+%\end{table}
