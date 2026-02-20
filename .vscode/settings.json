@@ -53,6 +53,8 @@
   // LaTeX Workshop: Build Behavior
   // ========================================
   "latex-workshop.latex.recipe.default": "Full Build",
+  "latex-workshop.latex.defaultRecipeName": "Full Build",
+  "latex-workshop.latex.recipes.default": "lastUsed",
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
