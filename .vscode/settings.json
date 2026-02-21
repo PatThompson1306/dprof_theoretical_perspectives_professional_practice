@@ -123,5 +123,9 @@
   "files.associations": {
     "*.tex": "latex",
     "*.bib": "bibtex"
-  }
+  },
+  // ========================================
+  // LaTeX Workshop: Word Count
+  // ========================================
+  "latex-workshop.texcount.autorun": "onSave"
 }
