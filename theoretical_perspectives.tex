@@ -1,0 +1,387 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+% Encoding and language
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% Fonts and typography
+\usepackage{lmodern}
+\hbadness=10000
+\hfuzz=\maxdimen
+
+% Page layout
+\usepackage[a4paper,margin=25mm]{geometry}
+
+% Graphics and tables
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{array}
+\usepackage{longtable}
+
+% Math
+\usepackage{amsmath,amssymb,amsthm}
+
+% URLs and hyperlinks
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\Urlmuskip=0mu plus 1mu\relax
+
+% Code listings
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!10},
+  commentstyle=\color{green!60!black},
+  keywordstyle=\color{blue},
+  stringstyle=\color{red}
+}
+
+% Bibliography — Harvard / author–year
+\usepackage{natbib}
+\citestyle{authoryear}
+\bibliographystyle{agsm}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\leftmark}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{27.2pt}
+
+% Spacing and formatting
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{dirtytalk}
+
+% Glossaries and acronyms
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\input{acronym-definitions.tex}
+
+% Custom commands
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+% Document metadata
+\title{\vspace{1cm}A Generic Report Template\\\large Subtitle}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+  \centering
+  {\scshape\LARGE Developing and Operationalising Natural Language Processing solutions for Child Safeguarding: A Critical Review of Technical Possibilities and Organisational Realities in UK Policing -- TITLE TO BE CONFIRMED!!! \par}
+  \vspace{1.5cm}
+  {\huge\bfseries Theoretical Perspectives of Advanced Professional Practice - MOD006047 \par}
+  \vspace{0.5cm}
+  {\Large Patrick THOMPSON - 2433678 \par}
+  \vspace{2cm}
+  \vfill      
+  \includegraphics[width=0.25\textwidth]{images/aru_logo.png}     
+  \vspace{2cm}\\
+  \HRule\\[0.4cm]
+  {\large \today \par}
+\end{titlepage}
+
+% Abstract
+\begin{abstract} % 200 words approx
+\par \textbf{Purpose:} Lorem impsum... 
+
+\par \textbf{Method:} Lorem impsum... 
+
+\par \textbf{Findings:} Lorem impsum... 
+
+\par \textbf{Conclusion:} Lorem impsum...
+\end{abstract}
+\clearpage
+
+% Table of contents and other lists
+\tableofcontents
+\printglossary[type=\acronymtype]
+\listoffigures
+%\listoftables
+
+\clearpage
+
+%--------C.1 Introduction--------
+\chapter{Introduction}  
+\label{ch:introduction}
+
+\section{Research context}
+\label{sec:research-context}
+This paper defines the research context before selecting the most appropriate methodology and strategy for the literature review which follows. 
+
+Empirical observations, supported by academic and grey literature, \citep{finkelhor2024prevalence,CPAI2025} identify that reported instances of \gls{csa} are increasing, with resultant demand on policing outstripping proactive preventative capabilities.
+
+The gap between demand and capability in both \gls{csa} and other operational areas of policing is acknowledged across the sector, generating political and organisational appetite for technological solutions, \citep{npcc2026policeai}.  Despite this appetite, evidence from both professional and academic sources identifes that policing is structurally complex and requires reform to better adopt technology, \citep{homeoffice2024reform}, with cultural barriers further diminishing the successful use of technological solutions, \citep{thompson2021missed,kassem2025their}.
+
+These challenges are significant, yet they do not negate the potential of emerging technologies to address the identified capability gap.  Advances in \gls{nlp} technologies present an opportunity to deliver preventative safeguarding in the \gls{csa} context, acknowledging that the gap between technical possibility and operational deployment is not primarily technical but organisational.  
+
+This paper explores how to bridge this gap, drawing on four literature tracks to develop a conceptual framework capable of addressing the proposed research challenge: \textit{How can natural language processing methods be developed and operationalised to identify precursors of contact sex offending against children, to enhance proactive safeguarding opportunities within the existing operational constraints of policing?}
+
+This challenge consists of four thematic research areas: 
+
+\begin{enumerate}
+  \item What linguistic precursors of contact sex offending exist in offender-victim conversations?
+  \item Which \gls{nlp} methods can be most effectively realised within policing infrastructure?
+  \item What implementation barriers exist within policing that may hinder NLP adoption?
+  \item What strategies can be developed to overcome those barriers?
+\end{enumerate}
+
+\section{Purpose and scope of the paper}  
+\label{sec:purpose-and-scope-of-the-paper}
+This research is inherently interdisciplinary, positioned at the intersection of technical and organisational domains. Accordingly, a literature review will require a multi-track approach, with each track addressing a different aspect of the research challenge. The four tracks are as follows: 
+
+\begin{enumerate}
+    \item The first track explores the landscape of \gls{csa} and the linguistic characteristics which precede contact offending, establishing the empirical foundation for a technical solution.
+    \item The second track reviews the technical literature on \gls{nlp} applications in safeguarding and criminal justice contexts, focusing on grooming language detection and the computational methods available for identifying linguistic precursors of contact offending.
+    \item The third track examines the organisational dynamics of technology adoption in policing, drawing on both academic literature and empirical evidence of structural and cultural barriers to technical innovation.
+    \item The fourth track addresses the ethical and governance boundaries within which any \gls{nlp} solution must operate, encompassing algorithmic bias, data protection, proportionality, and the ethical context surrounding preventative safeguarding. 
+\end{enumerate}
+
+Each track is explored in depth, and their insights are then synthesised to identify where technical possibilities meet organisational realities. This structure enables a comprehensive understanding of both the capabilities and constraints shaping both the research problem and the practice improvement opportunity and grounding any solution in organisational and ethical realities
+
+%--------C.2 Literature Search Strategy and Methodology--------
+\chapter{Literature Search Strategy and Methodology}  
+\label{ch:literature-search-strategy-and-methodology}
+
+\section{Review Methodology and Rationale}
+\label{sec:review-methodology-and-rationale}
+This literature review adopts a systematic integrative approach.  \citet{snyder2019literature} documents a number of review types, noting that an integrative review seeks to combine multiple perspectives, synthesise those views and to develop a new framework or perspective.
+
+The interdisciplinary nature of this research noted in section \ref{sec:purpose-and-scope-of-the-paper} necessitates a review methodology that can accommodate multiple perspectives and evidence types.  An integrative design as defined by \citet{torraco2016writing} and \citet{torraco2005writing} allows for a review and synthesis across domains, building a conceptual framework which seeks to unify the disparate domains into a framework for operationalising an \gls{nlp} solution into a safeguarding \gls{csa} context.
+
+A systematic approach is layered into this integrative approach to allow for a targeted and transparent search and selection process in reviewing the evidence, ensuring that the review is both comprehensive and replicable.  This systematic layer is particularly important given the breadth of this review, which spans technical, organisational and ethical domains, each with their own bodies of literature and evidence types.  \citet{whittemore2005integrative} identifies that by adding a systematic approach to an integrative review, findings and subsequent synthesis across domains can lead to the delivery of evidence based practice improvements.
+
+The synthesed findings from this cross domain review will be used to develop a conceptual framework which identifies the organisational requirements for operationalising an \gls{nlp} solution in a policing context, and the technical capabilities required to meet those requirements.
+
+\section{Tools and software}
+\label{sec:tools-and-software}
+Lorem impsum...
+% 100 words -- software stack and process used in managing literature (include a diagram!), with justification for choices and how they support the review methodology
+
+\section{Search approach and databases}
+\label{sec:search-approach-and-databases}
+Lorem impsum...
+% 100 words -- identify which databases were searched and justify their selection for this topic
+
+\section{Keywords and search terms}
+\label{sec:keywords-and-search-terms}
+Lorem impsum...
+% 100 words -- document the keyword strings and Boolean operators used across the two tracks
+
+\section{Inclusion and exclusion criteria}
+\label{sec:inclusion-and-exclusion-criteria}
+Lorem impsum...
+% 100 words -- explain the filters applied: date range, peer reviewed only, English language, relevance to policing or adjacent public sector contexts
+
+\section{Results and filtering process}
+\label{sec:results-and-filtering-process}
+Lorem impsum...
+% 150 words -- narrate how many results were returned, screened and included; a PRISMA-style summary table works well here and sits outside the word count
+
+
+%--------C.3 The Landscape of Child Sexual Exploitation and Policing's Response--------
+\chapter{The Landscape of Child Sexual Exploitation and Policing's Response}  
+\label{ch:the-landscape-of-child-sexual-exploitation-and-policings-response}
+
+\section{Scale and trajectory of CSA}
+\label{sec:scale-and-trajectory-of-csa}
+Lorem impsum...
+% 190 words -- national and international evidence on prevalence and escalation, drawing on ... (anchor texts)
+
+\section{The grooming to contact offending pathway}
+\label{sec:the-grooming-to-contact-offending-pathway}
+Lorem impsum...
+% 190 words -- what the literature says about how online grooming precedes contact offending and why this matters for intervention design ... (anchor texts)
+% I need to frame this as an intervention post online to 1-2-1 conversations recorded on mobile devices, which is the data source my research focuses on
+
+\section{Policing's reactive posture}
+\label{sec:policings-reactive-posture}
+Lorem impsum...
+% 190 words -- evidence of the gap between demand and proactive capability, structural and resource constraints ... (anchor texts)
+
+\section{The case for technological intervention}
+\label{sec:the-case-for-technological-intervention}
+Lorem impsum...
+% 180 words -- where the literature identifies opportunity for tools to shift policing towards earlier intervention ... (anchor texts)
+
+
+%--------C.4  NLP and AI in Safeguarding and Criminal Justice Contexts --------
+\chapter{NLP and AI in Safeguarding and Criminal Justice Contexts}  
+\label{ch:nlp-and-ai-in-safeguarding-and-criminal-justice-contexts}
+
+\section{NLP applications in public services}
+\label{sec:nlp-applications-in-public-services}
+Lorem impsum...
+% 175 words -- brief contextualisation of NLP use in health, social care and criminal justice drawing on ... (anchor texts)
+
+\section{Computational approaches to grooming language detection}
+\label{sec:computational-approaches-to-grooming-language-detection}
+Lorem impsum...
+% 275 words -- critical review of existing studies, their methods, findings and limitations ... (anchor texts)
+
+\section{The data provenance problem}
+\label{sec:the-data-provenance-problem}
+Lorem impsum...
+% 275 words -- critically examine how existing studies rely on simulated or open-source datasets and why this limits ... (anchor texts)
+
+\section{What the technical literature leaves unanswered}
+\label{sec:what-the-technical-literature-leaves-unanswered}
+Lorem impsum...
+% 175 words -- synthesise the gap: NLP capability exists but the bridge to operational deployment remains unbuilt
+
+
+%--------C.5  Technology Adoption and Organisational Change in Policing --------
+\chapter{Technology Adoption and Organisational Change in Policing}  
+\label{ch:technology-adoption-and-organisational-change-in-policing}
+
+\section{Policing as a technology consumer}
+\label{sec:policing-as-a-technology-consumer}
+Lorem impsum...
+% 225 words -- the evidence on why policing struggles to adopt and embed innovation effectively, drawing on ... (anchor texts)
+
+\section{Tacit versus explicit knowledge cultures}
+\label{sec:tacit-versus-explicit-knowledge-cultures}
+Lorem impsum...
+% 225 words -- The cultural preference for street knowledge over book knowledge and its implications for technical change ... (anchor texts)
+
+\section{Theoretical frameworks for technology adoption}
+\label{sec:theoretical-frameworks-for-technology-adoption}
+Lorem impsum...
+% 275 words -- introduce and critically review relevant models (Technology Acceptance Model, Diffusion of Innovations, institutional theory) and evaluate their applicability to a policing context
+
+\section{Structural fragmentation as an implementation barrier}
+\label{sec:structural-fragmentation-as-an-implementation-barrier}
+Lorem impsum...
+% 175 words -- the 43-force landscape, autonomy, inconsistent risk appetite, and what the literature suggests about delivering change at national scale
+
+
+%--------C.6  Synthesis: Where Technical Possibility Meets Organisational Reality  --------
+\chapter{Synthesis: Where Technical Possibility Meets Organisational Reality}  
+\label{ch:synthesis-where-technical-possibility-meets-organisational-reality}
+
+\section{The convergence problem}
+\label{sec:the-convergence-problem}
+Lorem impsum...
+% 220 words -- argue that the gap between NLP capability and operational deployment is not primarily technical but organisational, using the literature from chapters 4 and 5 together
+
+\section{Inductive and deductive reasoning across the two tracks}
+\label{sec:inductive-and-deductive-reasoning-across-the-two-tracks}
+Lorem impsum...
+% 220 words -- explore what the technical literature implies about organisational requirements and vice versa, demonstrating the interdependency
+
+\section{Towards a theoretical position}
+\label{sec:towards-a-theoretical-position}
+Lorem impsum...
+% 210 words -- identify which theoretical perspectives best explain the challenge your research addresses and justify your choices
+
+
+%--------C.7  Conceptual Framework and Research Questions  --------
+\chapter{Conceptual Framework and Research Questions}  
+\label{ch:conceptual-framework-and-research-questions}
+
+\section{Presenting the conceptual framework}
+\label{sec:presenting-the-conceptual-framework}
+Lorem impsum...
+% 220 words -- diagram and explanation showing how CSA demand, NLP capability, organisational readiness and implementation strategy relate to each other; diagram sits outside word count
+
+\section{How the literature has shaped the framework}
+\label{sec:how-the-literature-has-shaped-the-framework}
+Lorem impsum...
+% 220 words -- briefly explain what the reading added or changed relative to Paper 1's proto-framework
+
+\section{Refined research aim and sub-questions}
+\label{sec:refined-research-aim-and-sub-questions}
+Lorem impsum...
+% 210 words -- present your four sub-questions in light of the literature, with any refinements the reading has prompted
+
+
+%--------C.8  Conclusions  --------
+\chapter{Conclusions }  
+\label{ch:conclusions}
+
+\section{Summary of the argument}
+\label{sec:summary-of-the-argument}
+Lorem impsum...
+% 100 words -- what the literature collectively establishes about the problem and the research opportunity
+
+\section{Implications for professional practice}
+\label{sec:implications-for-professional-practice}
+Lorem impsum...
+% 100 words -- What this means for policing before the research is even conducted
+
+\section{Next steps}
+\label{sec:next-steps}
+Lorem impsum...
+% 100 words -- brief signpost to the research methodology that follows
+
+\clearpage
+
+Word count (Chapters 1–N): XXX words, calculated in accordance with standard academic convention, excluding references, figures, tables, captions, running headers, and front matter.
+
+%----------------------------------------------------------------------
+%Appendices
+\appendix
+\chapter{Patch One - Upload and Feedback}
+\label{app:patch-one-upload-and-feedback}
+%Include supplementary tables, derivations, detailed calculations, or code listings.
+\chapter{Patch Two - Upload and Feedback}
+\label{app:patch-two-upload-and-feedback}
+%----------------------------------------------------------------------
+\clearpage
+%----------------------------------------------------------------------
+% Bibliography
+\bibliography{C:/Users/UserPC/gdrive/research/bib/master} % Zotero master .bib file
+%----------------------------------------------------------------------
+\end{document}
+
+% --EXAMPLE FORMATTING SNIPPETS--
+
+%\begin{enumerate}
+%    \item Your current position and responsibilities
+%    \item Your organization and sector
+%    \item Brief overview of your professional journey
+%\end{enumerate}
+
+%\begin{itemize}
+%    \item Overview of the research challege / problem area
+%    \item Why the problem exists / persists
+%    \item Observable patterns
+%\end{itemize}
+
+% Example figure
+%\begin{figure}[H]
+%    \centering
+%    % \includegraphics[width=0.7\textwidth]{figures/example.png}
+%    \caption{Example figure caption. Figures should be self-explanatory with descriptive captions.}
+%    \label{fig:example}
+%\end{figure}
+
+% Example table
+%\begin{table}[H]
+%    \centering
+%    \caption{Example table with professional formatting.}
+%    \label{tab:example}
+%    \begin{tabular}{@{}lcc@{}}
+%        \toprule
+%        Parameter & Value & Unit \\
+%        \midrule
+%        Temperature & 25.3 & °C \\
+%        Pressure & 1.01 & bar \\
+%        Flow rate & 2.5 & L/min \\
+%        \bottomrule
+%    \end{tabular}
+%\end{table}
