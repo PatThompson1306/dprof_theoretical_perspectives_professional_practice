@@ -5,7 +5,7 @@
 \contentsline {chapter}{\numberline {2}Literature Search Strategy and Methodology}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Review Methodology and Rationale}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Tools and software}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Search approach and databases}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Search approach and databases}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Keywords and search terms}{9}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{9}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Results and filtering process}{9}{section.2.6}%
