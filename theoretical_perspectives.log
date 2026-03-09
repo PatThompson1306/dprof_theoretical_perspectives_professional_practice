@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.15)  9 MAR 2026 06:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.9)  9 MAR 2026 07:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **"c:/Users/UserPC/My Drive/research/papers/theoretical_perspectives/submission_paper/theoretical_perspectives.tex"
 (c:/Users/UserPC/My Drive/research/papers/theoretical_perspectives/submission_paper/theoretical_perspectives.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+L3 programming layer <2026-01-19>
 (C:\Program Files\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -27,15 +27,15 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 ) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count284
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
 \U@D=\dimen149
 \l@unhyphenated=\language79
  (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
@@ -43,7 +43,7 @@ LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) o
 \bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4196.
+(babel)             Reported on input line 4206.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -52,7 +52,7 @@ Package babel Info: Configuration files are deprecated, as
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Program Files\MiKTeX\tex/generic/babel/locale/en\babel-english.tex)
 Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 4320.
+(babel)             from babel-en.ini. Reported on input line 4330.
  (C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -297,7 +297,7 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
  (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
@@ -317,7 +317,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )) (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
  (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
@@ -336,7 +336,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@linkcounter=\count317
 \Hy@pagecounter=\count318
  (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -344,19 +344,19 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count319
  (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count320
-LaTeX Info: Redefining \url on input line 4801.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen194
  (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -366,20 +366,20 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count321
 \Field@Width=\dimen195
 \Fld@charsize=\dimen196
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count322
 \c@Item=\count323
 \c@Hfootnote=\count324
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count325
 \c@bookmark@seq@number=\count326
  (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
@@ -619,8 +619,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count370
-)
-No file theoretical_perspectives.aux.
+) (theoretical_perspectives.aux)
 \openout1 = `theoretical_perspectives.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -641,6 +640,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -722,183 +722,127 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.107 \end{abstract}
-                     [1]
-No file theoretical_perspectives.toc.
-\tf@toc=\write6
-\openout6 = `theoretical_perspectives.toc'.
-
-No file theoretical_perspectives.acr.
-
+                     [1] (theoretical_perspectives.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
+ (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
+ (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
+ (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
+ (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 \listoffigures
-                     [1
+l.35 ...numberline {8}Conclusions }{15}{chapter.8}
+                                                  % [1
 
 
-]
-No file theoretical_perspectives.lof.
+])
+\tf@toc=\write6
+\openout6 = `theoretical_perspectives.toc'.
+
+ (theoretical_perspectives.acr [2]) [3
+
+
+] (theoretical_perspectives.lof)
 \tf@lof=\write7
 \openout7 = `theoretical_perspectives.lof'.
 
-[2
+ [4
 
 ]
 Chapter 1.
-
-Package natbib Warning: Citation `finkelhor2024prevalence' on page 3 undefined on input line 126.
-
-
-Package natbib Warning: Citation `CPAI2025' on page 3 undefined on input line 126.
-
-
-Package natbib Warning: Citation `npcc2026policeai' on page 3 undefined on input line 128.
-
-
-Package natbib Warning: Citation `homeoffice2024reform' on page 3 undefined on input line 128.
-
-
-Package natbib Warning: Citation `thompson2021missed' on page 3 undefined on input line 128.
-
-
-Package natbib Warning: Citation `kassem2025their' on page 3 undefined on input line 128.
-
-[3
-
-
-] [4]
-Chapter 2.
-
-Package natbib Warning: Citation `snyder2019literature' on page 5 undefined on input line 162.
-
-
-LaTeX Warning: Reference `sec:purpose-and-scope-of-the-paper' on page 5 undefined on input line 164.
-
-
-Package natbib Warning: Citation `torraco2016writing' on page 5 undefined on input line 164.
-
-
-Package natbib Warning: Citation `torraco2005writing' on page 5 undefined on input line 164.
-
-
-Package natbib Warning: Citation `whittemore2005integrative' on page 5 undefined on input line 166.
-
-
-Package natbib Warning: Citation `basu2020what' on page 5 undefined on input line 172.
-
-
-c:/Users/UserPC/My Drive/research/papers/theoretical_perspectives/submission_paper/theoretical_perspectives.tex:172: Package glossaries Error: Glossary entry `zettelkasten' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 ...20what} describes the \gls{zettelkasten} 
-                                                  method which can be used t...
-You need to define a glossary entry before you can use it.
-
-
-Package natbib Warning: Citation `reck2023tips' on page 5 undefined on input line 172.
-
-
-Package natbib Warning: Citation `basu2020what' on page 5 undefined on input line 172.
-
-
-Package natbib Warning: Citation `reck2023tips' on page 5 undefined on input line 172.
-
-
-Package natbib Warning: Citation `cheong2011skills' on page 5 undefined on input line 172.
-
 [5
 
+
+] [6]
+Chapter 2.
+[7
+
 ]
-
-Package natbib Warning: Citation `reck2023tips' on page 6 undefined on input line 174.
-
-
-LaTeX Warning: Reference `fig:research-stack' on page 6 undefined on input line 178.
-
-<images/research_stack.png, id=75, 943.27406pt x 330.48468pt>
+<images/research_stack.png, id=217, 943.27406pt x 330.48468pt>
 File: images/research_stack.png Graphic file (type png)
 <use images/research_stack.png>
-Package pdftex.def Info: images/research_stack.png  used on input line 182.
+Package pdftex.def Info: images/research_stack.png  used on input line 184.
 (pdftex.def)             Requested size: 409.71692pt x 143.54787pt.
-[6 <./images/research_stack.png>] [7]
+ [8 <./images/research_stack.png>] [9]
 Chapter 3.
-[8
-
-]
-Chapter 4.
-[9
-
-]
-Chapter 5.
 [10
 
 ]
-Chapter 6.
+Chapter 4.
 [11
 
 ]
-Chapter 7.
+Chapter 5.
 [12
 
 ]
-Chapter 8.
+Chapter 6.
 [13
 
-] [14
+]
+Chapter 7.
+[14
+
+]
+Chapter 8.
+[15
+
+] [16
 
 ]
 Appendix A.
-[15
+[17
 
 ]
 Appendix B.
-[16
+[18
 
-]
-No file theoretical_perspectives.bbl.
+] (theoretical_perspectives.bbl) [19
 
-Package natbib Warning: There were undefined citations.
 
-(theoretical_perspectives.aux)
+] (theoretical_perspectives.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 23832 strings out of 467871
- 432287 string characters out of 5428440
- 917707 words of memory out of 5000000
- 52365 multiletter control sequences out of 15000+600000
- 659657 words of font info for 52 fonts, out of 8000000 for 9000
+ 24029 strings out of 467867
+ 437095 string characters out of 5428399
+ 923782 words of memory out of 5000000
+ 52504 multiletter control sequences out of 15000+600000
+ 671917 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,2592b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:pkms} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:zk} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:nlp} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:csa} has been referenced but does not exist, replaced by a fixed one
-
+ 75i,11n,79p,2592b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on theoretical_perspectives.pdf (18 pages, 328004 bytes).
+Output written on theoretical_perspectives.pdf (21 pages, 356974 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
