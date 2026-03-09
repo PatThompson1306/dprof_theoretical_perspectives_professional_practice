@@ -58,7 +58,7 @@
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
-  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.autoClean.run": "never",
   "latex-workshop.latex.clean.fileTypes": [
     "*.aux",
     "*.bbl",
