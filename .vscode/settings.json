@@ -124,8 +124,18 @@
     "*.tex": "latex",
     "*.bib": "bibtex"
   },
+
   // ========================================
   // LaTeX Workshop: Word Count
   // ========================================
-  "latex-workshop.texcount.autorun": "onSave"
+  "latex-workshop.texcount.autorun": "onSave",
+
+  // ========================================
+  // Explorer: Sort & File Nesting
+  // ========================================
+  "explorer.sortOrder": "type",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.tex": "${capture}.aux, ${capture}.bbl, ${capture}.blg, ${capture}.acn, ${capture}.acr, ${capture}.alg, ${capture}.glo, ${capture}.gls, ${capture}.glg, ${capture}.ist, ${capture}.lof, ${capture}.log, ${capture}.pdf, ${capture}.synctex.gz, ${capture}.toc, ${capture}.fls, ${capture}.fdb_latexmk, ${capture}.idx, ${capture}.ind, ${capture}.lot, ${capture}.out"
+  }
 }

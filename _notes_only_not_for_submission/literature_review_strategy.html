@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Literature Review Search Strategy</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a2e;
+    --ink-mid: #2d2d4e;
+    --rule: #c8c0d4;
+    --rule-light: #e8e4f0;
+    --accent: #4a3f6b;
+    --accent-bright: #6b52a8;
+    --gold: #b8963e;
+    --gold-light: #f5eed8;
+    --track1: #2c4a6e;
+    --track2: #3a5a3a;
+    --track3: #6e3a2c;
+    --track4: #4a3a6e;
+    --bg: #faf9f7;
+    --paper: #ffffff;
+    --tag-bg: #f0ecf8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    background: var(--bg);
+    color: var(--ink);
+    padding: 48px 32px;
+    min-height: 100vh;
+  }
+
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .header {
+    border-top: 3px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    padding: 24px 0 20px;
+    margin-bottom: 40px;
+  }
+
+  .header-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent-bright);
+    margin-bottom: 8px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .header h1 em {
+    font-style: italic;
+    color: var(--accent-bright);
+  }
+
+  .header-meta {
+    margin-top: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #888;
+    letter-spacing: 0.1em;
+  }
+
+  /* Section title */
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.4;
+  }
+
+  /* Main table */
+  .table-wrap {
+    overflow-x: auto;
+    margin-bottom: 48px;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    box-shadow: 0 2px 12px rgba(74,63,107,0.06);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--paper);
+    font-size: 14px;
+  }
+
+  /* Column headers */
+  thead tr {
+    background: var(--ink);
+  }
+
+  thead th {
+    padding: 14px 18px;
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #c8c0d4;
+    border-right: 1px solid rgba(255,255,255,0.08);
+    white-space: nowrap;
+  }
+  thead th:last-child { border-right: none; }
+
+  /* Track rows */
+  tbody tr {
+    border-bottom: 1px solid var(--rule-light);
+    vertical-align: top;
+    transition: background 0.15s;
+  }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: #f5f2fb; }
+
+  td {
+    padding: 18px 18px;
+    border-right: 1px solid var(--rule-light);
+    line-height: 1.55;
+  }
+  td:last-child { border-right: none; }
+
+  /* Track number badge */
+  .track-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+  }
+
+  .t1 .track-badge { background: var(--track1); }
+  .t2 .track-badge { background: var(--track2); }
+  .t3 .track-badge { background: var(--track3); }
+  .t4 .track-badge { background: var(--track4); }
+
+  .domain-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    display: block;
+  }
+
+  .t1 .domain-name { color: var(--track1); }
+  .t2 .domain-name { color: var(--track2); }
+  .t3 .domain-name { color: var(--track3); }
+  .t4 .domain-name { color: var(--track4); }
+
+  /* Analytic question */
+  .aq {
+    font-style: italic;
+    color: var(--ink-mid);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Keywords */
+  .kw-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .kw {
+    background: var(--tag-bg);
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 2px;
+    border: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+
+  /* Databases */
+  .db-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .db {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--ink-mid);
+  }
+  .db::before {
+    content: '›';
+    color: var(--gold);
+    margin-right: 5px;
+  }
+
+  /* Criteria section */
+  .criteria-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+
+  .criteria-box {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 28px;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(74,63,107,0.05);
+  }
+
+  .criteria-box.inclusion {
+    border-top: 3px solid var(--track2);
+  }
+  .criteria-box.exclusion {
+    border-top: 3px solid var(--track3);
+  }
+
+  .criteria-box h3 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .inclusion h3 { color: var(--track2); }
+  .exclusion h3 { color: var(--track3); }
+
+  .criteria-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+    align-items: flex-start;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .criteria-marker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .inclusion .criteria-marker {
+    background: #e8f4e8;
+    color: var(--track2);
+    border: 1px solid #b8d8b8;
+  }
+  .exclusion .criteria-marker {
+    background: #f4e8e8;
+    color: var(--track3);
+    border: 1px solid #d8b8b8;
+  }
+
+  /* Footer */
+  .footnote {
+    border-top: 1px solid var(--rule);
+    padding-top: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 0.08em;
+  }
+
+  @media (max-width: 768px) {
+    .criteria-grid { grid-template-columns: 1fr; }
+    body { padding: 24px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-label">Systematic Integrative Review — Search Strategy</div>
+    <h1>Literature Review Matrix: <em>NLP Methods for CSA Precursor Detection</em></h1>
+    <div class="header-meta">Doctoral Research · Four-Track Framework · Search Period: 2018–Present</div>
+  </div>
+
+  <!-- Table -->
+  <div class="section-label">Search Matrix</div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Domain</th>
+          <th>Literature Focus</th>
+          <th>Analytical Question</th>
+          <th>Keywords</th>
+          <th>Databases</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- Track 1 -->
+        <tr class="t1">
+          <td>
+            <span class="track-badge">1</span><br>
+            <span class="domain-name">Criminology &amp; Behavioural Science</span>
+          </td>
+          <td>Landscape of child sexual abuse; linguistic and behavioural characteristics preceding contact offending; grooming typologies; offender–victim communication patterns</td>
+          <td><span class="aq">What linguistic precursors of contact sex offending exist in offender–victim conversations?</span></td>
+          <td>
+            <div class="kw-list">
+              <span class="kw">child sexual abuse</span>
+              <span class="kw">grooming behaviour</span>
+              <span class="kw">online grooming</span>
+              <span class="kw">contact offending</span>
+              <span class="kw">offender language</span>
+              <span class="kw">linguistic precursors</span>
+              <span class="kw">victim–offender communication</span>
+              <span class="kw">CSA typology</span>
+              <span class="kw">predatory communication</span>
+              <span class="kw">manipulation tactics</span>
+            </div>
+          </td>
+          <td>
+            <div class="db-list">
+              <span class="db">Scopus</span>
+              <span class="db">PsycINFO</span>
+              <span class="db">Web of Science</span>
+              <span class="db">NCJRS</span>
+              <span class="db">Google Scholar</span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Track 2 -->
+        <tr class="t2">
+          <td>
+            <span class="track-badge">2</span><br>
+            <span class="domain-name">Computer Science &amp; NLP</span>
+          </td>
+          <td>NLP applications in safeguarding and criminal justice; grooming language detection; computational methods for identifying linguistic precursors; model deployment in operational contexts</td>
+          <td><span class="aq">Which NLP methods can be most effectively realised within policing infrastructure?</span></td>
+          <td>
+            <div class="kw-list">
+              <span class="kw">natural language processing</span>
+              <span class="kw">grooming detection</span>
+              <span class="kw">text classification</span>
+              <span class="kw">transformer models</span>
+              <span class="kw">BERT</span>
+              <span class="kw">large language models</span>
+              <span class="kw">safeguarding NLP</span>
+              <span class="kw">online predator detection</span>
+              <span class="kw">conversational AI</span>
+              <span class="kw">criminal justice NLP</span>
+              <span class="kw">edge deployment</span>
+              <span class="kw">explainability</span>
+            </div>
+          </td>
+          <td>
+            <div class="db-list">
+              <span class="db">IEEE Xplore</span>
+              <span class="db">ACM Digital Library</span>
+              <span class="db">ACL Anthology</span>
+              <span class="db">Scopus</span>
+              <span class="db">arXiv (cs.CL)</span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Track 3 -->
+        <tr class="t3">
+          <td>
+            <span class="track-badge">3</span><br>
+            <span class="domain-name">Organisational Studies &amp; Policing</span>
+          </td>
+          <td>Organisational dynamics of technology adoption in policing; structural and cultural barriers to technical innovation; institutional readiness; change management in law enforcement</td>
+          <td><span class="aq">What implementation barriers exist within policing that may hinder NLP adoption?</span></td>
+          <td>
+            <div class="kw-list">
+              <span class="kw">policing technology adoption</span>
+              <span class="kw">organisational change</span>
+              <span class="kw">law enforcement innovation</span>
+              <span class="kw">institutional barriers</span>
+              <span class="kw">police culture</span>
+              <span class="kw">AI in policing</span>
+              <span class="kw">digital transformation</span>
+              <span class="kw">technology resistance</span>
+              <span class="kw">public sector reform</span>
+              <span class="kw">operational constraints</span>
+            </div>
+          </td>
+          <td>
+            <div class="db-list">
+              <span class="db">Web of Science</span>
+              <span class="db">Scopus</span>
+              <span class="db">Criminal Justice Abstracts</span>
+              <span class="db">ProQuest</span>
+              <span class="db">Google Scholar</span>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Track 4 -->
+        <tr class="t4">
+          <td>
+            <span class="track-badge">4</span><br>
+            <span class="domain-name">Ethics, Law &amp; Governance</span>
+          </td>
+          <td>Ethical and governance frameworks for NLP deployment; algorithmic bias; data protection; proportionality; rights-based safeguarding; regulatory compliance in law enforcement contexts</td>
+          <td><span class="aq">What strategies can be developed to overcome those barriers?</span></td>
+          <td>
+            <div class="kw-list">
+              <span class="kw">algorithmic bias</span>
+              <span class="kw">AI ethics</span>
+              <span class="kw">data protection</span>
+              <span class="kw">GDPR policing</span>
+              <span class="kw">proportionality</span>
+              <span class="kw">responsible AI</span>
+              <span class="kw">surveillance governance</span>
+              <span class="kw">rights-based approach</span>
+              <span class="kw">implementation strategy</span>
+              <span class="kw">AI governance framework</span>
+              <span class="kw">explainable AI</span>
+            </div>
+          </td>
+          <td>
+            <div class="db-list">
+              <span class="db">Scopus</span>
+              <span class="db">Web of Science</span>
+              <span class="db">SSRN</span>
+              <span class="db">ProQuest</span>
+              <span class="db">HeinOnline</span>
+              <span class="db">Google Scholar</span>
+            </div>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Inclusion / Exclusion -->
+  <div class="section-label">Inclusion &amp; Exclusion Criteria</div>
+  <div class="criteria-grid">
+
+    <div class="criteria-box inclusion">
+      <h3>✓ Inclusion Criteria</h3>
+
+      <div class="criteria-item">
+        <span class="criteria-marker">IC1</span>
+        <span>Peer-reviewed journal articles, conference proceedings, and edited book chapters published 2018 to present</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">IC2</span>
+        <span>Grey literature from authoritative sources (NPCC, Home Office, CEOP, NIST, EU AI Office) published 2018 to present</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">IC3</span>
+        <span>Studies addressing NLP, machine learning, or computational linguistics applied to safeguarding, criminal justice, or related social contexts</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">IC4</span>
+        <span>Literature examining grooming, CSA, or online predatory behaviour with linguistic, behavioural, or empirical focus</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">IC5</span>
+        <span>Organisational, cultural, or governance studies relating to technology adoption within policing or analogous public sector contexts</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">IC6</span>
+        <span>English-language sources; non-English sources permitted where peer-reviewed translation or abstract provides sufficient evidence</span>
+      </div>
+    </div>
+
+    <div class="criteria-box exclusion">
+      <h3>✗ Exclusion Criteria</h3>
+
+      <div class="criteria-item">
+        <span class="criteria-marker">EC1</span>
+        <span>Sources published prior to 2018, except where foundational theoretical significance warrants inclusion with explicit justification</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">EC2</span>
+        <span>Non-peer-reviewed opinion pieces, blog posts, or media articles without evidential grounding, unless from authoritative professional bodies</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">EC3</span>
+        <span>Studies focused solely on adult sexual offending with no transferable applicability to child safeguarding contexts</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">EC4</span>
+        <span>Technical NLP literature without contextual application to safeguarding, criminal justice, or organisational deployment</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">EC5</span>
+        <span>Studies examining technology adoption in sectors with no structural or cultural comparability to policing</span>
+      </div>
+      <div class="criteria-item">
+        <span class="criteria-marker">EC6</span>
+        <span>Duplicate publications; where multiple versions exist, the most recent peer-reviewed version is retained</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footnote -->
+  <div class="footnote">
+    Figure 2.2 · Literature Review Search Matrix · Systematic Integrative Design (Torraco, 2016; Whittemore &amp; Knafl, 2005) · All tracks searched across Google Scholar, Scopus, IEEE Xplore, ACM Digital Library, ProQuest
+  </div>
+
+</div>
+</body>
+</html>

@@ -17,10 +17,30 @@
 \graphicspath{{images/}}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{booktabs}
 \usepackage{float}
+
+% Tables
+\usepackage{booktabs}
 \usepackage{array}
 \usepackage{longtable}
+\usepackage{ragged2e}
+
+% Colour, boxes and lists
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable}
+\usepackage{enumitem}
+\usepackage{colortbl}
+
+% Colour palette 
+\definecolor{track1}{RGB}{44,74,110}
+\definecolor{track2}{RGB}{58,90,58}
+\definecolor{track3}{RGB}{110,58,44}
+\definecolor{track4}{RGB}{74,58,110}
+\definecolor{inkdark}{RGB}{26,26,46}
+\definecolor{rowshade}{RGB}{245,243,250}
+\definecolor{incgreen}{RGB}{58,90,58}
+\definecolor{excred}{RGB}{110,58,44}
 
 % Math
 \usepackage{amsmath,amssymb,amsthm}
@@ -165,7 +185,7 @@ The interdisciplinary nature of this research, noted in section \ref{sec:purpose
 
 A systematic approach is layered into this integrative approach to allow for a targeted and transparent search and selection process in reviewing the evidence, ensuring that the review is both comprehensive and replicable.  This systematic layer is particularly important given the breadth of this review, which spans technical, organisational and ethical domains, each with their own bodies of literature and evidence types.  \citet{whittemore2005integrative} identifies that by adding a systematic approach to an integrative review, findings and subsequent synthesis across domains can lead to the delivery of evidence based practice improvements.
 
-The synthesed findings from this cross domain review will be used to develop a conceptual framework which identifies the organisational requirements for operationalising an \gls{nlp} solution in a policing context, and the technical capabilities required to meet those requirements.
+From an academic perspective, a doctoral literature review needs to be defensible and reproducible.  Whilst the integrative approach allows for synthesis and framework development, a layered systematic approach ensures reproducibility whilst adding a counter balance to my own personal biases and my tendency to approach problems with a solutionist mindset.
 
 \newpage
 
@@ -193,6 +213,8 @@ All content is then automatically synced to a cloud store and defined content sa
 Lorem impsum...
 % 100 words -- identify which databases were searched and justify their selection for this topic
 
+% \input{search_matrix} --- a table showing which databases were searched for each track, with the search strings used in each case; this sits outside the word count. 
+
 \section{Keywords and search terms}
 \label{sec:keywords-and-search-terms}
 Lorem impsum...
@@ -202,6 +224,13 @@ Lorem impsum...
 \label{sec:inclusion-and-exclusion-criteria}
 Lorem impsum...
 % 100 words -- explain the filters applied: date range, peer reviewed only, English language, relevance to policing or adjacent public sector contexts
+
+% \input{inclusion_criteria} -- a table showing the inclusion criteria for each track, with a justification for each criterion; this sits outside the word count.
+
+\vspace{8pt}
+
+% \input{exclusion_criteria} -- a table showing the exclusion criteria for each track, with a justification for each criterion; this sits outside the word count.
+
 
 \section{Results and filtering process}
 \label{sec:results-and-filtering-process}

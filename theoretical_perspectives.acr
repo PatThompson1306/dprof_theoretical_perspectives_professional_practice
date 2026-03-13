@@ -11,6 +11,5 @@
 		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
 \glsgroupheading{Z}\relax \glsresetentrylist %
 \glossentry{zk}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{8}}}%
 \end{theglossary}\glossarypostamble

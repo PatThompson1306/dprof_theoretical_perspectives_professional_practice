@@ -1,0 +1,267 @@
+% ============================================================
+%  Search Strategy Matrix --- Chapter 2
+%  Include with: \input{search_strategy}
+%
+%  Additional preamble package required:
+%    \usepackage{colortbl}   % for \cellcolor and \rowcolor
+% ============================================================
+
+% --- Colour palette (safe to move to main preamble) ---------
+\definecolor{track1}{RGB}{44,74,110}
+\definecolor{track2}{RGB}{58,90,58}
+\definecolor{track3}{RGB}{110,58,44}
+\definecolor{track4}{RGB}{74,58,110}
+\definecolor{inkdark}{RGB}{26,26,46}
+\definecolor{rowshade}{RGB}{245,243,250}
+\definecolor{incgreen}{RGB}{58,90,58}
+\definecolor{excred}{RGB}{110,58,44}
+
+% ============================================================
+\subsection{Search Strategy and Database Selection}
+\label{subsec:search-strategy}
+
+The search strategy operationalises the four-track integrative framework described in
+Section~2.1 through a structured matrix of analytical questions, domain-specific
+keywords, and targeted databases. Database selection was determined by the disciplinary
+scope of each track, prioritising specialist indices over generalist aggregators where
+superior controlled vocabulary and coverage could be demonstrated.
+Table~\ref{tab:search-matrix} presents the full search matrix; inclusion and exclusion
+criteria are defined in Section~\ref{subsec:criteria}.
+
+% ============================================================
+%  TABLE --- SEARCH MATRIX
+% ============================================================
+
+\begingroup
+\small
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+\setlength{\tabcolsep}{5pt}
+
+\begin{longtable}{%
+  >{\RaggedRight\arraybackslash}p{2.2cm}
+  >{\RaggedRight\arraybackslash}p{3.0cm}
+  >{\RaggedRight\arraybackslash}p{3.8cm}
+  >{\RaggedRight\arraybackslash}p{3.4cm}
+  >{\RaggedRight\arraybackslash}p{2.6cm}
+}
+
+\caption{Literature Review Search Matrix}
+\label{tab:search-matrix}\\
+
+% --- First page header ---
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{\footnotesize Domain}} &
+\textcolor{white}{\textbf{\footnotesize Literature Focus}} &
+\textcolor{white}{\textbf{\footnotesize Analytical Question}} &
+\textcolor{white}{\textbf{\footnotesize Keywords}} &
+\textcolor{white}{\textbf{\footnotesize Databases}} \\
+\midrule
+\endfirsthead
+
+% --- Subsequent page header ---
+\multicolumn{5}{l}{\footnotesize\textit{Table~\ref{tab:search-matrix} continued}}\\[4pt]
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{\footnotesize Domain}} &
+\textcolor{white}{\textbf{\footnotesize Literature Focus}} &
+\textcolor{white}{\textbf{\footnotesize Analytical Question}} &
+\textcolor{white}{\textbf{\footnotesize Keywords}} &
+\textcolor{white}{\textbf{\footnotesize Databases}} \\
+\midrule
+\endhead
+
+% --- Foot (non-final pages) ---
+\midrule
+\multicolumn{5}{r}{\footnotesize\textit{Continued on next page}}\\
+\endfoot
+
+% --- Foot (final page) ---
+\bottomrule
+\multicolumn{5}{l}{%
+  \footnotesize\textit{Note.} Databases assigned per track based on
+  disciplinary indexing coverage.}\\
+\endlastfoot
+
+% ============================================================
+%  TRACK 1 --- Criminology & Behavioural Science
+% ============================================================
+
+\multicolumn{5}{l}{%
+  \cellcolor{rowshade}\textcolor{track1}{%
+    \textbf{\footnotesize Track 1 \textemdash{} Criminology \& Behavioural Science}}}\\[2pt]
+
+\textcolor{track1}{\textbf{Criminology \&
+Behavioural Science}} &
+Landscape of child sexual abuse; linguistic and behavioural characteristics preceding
+contact offending; grooming typologies; offender--victim communication patterns &
+\textit{What linguistic precursors of contact sex offending exist in offender--victim
+conversations?} &
+child sexual abuse; online grooming; contact offending; offender language; linguistic
+precursors; grooming typology; predatory behaviour; manipulation tactics &
+Scopus; PsycINFO; Web of Science; NCJRS; Google Scholar \\[4pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 2 --- Computer Science & NLP
+% ============================================================
+
+\multicolumn{5}{l}{%
+  \cellcolor{rowshade}\textcolor{track2}{%
+    \textbf{\footnotesize Track 2 \textemdash{} Computer Science \& NLP}}}\\[2pt]
+
+\textcolor{track2}{\textbf{Computer Science
+\& NLP}} &
+NLP applications in safeguarding and criminal justice; grooming language detection;
+computational methods for identifying linguistic precursors; model deployment in
+operational contexts &
+\textit{Which NLP methods can be most effectively realised within policing
+infrastructure?} &
+natural language processing; grooming detection; text classification; transformer
+models; BERT; large language models; online predator detection; explainability;
+edge deployment &
+IEEE Xplore; ACM Digital Library; ACL Anthology; Scopus; arXiv (cs.CL) \\[4pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 3 --- Organisational Studies & Policing
+% ============================================================
+
+\multicolumn{5}{l}{%
+  \cellcolor{rowshade}\textcolor{track3}{%
+    \textbf{\footnotesize Track 3 \textemdash{} Organisational Studies \& Policing}}}\\[2pt]
+
+\textcolor{track3}{\textbf{Organisational
+Studies \& Policing}} &
+Organisational dynamics of technology adoption in policing; structural and cultural
+barriers to technical innovation; institutional readiness; change management in
+law enforcement &
+\textit{What implementation barriers exist within policing that may hinder NLP
+adoption?} &
+policing technology adoption; organisational change; law enforcement innovation;
+institutional barriers; police culture; AI in policing; digital transformation;
+technology resistance &
+Web of Science; Scopus; Criminal Justice Abstracts; ProQuest; Google Scholar \\[4pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 4 --- Ethics, Law & Governance
+% ============================================================
+
+\multicolumn{5}{l}{%
+  \cellcolor{rowshade}\textcolor{track4}{%
+    \textbf{\footnotesize Track 4 \textemdash{} Ethics, Law \& Governance}}}\\[2pt]
+
+\textcolor{track4}{\textbf{Ethics, Law
+\& Governance}} &
+Ethical and governance frameworks for NLP deployment; algorithmic bias; data
+protection; proportionality; rights-based safeguarding; regulatory compliance
+in law enforcement contexts &
+\textit{What strategies can be developed to overcome identified implementation
+barriers?} &
+algorithmic bias; AI ethics; data protection; GDPR; proportionality; responsible AI;
+surveillance governance; AI governance; explainable AI; RIPA; UK data protection &
+Scopus; Web of Science; SSRN; ProQuest; HeinOnline; Google Scholar \\[4pt]
+
+\end{longtable}
+\endgroup
+
+% ============================================================
+%  INCLUSION & EXCLUSION CRITERIA
+% ============================================================
+
+\subsection{Inclusion and Exclusion Criteria}
+\label{subsec:criteria}
+
+The following criteria were applied consistently across all four tracks to ensure
+transparency, reproducibility, and alignment with the systematic integrative design
+described in Section~2.1.
+
+\vspace{10pt}
+
+\begin{tcolorbox}[
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=incgreen,
+  title={\textbf{Inclusion Criteria}},
+  fonttitle=\small\bfseries,
+  coltitle=white,
+  attach boxed title to top left={yshift=-2mm, xshift=6mm},
+  boxed title style={colback=incgreen, colframe=incgreen},
+  top=6pt, bottom=6pt, left=8pt, right=8pt,
+  before upper={\small}
+]
+\begin{description}[
+  leftmargin=1.4cm,
+  labelwidth=1.2cm,
+  labelsep=0.2cm,
+  itemsep=4pt,
+  parsep=0pt,
+  font=\normalfont\bfseries\small
+]
+  \item[IC1] Peer-reviewed journal articles, conference proceedings, and edited book
+    chapters published 2018 to present.
+  \item[IC2] Grey literature from authoritative sources (NPCC, Home Office, CEOP,
+    NIST, EU AI Office, ICO) published 2018 to present.
+  \item[IC3] Studies addressing NLP, machine learning, or computational linguistics
+    applied to safeguarding, criminal justice, or analogous operational contexts.
+  \item[IC4] Literature examining grooming, CSA, or online predatory behaviour with
+    linguistic, behavioural, or empirical focus.
+  \item[IC5] Organisational, cultural, or governance studies relating to technology
+    adoption within policing or structurally comparable public sector contexts.
+  \item[IC6] English-language sources; non-English sources permitted where a
+    peer-reviewed translation or substantive abstract provides sufficient evidential
+    grounding with explicit methodological justification.
+  \item[IC7] Pre-2018 foundational works where theoretical significance is established
+    and no substantively updated equivalent exists, subject to explicit justification
+    in the synthesis narrative.
+\end{description}
+\end{tcolorbox}
+
+\vspace{8pt}
+
+\begin{tcolorbox}[
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=excred,
+  title={\textbf{Exclusion Criteria}},
+  fonttitle=\small\bfseries,
+  coltitle=white,
+  attach boxed title to top left={yshift=-2mm, xshift=6mm},
+  boxed title style={colback=excred, colframe=excred},
+  top=6pt, bottom=6pt, left=8pt, right=8pt,
+  before upper={\small}
+]
+\begin{description}[
+  leftmargin=1.4cm,
+  labelwidth=1.2cm,
+  labelsep=0.2cm,
+  itemsep=4pt,
+  parsep=0pt,
+  font=\normalfont\bfseries\small
+]
+  \item[EC1] Sources published prior to 2018 unless meeting the threshold defined
+    in IC7; all exceptions recorded in the review log.
+  \item[EC2] Non-peer-reviewed opinion pieces, blog posts, or media articles without
+    evidential grounding, unless produced by authoritative professional or statutory
+    bodies.
+  \item[EC3] Studies focused solely on adult sexual offending with no transferable
+    applicability or analytic relevance to child safeguarding contexts.
+  \item[EC4] Technical NLP literature without contextual application to safeguarding,
+    criminal justice, or operational deployment scenarios.
+  \item[EC5] Technology adoption studies from sectors lacking structural or cultural
+    comparability to UK policing (e.g.\ private sector commercial contexts without
+    analogous accountability frameworks).
+  \item[EC6] Duplicate publications; where multiple versions of the same study exist,
+    the most recent peer-reviewed version is retained and earlier versions excluded.
+  \item[EC7] Sources for which full text cannot be obtained through institutional
+    access, inter-library loan, or open-access repositories within a reasonable
+    retrieval window.
+\end{description}
+\end{tcolorbox}
