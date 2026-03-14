@@ -1,7 +1,8 @@
 % ----------------------------------------------------------------
 %  Requires: pdflscape (or lscape), booktabs, longtable,
-%            array, colortbl, ragged2e in preamble.
-%  Keywords column removed; see Table~\ref{tab:keywords} (keywords.tex).
+%            array, colortbl, ragged2e, enumitem in preamble.
+%  Literature Focus column removed.
+%  Column order: Domain | Analytical Question | Databases | Database Justification
 % ----------------------------------------------------------------
 \begin{landscape}
 \begingroup
@@ -12,14 +13,14 @@
 \hbadness=10000
 \hfuzz=3pt
 
-% Column sum: 2.8 + 5.0 + 6.2 + 5.0 = 19.0cm
+% Column sum: 2.8 + 5.8 + 4.0 + 9.4 = 22.0cm
 % Landscape A4 \textwidth ~24cm at standard margins.
 
 \begin{longtable}{%
   >{\arraybackslash}p{2.8cm}%   Domain
-  >{\arraybackslash}p{5.0cm}%   Literature Focus
-  >{\arraybackslash}p{6.2cm}%   Analytical Question
-  >{\arraybackslash}p{5.0cm}%   Databases
+  >{\arraybackslash}p{5.8cm}%   Analytical Question
+  >{\arraybackslash}p{4.0cm}%   Databases
+  >{\arraybackslash}p{9.4cm}%   Database Justification
 }
 
 \caption{Literature Review Search Matrix}
@@ -29,9 +30,9 @@
 \toprule
 \rowcolor{inkdark}
 \textcolor{white}{\textbf{Domain}} &
-\textcolor{white}{\textbf{Literature Focus}} &
 \textcolor{white}{\textbf{Analytical Question}} &
-\textcolor{white}{\textbf{Databases}} \\
+\textcolor{white}{\textbf{Databases}} &
+\textcolor{white}{\textbf{Database Justification}} \\
 \midrule
 \endfirsthead
 
@@ -40,9 +41,9 @@
 \toprule
 \rowcolor{inkdark}
 \textcolor{white}{\textbf{Domain}} &
-\textcolor{white}{\textbf{Literature Focus}} &
 \textcolor{white}{\textbf{Analytical Question}} &
-\textcolor{white}{\textbf{Databases}} \\
+\textcolor{white}{\textbf{Databases}} &
+\textcolor{white}{\textbf{Database Justification}} \\
 \midrule
 \endhead
 
@@ -53,7 +54,7 @@
 
 % --- Foot (final page) ---
 \bottomrule
-\multicolumn{4}{p{19.0cm}}{%
+\multicolumn{4}{p{22.0cm}}{%
   \textit{Note.} Databases assigned per track based on disciplinary
   indexing coverage. Databases appearing across multiple tracks
   (Scopus; Google Scholar) should be searched using a consolidated
@@ -65,21 +66,35 @@
 %  TRACK 1 --- Criminology & Behavioural Science
 % ============================================================
 
-\multicolumn{4}{l}{%
+\multicolumn{4}{c}{%
   \cellcolor{rowshade}\textcolor{track1}{%
     \textbf{Track 1 \textemdash{} Criminology \& Behavioural Science}}}\\[2pt]
 
 \textcolor{track1}{\textbf{Criminology \& Behavioural Science}} &
 %
-Landscape of child sexual abuse; linguistic and behavioural characteristics preceding
-contact offending; grooming typologies; offender--victim communication patterns &
-%
 \textit{What linguistic and behavioural precursors of contact sex offending exist in
 offender--victim conversations, and how do grooming typologies characterise
 the progression toward contact abuse?} &
 %
-Scopus; PsycINFO; Web of Science; Criminal Justice Abstracts; NCJRS;
-CINAHL; ASSIA; LLBA; Google Scholar \\[4pt]
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item Scopus
+  \item PsycINFO
+  \item Web of Science
+  \item Criminal Justice Abstracts
+  \item NCJRS
+  \item CINAHL
+  \item ASSIA
+  \item LLBA
+  \item Google Scholar
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item \textbf{Scopus} --- broad interdisciplinary coverage with strong indexing of criminology and psychology journals.
+  \item \textbf{PsycINFO} --- essential for the psychological and behavioural dimensions of offending, including victimology and typology research.
+  \item \textbf{Web of Science} --- high-quality peer-reviewed social-science journals relevant to behavioural precursors.
+  \item \textbf{Criminal Justice Abstracts} (via EBSCOhost) --- focused criminological literature with strong coverage of sex-offending typologies.
+  \item \textbf{Google Scholar} --- grey literature, NGO reports, and regulatory publications alongside mainstream citation trails.
+\end{itemize} \\[8pt]
 
 \midrule
 
@@ -87,23 +102,36 @@ CINAHL; ASSIA; LLBA; Google Scholar \\[4pt]
 %  TRACK 2 --- Computer Science & NLP
 % ============================================================
 
-\multicolumn{4}{l}{%
+\multicolumn{4}{c}{%
   \cellcolor{rowshade}\textcolor{track2}{%
     \textbf{Track 2 \textemdash{} Computer Science \& NLP}}}\\[2pt]
 
 \textcolor{track2}{\textbf{Computer Science \& NLP}} &
 %
-NLP applications in safeguarding and criminal justice; grooming language detection;
-computational methods for identifying linguistic precursors; model deployment in
-operational contexts &
-%
 \textit{Which NLP methods can be most effectively realised within policing
 infrastructure, and what does the evidence base reveal about model performance,
 explainability, and operational deployment constraints?} &
 %
-IEEE Xplore; ACM Digital Library; ACL Anthology; EMNLP, NAACL \&
-COLING proceedings; Scopus; arXiv (cs.CL, cs.AI, cs.CY);
-Semantic Scholar; Papers With Code; LREC\nobreakdash-COLING Anthology \\[4pt]
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item IEEE Xplore
+  \item ACM Digital Library
+  \item ACL Anthology
+  \item EMNLP, NAACL \& COLING proceedings
+  \item Scopus
+  \item arXiv (cs.CL, cs.AI, cs.CY)
+  \item Semantic Scholar
+  \item Papers With Code
+  \item LREC\nobreakdash-COLING Anthology
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item \textbf{IEEE Xplore} --- essential for applied NLP systems, detection architectures, and deployment pipelines.
+  \item \textbf{ACM Digital Library} --- computational methods, HCI aspects of safeguarding tools, and systems design.
+  \item \textbf{ACL Anthology} --- indispensable for linguistics-grounded NLP, discourse analysis models, and language-detection research.
+  \item \textbf{arXiv} (cs.CL) --- pre-print access to cutting-edge language model research, though quality filtering is required.
+  \item \textbf{Papers With Code} --- essential for model implementations, benchmarks, and reproducibility in detection tasks.
+  \item \textbf{Scopus} --- interdisciplinary bridge between technical and applied criminological literature.
+\end{itemize} \\[8pt]
 
 \midrule
 
@@ -111,23 +139,36 @@ Semantic Scholar; Papers With Code; LREC\nobreakdash-COLING Anthology \\[4pt]
 %  TRACK 3 --- Organisational Studies & Policing
 % ============================================================
 
-\multicolumn{4}{l}{%
+\multicolumn{4}{c}{%
   \cellcolor{rowshade}\textcolor{track3}{%
     \textbf{Track 3 \textemdash{} Organisational Studies \& Policing}}}\\[2pt]
 
 \textcolor{track3}{\textbf{Organisational Studies \& Policing}} &
 %
-Organisational dynamics of technology adoption in policing; structural and cultural
-barriers to technical innovation; institutional readiness; change management in
-law enforcement &
-%
 \textit{What structural, cultural, and institutional factors act as barriers to or
 enablers of NLP adoption in policing organisations, and how does change management
 theory account for technology resistance in law enforcement?} &
 %
-Web of Science; Scopus; Criminal Justice Abstracts; Business Source Complete;
-PsycINFO; ProQuest; Dimensions; EBSCO Information Science \&
-Technology Abstracts; Google Scholar \\[4pt]
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item Web of Science
+  \item Scopus
+  \item Criminal Justice Abstracts
+  \item Business Source Complete
+  \item PsycINFO
+  \item ProQuest
+  \item Dimensions
+  \item EBSCO Information Science \& Technology Abstracts
+  \item Google Scholar
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item \textbf{Web of Science} --- high-quality peer-reviewed journals across the social sciences, including organisational behaviour and public administration.
+  \item \textbf{Criminal Justice Abstracts} --- focused coverage of policing and institutional reform literature.
+  \item \textbf{PsycINFO} --- psychological dimensions of organisational resistance and change management in high-accountability environments.
+  \item \textbf{ProQuest} --- strong dissertation access and broad social-science coverage, particularly useful for police reform theses.
+  \item \textbf{Dimensions} --- citation mapping and identification of emerging research clusters in public-sector innovation.
+  \item \textbf{Google Scholar} --- grey literature and policy reports from law-enforcement agencies and inspectorates.
+\end{itemize} \\[8pt]
 
 \midrule
 
@@ -135,22 +176,36 @@ Technology Abstracts; Google Scholar \\[4pt]
 %  TRACK 4 --- Ethics, Law & Governance
 % ============================================================
 
-\multicolumn{4}{l}{%
+\multicolumn{4}{c}{%
   \cellcolor{rowshade}\textcolor{track4}{%
     \textbf{Track 4 \textemdash{} Ethics, Law \& Governance}}}\\[2pt]
 
 \textcolor{track4}{\textbf{Ethics, Law \& Governance}} &
 %
-Ethical and governance frameworks for NLP deployment; algorithmic bias; data
-protection; proportionality; rights-based safeguarding; regulatory compliance
-in law enforcement contexts &
-%
 \textit{What ethical and regulatory constraints govern NLP deployment in law
 enforcement, and how should proportionality, data protection, and rights-based
 frameworks shape the design and oversight of such systems?} &
 %
-Scopus; Web of Science; SSRN; ProQuest; HeinOnline; PhilPapers;
-EUR\nobreakdash-Lex; Dimensions; Google Scholar \\[4pt]
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item Scopus
+  \item Web of Science
+  \item SSRN
+  \item ProQuest
+  \item HeinOnline
+  \item PhilPapers
+  \item EUR\nobreakdash-Lex
+  \item Dimensions
+  \item Google Scholar
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=1em,nosep,topsep=2pt,partopsep=0pt]
+  \item \textbf{HeinOnline} --- essential for legal scholarship, human rights law, data protection jurisprudence, and regulatory compliance literature.
+  \item \textbf{SSRN} --- pre-print legal scholarship, regulatory theory, and emerging governance frameworks ahead of formal journal publication.
+  \item \textbf{EUR\nobreakdash-Lex} --- direct access to EU legislative instruments, including the AI Act and GDPR, relevant to algorithmic oversight.
+  \item \textbf{PhilPapers} --- applied ethics and normative frameworks for algorithmic bias and proportionality in surveillance contexts.
+  \item \textbf{ProQuest} \& \textbf{Scopus} --- coverage across legal and social-science journals addressing rights-based and regulatory dimensions of AI deployment.
+  \item \textbf{Dimensions} --- citation mapping across interdisciplinary governance and policy research clusters.
+\end{itemize} \\[8pt]
 
 \end{longtable}
 \endgroup
