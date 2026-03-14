@@ -1,4 +1,8 @@
-\label{box:inclusion-criteria}
+\begingroup
+\captionsetup{hypcap=false}
+\captionof{table}{Inclusion Criteria}
+\label{tab:inclusion-criteria}
+\endgroup
 \begin{tcolorbox}[
   enhanced,
   breakable,
@@ -12,29 +16,19 @@
   top=6pt, bottom=6pt, left=8pt, right=8pt,
   before upper={\small}
 ]
-\begin{description}[
-  leftmargin=1.4cm,
-  labelwidth=1.2cm,
-  labelsep=0.2cm,
-  itemsep=4pt,
-  parsep=0pt,
-  font=\normalfont\bfseries\small
-]
-  \item[IC1] Peer-reviewed journal articles, conference proceedings, and edited book
-    chapters published 2018 to present.
-  \item[IC2] Grey literature from authoritative sources (\gls{npcc}, Home Office, \gls{ceop},
-    \gls{nist}, \gls{ico}) published 2018 to present.
-  \item[IC3] Studies addressing \gls{nlp}, machine learning, or computational linguistics
-    applied to safeguarding, criminal justice, or analogous operational contexts.
-  \item[IC4] Literature examining grooming, \gls{csa}, or online predatory behaviour with
-    linguistic, behavioural, or empirical focus.
-  \item[IC5] Organisational, cultural, or governance studies relating to technology
-    adoption within policing or structurally comparable public sector contexts.
-  \item[IC6] English-language sources; non-English sources permitted where a
-    peer-reviewed translation or substantive abstract provides sufficient evidential
-    grounding with explicit methodological justification.
-  \item[IC7] Pre-2018 foundational works where theoretical significance is established
-    and no substantively updated equivalent exists, subject to explicit justification
-    in the synthesis narrative.
-\end{description}
+\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{%
+  @{}%
+  >{\bfseries\arraybackslash}p{0.9cm}%
+  >{\arraybackslash}p{\dimexpr\tcbtextwidth-0.9cm\relax}%
+  @{}%
+}
+IC1 & Peer-reviewed articles, conference proceedings, and edited book chapters, 2018--present. \\[3pt]
+IC2 & Grey literature from authoritative sources (\gls{npcc}, Home Office, \gls{ceop}, \gls{nist}, \gls{ico}), 2018--present. \\[3pt]
+IC3 & \gls{nlp}, machine learning, or computational linguistics applied to safeguarding, criminal justice, or analogous operational contexts. \\[3pt]
+IC4 & Grooming, \gls{csa}, or online predatory behaviour with linguistic, behavioural, or empirical focus. \\[3pt]
+IC5 & Organisational, cultural, or governance studies on technology adoption in policing or structurally comparable public-sector contexts. \\[3pt]
+IC6 & English-language sources; non-English permitted where a peer-reviewed translation or substantive abstract provides sufficient evidential grounding with explicit methodological justification. \\[3pt]
+IC7 & Pre-2018 foundational works where theoretical significance is established and no updated equivalent exists, subject to explicit justification in the synthesis narrative. \\
+\end{tabular}
 \end{tcolorbox}
