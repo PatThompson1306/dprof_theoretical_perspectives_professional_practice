@@ -1,9 +1,9 @@
 % ============================================================
-%  Search Strategy Matrix --- Chapter 2
-%  Include with: \input{search_strategy}
+%  Search Matrix --- Chapter 2
+%  Include with: \input{search_matrix}
 %
-%  Additional preamble package required:
-%    \usepackage{colortbl}   % for \cellcolor and \rowcolor
+%  Required packages in preamble:
+%    \usepackage{colortbl}
 % ============================================================
 
 % --- Colour palette (safe to move to main preamble) ---------
@@ -13,20 +13,6 @@
 \definecolor{track4}{RGB}{74,58,110}
 \definecolor{inkdark}{RGB}{26,26,46}
 \definecolor{rowshade}{RGB}{245,243,250}
-\definecolor{incgreen}{RGB}{58,90,58}
-\definecolor{excred}{RGB}{110,58,44}
-
-% ============================================================
-\subsection{Search Strategy and Database Selection}
-\label{subsec:search-strategy}
-
-The search strategy operationalises the four-track integrative framework described in
-Section~2.1 through a structured matrix of analytical questions, domain-specific
-keywords, and targeted databases. Database selection was determined by the disciplinary
-scope of each track, prioritising specialist indices over generalist aggregators where
-superior controlled vocabulary and coverage could be demonstrated.
-Table~\ref{tab:search-matrix} presents the full search matrix; inclusion and exclusion
-criteria are defined in Section~\ref{subsec:criteria}.
 
 % ============================================================
 %  TABLE --- SEARCH MATRIX
@@ -144,7 +130,8 @@ adoption?} &
 policing technology adoption; organisational change; law enforcement innovation;
 institutional barriers; police culture; AI in policing; digital transformation;
 technology resistance &
-Web of Science; Scopus; Criminal Justice Abstracts; ProQuest; Google Scholar \\[4pt]
+Web of Science; Scopus; Criminal Justice Abstracts; Dimensions; ProQuest;
+Google Scholar \\[4pt]
 
 \midrule
 
@@ -165,103 +152,8 @@ in law enforcement contexts &
 barriers?} &
 algorithmic bias; AI ethics; data protection; GDPR; proportionality; responsible AI;
 surveillance governance; AI governance; explainable AI; RIPA; UK data protection &
-Scopus; Web of Science; SSRN; ProQuest; HeinOnline; Google Scholar \\[4pt]
+Scopus; Web of Science; SSRN; Dimensions; ProQuest; HeinOnline;
+Google Scholar \\[4pt]
 
 \end{longtable}
 \endgroup
-
-% ============================================================
-%  INCLUSION & EXCLUSION CRITERIA
-% ============================================================
-
-\subsection{Inclusion and Exclusion Criteria}
-\label{subsec:criteria}
-
-The following criteria were applied consistently across all four tracks to ensure
-transparency, reproducibility, and alignment with the systematic integrative design
-described in Section~2.1.
-
-\vspace{10pt}
-
-\begin{tcolorbox}[
-  enhanced,
-  breakable,
-  colback=white,
-  colframe=incgreen,
-  title={\textbf{Inclusion Criteria}},
-  fonttitle=\small\bfseries,
-  coltitle=white,
-  attach boxed title to top left={yshift=-2mm, xshift=6mm},
-  boxed title style={colback=incgreen, colframe=incgreen},
-  top=6pt, bottom=6pt, left=8pt, right=8pt,
-  before upper={\small}
-]
-\begin{description}[
-  leftmargin=1.4cm,
-  labelwidth=1.2cm,
-  labelsep=0.2cm,
-  itemsep=4pt,
-  parsep=0pt,
-  font=\normalfont\bfseries\small
-]
-  \item[IC1] Peer-reviewed journal articles, conference proceedings, and edited book
-    chapters published 2018 to present.
-  \item[IC2] Grey literature from authoritative sources (NPCC, Home Office, CEOP,
-    NIST, EU AI Office, ICO) published 2018 to present.
-  \item[IC3] Studies addressing NLP, machine learning, or computational linguistics
-    applied to safeguarding, criminal justice, or analogous operational contexts.
-  \item[IC4] Literature examining grooming, CSA, or online predatory behaviour with
-    linguistic, behavioural, or empirical focus.
-  \item[IC5] Organisational, cultural, or governance studies relating to technology
-    adoption within policing or structurally comparable public sector contexts.
-  \item[IC6] English-language sources; non-English sources permitted where a
-    peer-reviewed translation or substantive abstract provides sufficient evidential
-    grounding with explicit methodological justification.
-  \item[IC7] Pre-2018 foundational works where theoretical significance is established
-    and no substantively updated equivalent exists, subject to explicit justification
-    in the synthesis narrative.
-\end{description}
-\end{tcolorbox}
-
-\vspace{8pt}
-
-\begin{tcolorbox}[
-  enhanced,
-  breakable,
-  colback=white,
-  colframe=excred,
-  title={\textbf{Exclusion Criteria}},
-  fonttitle=\small\bfseries,
-  coltitle=white,
-  attach boxed title to top left={yshift=-2mm, xshift=6mm},
-  boxed title style={colback=excred, colframe=excred},
-  top=6pt, bottom=6pt, left=8pt, right=8pt,
-  before upper={\small}
-]
-\begin{description}[
-  leftmargin=1.4cm,
-  labelwidth=1.2cm,
-  labelsep=0.2cm,
-  itemsep=4pt,
-  parsep=0pt,
-  font=\normalfont\bfseries\small
-]
-  \item[EC1] Sources published prior to 2018 unless meeting the threshold defined
-    in IC7; all exceptions recorded in the review log.
-  \item[EC2] Non-peer-reviewed opinion pieces, blog posts, or media articles without
-    evidential grounding, unless produced by authoritative professional or statutory
-    bodies.
-  \item[EC3] Studies focused solely on adult sexual offending with no transferable
-    applicability or analytic relevance to child safeguarding contexts.
-  \item[EC4] Technical NLP literature without contextual application to safeguarding,
-    criminal justice, or operational deployment scenarios.
-  \item[EC5] Technology adoption studies from sectors lacking structural or cultural
-    comparability to UK policing (e.g.\ private sector commercial contexts without
-    analogous accountability frameworks).
-  \item[EC6] Duplicate publications; where multiple versions of the same study exist,
-    the most recent peer-reviewed version is retained and earlier versions excluded.
-  \item[EC7] Sources for which full text cannot be obtained through institutional
-    access, inter-library loan, or open-access repositories within a reasonable
-    retrieval window.
-\end{description}
-\end{tcolorbox}

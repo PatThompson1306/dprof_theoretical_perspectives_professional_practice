@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.9)  13 MAR 2026 06:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.9)  14 MAR 2026 12:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -161,7 +161,15 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box53
 \@float@everytoks=\toks20
 \@floatcapt=\box54
-) (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\UserPC\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen168
 \lightrulewidth=\dimen169
@@ -851,13 +859,13 @@ Package: glossary-tree 2025/11/09 v4.9 (NLCT)
 \glo@main@file=\write5
 \openout5 = `theoretical_perspectives.glo'.
 
-Package glossaries Info: Writing glossary file theoretical_perspectives.glo on input line 89.
+Package glossaries Info: Writing glossary file theoretical_perspectives.glo on input line 90.
 \glo@acronym@file=\write6
 \openout6 = `theoretical_perspectives.acn'.
 
-Package glossaries Info: Writing glossary file theoretical_perspectives.acn on input line 89.
+Package glossaries Info: Writing glossary file theoretical_perspectives.acn on input line 90.
  (acronym-definitions.tex)
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 100.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 101.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -866,24 +874,24 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (theoretical_perspectives.aux)
 \openout1 = `theoretical_perspectives.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -948,16 +956,17 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 100.
+Package hyperref Info: Link coloring OFF on input line 101.
 \c@lstlisting=\count402
 
 Couldn't patch \deferred@thm@head!
+(theoretical_perspectives.glsdefs)
 <images/aru_logo.png, id=6, 602.25pt x 401.5pt>
 File: images/aru_logo.png Graphic file (type png)
 <use images/aru_logo.png>
-Package pdftex.def Info: images/aru_logo.png  used on input line 112.
+Package pdftex.def Info: images/aru_logo.png  used on input line 113.
 (pdftex.def)             Requested size: 113.81102pt x 75.86919pt.
-[1
+ [1
 
 \openout4 = `theoretical_perspectives.ist'.
 
@@ -965,7 +974,7 @@ Package pdftex.def Info: images/aru_logo.png  used on input line 112.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127 \end{abstract}
+l.128 \end{abstract}
                      [1] (theoretical_perspectives.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
  (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
@@ -1000,7 +1009,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...numberline {8}Conclusions }{15}{chapter.8}
+l.35 ...numberline {8}Conclusions }{21}{chapter.8}
                                                   % [1
 
 
@@ -1017,56 +1026,91 @@ l.35 ...numberline {8}Conclusions }{15}{chapter.8}
 
  [4
 
+] (theoretical_perspectives.lot)
+\tf@lot=\write9
+\openout9 = `theoretical_perspectives.lot'.
+
+ [5
+
 ]
 Chapter 1.
-[5
+[6
 
 
-] [6]
+] [7]
 Chapter 2.
-[7
+[8
 
 ]
-<images/research_stack.png, id=217, 943.27406pt x 330.48468pt>
+<images/research_stack.png, id=226, 943.27406pt x 330.48468pt>
 File: images/research_stack.png Graphic file (type png)
 <use images/research_stack.png>
-Package pdftex.def Info: images/research_stack.png  used on input line 204.
+Package pdftex.def Info: images/research_stack.png  used on input line 205.
 (pdftex.def)             Requested size: 409.71638pt x 175.70067pt.
- [8 <./images/research_stack.png>] [9]
+ [9 <./images/research_stack.png>] (search_matrix.tex [10] [11
+
+] [12]) (keywords.tex
+Overfull \hbox (7.23766pt too wide) in alignment at lines 21--33
+ [] [] [] 
+ []
+
+
+Overfull \hbox (7.23766pt too wide) in alignment at lines 33--43
+ [] [] [] 
+ []
+
+
+Overfull \hbox (7.23766pt too wide) in alignment at lines 43--48
+ [] [] [] 
+ []
+
+
+Overfull \hbox (7.23766pt too wide) in alignment at lines 48--59
+ [] [] [] 
+ []
+
+
+Overfull \hbox (7.23766pt too wide) in alignment at lines 59--234
+ [] [] [] 
+ []
+
+[13
+
+]) (inclusion_criteria.tex) (exclusion_criteria.tex [14]) [15]
 Chapter 3.
-[10
+[16
 
 ]
 Chapter 4.
-[11
-
-]
-Chapter 5.
-[12
-
-]
-Chapter 6.
-[13
-
-]
-Chapter 7.
-[14
-
-]
-Chapter 8.
-[15
-
-] [16
-
-]
-Appendix A.
 [17
 
 ]
-Appendix B.
+Chapter 5.
 [18
 
-] (theoretical_perspectives.bbl) [19
+]
+Chapter 6.
+[19
+
+]
+Chapter 7.
+[20
+
+]
+Chapter 8.
+[21
+
+] [22
+
+]
+Appendix A.
+[23
+
+]
+Appendix B.
+[24
+
+] (theoretical_perspectives.bbl) [25
 
 
 ] (theoretical_perspectives.aux)
@@ -1076,17 +1120,17 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 37678 strings out of 467867
- 756424 string characters out of 5428399
- 1238137 words of memory out of 5000000
- 65906 multiletter control sequences out of 15000+600000
- 671917 words of font info for 68 fonts, out of 8000000 for 9000
+ 37930 strings out of 467867
+ 762962 string characters out of 5428399
+ 1242959 words of memory out of 5000000
+ 66118 multiletter control sequences out of 15000+600000
+ 688150 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,108p,2592b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on theoretical_perspectives.pdf (21 pages, 358137 bytes).
+ 102i,11n,108p,2592b,1261s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+Output written on theoretical_perspectives.pdf (27 pages, 462566 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
  335 words of extra memory for PDF output out of 10000 (max. 10000000)
 

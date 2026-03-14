@@ -20,6 +20,7 @@
 \usepackage{float}
 
 % Tables
+\usepackage{pdflscape}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{longtable}
@@ -131,7 +132,7 @@
 \tableofcontents
 \printglossary[type=\acronymtype]
 \listoffigures
-%\listoftables
+\listoftables
 
 \clearpage
 
@@ -213,23 +214,22 @@ All content is then automatically synced to a cloud store and defined content sa
 Lorem impsum...
 % 100 words -- identify which databases were searched and justify their selection for this topic
 
-% \input{search_matrix} --- a table showing which databases were searched for each track, with the search strings used in each case; this sits outside the word count. 
+\input{search_matrix} % table noting DB selection aligned to search pillars
 
 \section{Keywords and search terms}
 \label{sec:keywords-and-search-terms}
 Lorem impsum...
 % 100 words -- document the keyword strings and Boolean operators used across the two tracks
-
+\input{keywords.tex}
 \section{Inclusion and exclusion criteria}
 \label{sec:inclusion-and-exclusion-criteria}
 Lorem impsum...
 % 100 words -- explain the filters applied: date range, peer reviewed only, English language, relevance to policing or adjacent public sector contexts
-
-% \input{inclusion_criteria} -- a table showing the inclusion criteria for each track, with a justification for each criterion; this sits outside the word count.
+\input{inclusion_criteria} -- a table showing the inclusion criteria for each track, with a justification for each criterion
 
 \vspace{8pt}
 
-% \input{exclusion_criteria} -- a table showing the exclusion criteria for each track, with a justification for each criterion; this sits outside the word count.
+\input{exclusion_criteria} -- a table showing the exclusion criteria for each track, with a justification for each criterion
 
 
 \section{Results and filtering process}
