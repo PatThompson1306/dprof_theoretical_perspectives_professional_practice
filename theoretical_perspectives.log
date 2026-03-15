@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.9)  14 MAR 2026 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.9)  15 MAR 2026 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,7 +1009,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...numberline {8}Conclusions }{21}{chapter.8}
+l.35 ...numberline {8}Conclusions }{20}{chapter.8}
                                                   % [1
 
 
@@ -1042,18 +1042,51 @@ Chapter 2.
 [8
 
 ]
-<images/research_stack.png, id=241, 943.27406pt x 330.48468pt>
+<images/research_stack.png, id=256, 943.27406pt x 330.48468pt>
 File: images/research_stack.png Graphic file (type png)
 <use images/research_stack.png>
 Package pdftex.def Info: images/research_stack.png  used on input line 205.
 (pdftex.def)             Requested size: 364.19075pt x 175.70067pt.
  [9 <./images/research_stack.png>] [10] (search_matrix.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 80.
- (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [11
+Overfull \hbox (51.91678pt too wide) in alignment at lines 14--26
+ [] [] [] [] 
+ []
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [12] [13]) (keywords.tex
+
+Overfull \hbox (51.91678pt too wide) in alignment at lines 26--37
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (51.91678pt too wide) in alignment at lines 37--42
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (51.91678pt too wide) in alignment at lines 42--49
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0198pt too wide) in paragraph at lines 59--59
+ []|[]\T1/lmr/bx/n/10 Criminology[]| 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 65.
+(C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (16.10896pt too wide) in paragraph at lines 127--127
+ []|[]\T1/lmr/bx/n/10 Organisational 
+ []
+
+
+Overfull \hbox (51.91678pt too wide) in alignment at lines 49--185
+ [] [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [11{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) [12] (keywords.tex
 Overfull \hbox (7.23766pt too wide) in alignment at lines 21--33
  [] [] [] 
  []
@@ -1078,66 +1111,64 @@ Overfull \hbox (7.23766pt too wide) in alignment at lines 59--234
  [] [] [] 
  []
 
-) [14
-
-] (inclusion_criteria.tex
+) [13] (inclusion_criteria.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 20.
-) (exclusion_criteria.tex) [15]
+) (exclusion_criteria.tex) [14]
 Chapter 3.
-[16
+[15
 
 ]
 Chapter 4.
-[17
+[16
 
 ]
 Chapter 5.
-[18
+[17
 
 ]
 Chapter 6.
-[19
+[18
 
 ]
 Chapter 7.
-[20
+[19
 
 ]
 Chapter 8.
-[21
+[20
 
-] [22
+] [21
 
 ]
 Appendix A.
-[23
+[22
 
 ]
 Appendix B.
-[24
+[23
 
-] (theoretical_perspectives.bbl [25
+] (theoretical_perspectives.bbl [24
 
 
-]) [26] (theoretical_perspectives.aux)
+]) [25] (theoretical_perspectives.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 38248 strings out of 467867
- 767924 string characters out of 5428399
- 1258959 words of memory out of 5000000
- 66421 multiletter control sequences out of 15000+600000
+ 38403 strings out of 467867
+ 770128 string characters out of 5428399
+ 1257959 words of memory out of 5000000
+ 66571 multiletter control sequences out of 15000+600000
  692528 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,108p,2592b,1261s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on theoretical_perspectives.pdf (28 pages, 476453 bytes).
+Output written on theoretical_perspectives.pdf (27 pages, 481077 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
+ 557 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
  335 words of extra memory for PDF output out of 10000 (max. 10000000)
 
