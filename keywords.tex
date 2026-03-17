@@ -1,23 +1,14 @@
-% ----------------------------------------------------------------
-%  Keywords table — companion to Table~\ref{tab:search-matrix}.
-%  Portrait orientation. Two columns per track: Core Terms and
-%  Extended / Theoretically-Grounded Terms.
-%  Requires: booktabs, longtable, array, colortbl in preamble.
-% ----------------------------------------------------------------
 \begingroup
 \footnotesize
 \setlength{\LTpre}{6pt}
 \setlength{\LTpost}{6pt}
-\setlength{\tabcolsep}{5pt}
+\setlength{\tabcolsep}{4pt}
 \hbadness=10000
 \hfuzz=3pt
 
-% Column sum: 3.2 + 6.0 + 6.0 = 15.2cm (fits portrait \textwidth)
-
 \begin{longtable}{%
-  >{\arraybackslash}p{3.2cm}%   Track
-  >{\arraybackslash}p{6.0cm}%   Core Terms
-  >{\arraybackslash}p{6.0cm}%   Extended Terms
+  >{\centering\arraybackslash}p{4.4cm}%   Core Terms
+  >{\centering\arraybackslash}p{10.3cm}%  Extended Terms
 }
 
 \caption{Search Keywords by Track}
@@ -26,17 +17,15 @@
 % --- First page header ---
 \toprule
 \rowcolor{inkdark}
-\textcolor{white}{\textbf{Track}} &
 \textcolor{white}{\textbf{Core Terms}} &
 \textcolor{white}{\textbf{Extended \& Theoretically-Grounded Terms}} \\
 \midrule
 \endfirsthead
 
 % --- Subsequent page header ---
-\multicolumn{3}{l}{\textit{Table~\ref{tab:keywords} continued}}\\[4pt]
+\multicolumn{2}{l}{\textit{Table~\ref{tab:keywords} continued}}\\[4pt]
 \toprule
 \rowcolor{inkdark}
-\textcolor{white}{\textbf{Track}} &
 \textcolor{white}{\textbf{Core Terms}} &
 \textcolor{white}{\textbf{Extended \& Theoretically-Grounded Terms}} \\
 \midrule
@@ -44,54 +33,46 @@
 
 % --- Foot (non-final pages) ---
 \midrule
-\multicolumn{3}{r}{\textit{Continued on next page}}\\
+\multicolumn{2}{r}{\textit{Continued on next page}}\\
 \endfoot
 
 % --- Foot (final page) ---
 \bottomrule
-\multicolumn{3}{p{15.2cm}}{%
-  \textit{Note.} Core terms reflect established disciplinary vocabulary
-  for initial broad searches. Extended terms capture theoretically-grounded,
-  pathway-specific, and dataset-specific language to improve recall in
-  targeted passes. Cross-track terms (proactive safeguarding; preventative
-  intervention; early warning systems; risk prediction) should be applied
-  in consolidated searches across Scopus and Google Scholar.}\\
 \endlastfoot
 
 % ============================================================
 %  TRACK 1 --- Criminology & Behavioural Science
 % ============================================================
 
-\multicolumn{3}{l}{%
+\multicolumn{2}{c}{%
   \cellcolor{rowshade}\textcolor{track1}{%
     \textbf{Track 1 \textemdash{} Criminology \& Behavioural Science}}}\\[2pt]
 
-\textcolor{track1}{\textbf{Criminology \& Behavioural Science}} &
+\begin{minipage}[t]{4.2cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item \gls{csa} and \gls{csam}
+  \item Online grooming
+  \item Contact offending
+  \item Grooming language
+  \item Linguistic precursors 
+  \item Grooming typology
+  \item Predatory grooming behaviour
+  \item Manipulation tactics
+\end{itemize}
+\end{minipage} &
 %
-child sexual abuse;
-child sexual abuse material;
-online grooming;
-contact offending;
-offender language;
-linguistic precursors;
-grooming typology;
-offender typology;
-predatory behaviour;
-manipulation tactics;
-forensic linguistics &
-%
-online-to-offline offending;
-grooming progression;
-grooming escalation;
-grooming stages;
-coercive communication;
-trust development;
-victim selection;
-sexual communication with a minor;
-predatory communication;
-contact offending precursors;
-CSAM-to-contact trajectory;
-proactive safeguarding \\[4pt]
+\begin{minipage}[t]{10.1cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Online-to-offline offending
+  \item Grooming progression
+  \item Grooming escalation
+  \item Grooming stages
+  \item Trust development
+  \item Sexual communication with a child
+  \item Contact sex offending precursor behaviours
+  \item \gls{csam} to contact offending behaviour trajectory
+\end{itemize}
+\end{minipage} \\[4pt]
 
 \midrule
 
@@ -99,37 +80,39 @@ proactive safeguarding \\[4pt]
 %  TRACK 2 --- Computer Science & NLP
 % ============================================================
 
-\multicolumn{3}{l}{%
+\multicolumn{2}{c}{%
   \cellcolor{rowshade}\textcolor{track2}{%
     \textbf{Track 2 \textemdash{} Computer Science \& NLP}}}\\[2pt]
 
-\textcolor{track2}{\textbf{Computer Science \& NLP}} &
+\begin{minipage}[t]{4.2cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Natural language processing
+  \item Text classification
+  \item Transformer models
+  \item BERT
+  \item Large language models
+  \item Explainability
+  \item Corpus annotation
+  \item Digital communication analysis
+  \item Linguistic feature extraction
+  \item Conversational pattern analysis
+\end{itemize}
+\end{minipage} &
 %
-natural language processing;
-grooming detection;
-online predator detection;
-text classification;
-transformer models;
-BERT;
-large language models;
-explainability;
-edge deployment;
-corpus annotation;
-predator identification;
-digital communication analysis &
-%
-PAN shared task;
-Perverted Justice corpus;
-chat log analysis;
-conversation-level classification;
-sequential pattern detection;
-imbalanced classification;
-real-time text analysis;
-hate speech detection;
-toxic language detection;
-conversational AI detection;
-forensic linguistics;
-proactive safeguarding technology \\[4pt]
+\begin{minipage}[t]{10.1cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item PAN shared task
+  \item Perverted Justice corpus
+  \item Chat log analysis
+  \item Conversation-level classification
+  \item Sequential pattern detection
+  \item Hate speech detection
+  \item Toxic language detection
+  \item Conversational AI detection
+  \item Forensic linguistics
+  \item Proactive safeguarding technology
+\end{itemize}
+\end{minipage} \\[4pt]
 
 \midrule
 
@@ -137,38 +120,36 @@ proactive safeguarding technology \\[4pt]
 %  TRACK 3 --- Organisational Studies & Policing
 % ============================================================
 
-\multicolumn{3}{l}{%
+\multicolumn{2}{c}{%
   \cellcolor{rowshade}\textcolor{track3}{%
     \textbf{Track 3 \textemdash{} Organisational Studies \& Policing}}}\\[2pt]
 
-\textcolor{track3}{\textbf{Organisational Studies \& Policing}} &
+\begin{minipage}[t]{4.2cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Policing technology adoption \& implementation
+  \item Organisational policing change
+  \item Law enforcement innovation
+  \item Institutional barriers in policing \& public sector
+  \item Police culture and technology
+  \item \gls{ai} in policing
+  \item Digital transformation in policing
+  \item Technology resistance
+  \item Evidence-based policing and technology
+\end{itemize}
+\end{minipage} &
 %
-policing technology adoption;
-organisational change;
-law enforcement innovation;
-institutional barriers;
-police culture;
-AI in policing;
-digital transformation;
-technology resistance;
-technology readiness;
-change management;
-Diffusion of Innovations;
-evidence-based policing &
-%
-tacit knowledge policing;
-knowledge management policing;
-police reform;
-technology scepticism;
-innovation diffusion public sector;
-organisational inertia;
-organisational ambidexterity;
-change agent policing;
-technical literacy leadership;
-national policing technology;
-fragmented governance;
-street-level bureaucracy;
-insider outsider role change \\[4pt]
+\begin{minipage}[t]{10.1cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Tacit vs explicit knowledge policing
+  \item Police reform
+  \item Technology scepticism
+  \item Organisational inertia
+  \item Technical literacy leadership
+  \item National policing technology
+  \item Fragmented governance policing technology
+  \item Insider outsider role change
+\end{itemize}
+\end{minipage} \\[4pt]
 
 \midrule
 
@@ -176,60 +157,59 @@ insider outsider role change \\[4pt]
 %  TRACK 4 --- Ethics, Law & Governance
 % ============================================================
 
-\multicolumn{3}{l}{%
+\multicolumn{2}{c}{%
   \cellcolor{rowshade}\textcolor{track4}{%
     \textbf{Track 4 \textemdash{} Ethics, Law \& Governance}}}\\[2pt]
 
-\textcolor{track4}{\textbf{Ethics, Law \& Governance}} &
+\begin{minipage}[t]{4.2cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Algorithmic bias
+  \item \gls{ai} ethics
+  \item Data protection
+  \item \gls{gdpr}
+  \item Proportionality
+  \item Responsible \gls{ai}
+  \item \gls{ai} governance
+  \item Explainable \gls{ai}
+  \item \gls{ripa} \& \gls{ipa}
+  \item \gls{eu} \gls{ai} Act
+  \item \gls{hrap8}
+  \item \gls{ukdpa}
+\end{itemize}
+\end{minipage} &
 %
-algorithmic bias;
-AI ethics;
-data protection;
-GDPR;
-proportionality;
-responsible AI;
-surveillance governance;
-AI governance;
-explainable AI;
-RIPA;
-Investigatory Powers Act;
-Law Enforcement Directive;
-EU AI Act;
-HRA Article~8;
-UK data protection &
-%
-predictive policing ethics;
-automated decision-making law enforcement;
-Data Protection Act 2018;
-law enforcement processing exemption;
-data minimisation;
-purpose limitation;
-algorithmic accountability;
-child data protection;
-misidentification risk;
-ethical AI deployment;
-surveillance law UK;
-rights-based safeguarding;
-EU\nobreakdash-UK regulatory divergence \\[4pt]
+\begin{minipage}[t]{10.1cm}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Predictive policing ethics
+  \item Automated decision-making law enforcement
+  \item \gls{ukdpa}
+  \item Data minimisation
+  \item Purpose limitation
+  \item Algorithmic accountability
+  \item Ethical \gls{ai} deployment
+  \item Rights-based safeguarding
+  \item \gls{eu} to \gls{uk} regulatory divergence
+\end{itemize}
+\end{minipage} \\[4pt]
 
 % ============================================================
 %  CROSS-TRACK TERMS
 % ============================================================
 
-\multicolumn{3}{l}{%
+\multicolumn{2}{c}{%
   \cellcolor{rowshade}%
     \textbf{Cross-Track \textemdash{} Apply in consolidated searches (Scopus; Google Scholar)}}\\[2pt]
 
-\textit{All tracks} &
-\multicolumn{2}{p{12.0cm}}{%
-proactive safeguarding;
-preventative intervention;
-early warning systems;
-risk prediction;
-NLP policing;
-child protection technology;
-safeguarding automation;
-AI child safeguarding} \\[4pt]
+\multicolumn{2}{c}{%
+  \begin{minipage}[t]{14.3cm}
+  \begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+    \item Proactive safeguarding
+    \item Preventative intervention
+    \item Risk prediction
+    \item \gls{nlp} in policing
+    \item \gls{ai} child safeguarding
+  \end{itemize}
+  \end{minipage}} \\[4pt]
 
 \end{longtable}
 \endgroup

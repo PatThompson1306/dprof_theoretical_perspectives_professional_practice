@@ -7,34 +7,34 @@
 \contentsline {section}{\numberline {2.2}Tools and software}{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Search approach and databases}{10}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Keywords and search terms}{10}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Results and filtering process}{14}{section.2.6}%
-\contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Scale and trajectory of CSA}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The grooming to contact offending pathway}{15}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Policing's reactive posture}{15}{section.3.3}%
-\contentsline {section}{\numberline {3.4}The case for technological intervention}{15}{section.3.4}%
-\contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}NLP applications in public services}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}The data provenance problem}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}What the technical literature leaves unanswered}{16}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Policing as a technology consumer}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{17}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{17}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Structural fragmentation as an implementation barrier}{17}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Synthesis: Where Technical Possibility Meets Organisational Reality}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}The convergence problem}{18}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Inductive and deductive reasoning across the two tracks}{18}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Towards a theoretical position}{18}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conceptual Framework and Research Questions}{19}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Presenting the conceptual framework}{19}{section.7.1}%
-\contentsline {section}{\numberline {7.2}How the literature has shaped the framework}{19}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Refined research aim and sub-questions}{19}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Conclusions }{20}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Summary of the argument}{20}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Implications for professional practice}{20}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Next steps}{20}{section.8.3}%
-\contentsline {chapter}{\numberline {A}Patch One - Upload and Feedback}{22}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{23}{appendix.B}%
+\contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{15}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Results and filtering process}{15}{section.2.6}%
+\contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Scale and trajectory of CSA}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The grooming to contact offending pathway}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Policing's reactive posture}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The case for technological intervention}{16}{section.3.4}%
+\contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}NLP applications in public services}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The data provenance problem}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}What the technical literature leaves unanswered}{17}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Policing as a technology consumer}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{18}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Structural fragmentation as an implementation barrier}{18}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Synthesis: Where Technical Possibility Meets Organisational Reality}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The convergence problem}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Inductive and deductive reasoning across the two tracks}{19}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Towards a theoretical position}{19}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conceptual Framework and Research Questions}{20}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Presenting the conceptual framework}{20}{section.7.1}%
+\contentsline {section}{\numberline {7.2}How the literature has shaped the framework}{20}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Refined research aim and sub-questions}{20}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Conclusions }{21}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Summary of the argument}{21}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Implications for professional practice}{21}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Next steps}{21}{section.8.3}%
+\contentsline {chapter}{\numberline {A}Patch One - Upload and Feedback}{23}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{24}{appendix.B}%
