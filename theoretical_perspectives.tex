@@ -25,6 +25,7 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{ragged2e}
+\usepackage[patch=none]{microtype}
 
 % Colour, boxes and lists
 \usepackage{xcolor}
@@ -42,6 +43,23 @@
 \definecolor{rowshade}{RGB}{245,243,250}
 \definecolor{incgreen}{RGB}{58,90,58}
 \definecolor{excred}{RGB}{110,58,44}
+
+\definecolor{inkdark}  {HTML}{1a1a1a}
+\definecolor{track1}   {HTML}{3d1f6e}
+\definecolor{track1lt} {HTML}{f3eeff}
+\definecolor{track2}   {HTML}{0c3464}
+\definecolor{track2lt} {HTML}{e8f1fc}
+\definecolor{track3}   {HTML}{07341c}
+\definecolor{track3lt} {HTML}{e4f5ec}
+\definecolor{track4}   {HTML}{5a3208}
+\definecolor{track4lt} {HTML}{fdf3e4}
+\definecolor{crosslt}  {HTML}{f5f5f3}
+\definecolor{rowrule}  {HTML}{e4e2dc}
+\definecolor{opAND}    {HTML}{1a1a1a}
+\definecolor{opOR}     {HTML}{888880}
+\definecolor{opNEAR}   {HTML}{9a4e00}
+\definecolor{opTRUNC}  {HTML}{1a6b3a}
+\definecolor{opPHR}    {HTML}{1a4fa8}
 
 % Math
 \usepackage{amsmath,amssymb,amsthm}
@@ -216,25 +234,21 @@ Section \ref{sec:purpose-and-scope-of-the-paper} identifies four distinct resear
 \section{Keywords and search terms}
 \label{sec:keywords-and-search-terms}
 Key words and search terms are critical to the success of a literature review.  \citet{chigbu2023science} provides holistic guidance on keyword selection and submission to selected databases.  The keywords and search terms utilised for each of the noted research tracks are defined in table \ref{tab:keywords}.  These align to the search strategy outlined in table \ref{tab:search-matrix}.  The keywords and search terms are designed to capture the key concepts and themes relevant to each track, ensuring that the literature retrieved is relevant to the research challenge.
-% 100 words -- document the keyword strings and Boolean operators used across the two tracks
+Boolean operators (AND, OR, NOT) are used to combine keywords and search terms in a way that maximises the relevance of retrieved literature.  The use of Boolean operators is critical to refining search results and ensuring that the literature review is focused on the most relevant sources.  The specific Boolean operators used for each track are also defined in table \ref{tab:keywords}.
+
+\section{Inclusion and exclusion criteria}
+\label{sec:inclusion-and-exclusion-criteria}
+Tables \ref{tab:inclusion-criteria} and \ref{tab:exclusion-criteria} define the inclusion and exclusion criteria for each of the four research tracks.  These criteria are designed to ensure that the literature included in the review is relevant, high quality, and aligned with the research challenge.  The notable date of 2018 is presented as this is largely considered to be the breakout year for the devlopment of \gls{nlp} transformer based models, \citep{khanna2024evolution}, an architecture which will be relevant to this research.  
 
 \newpage
 \input{search_matrix} % table noting DB selection aligned to search pillars
 \newpage
-
 \input{keywords.tex}
 \newpage
-\section{Inclusion and exclusion criteria}
-\label{sec:inclusion-and-exclusion-criteria}
-Lorem impsum...
-% 100 words -- explain the filters applied: date range, peer reviewed only, English language, relevance to policing or adjacent public sector contexts
-\input{inclusion_criteria} % a table showing the inclusion criteria for each track, with a justification for each criterion
-
+\input{inclusion_criteria} % a table showing the inclusion criteria for each track,
 \vspace{8pt}
-
-\input{exclusion_criteria} % a table showing the exclusion criteria for each track, with a justification for each criterion
-
-
+\input{exclusion_criteria} % a table showing the exclusion criteria for each track, with a justification for each criterio
+\newpage
 
 \section{Results and filtering process}
 \label{sec:results-and-filtering-process}

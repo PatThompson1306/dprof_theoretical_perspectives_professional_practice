@@ -5,44 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 43 items.
 Database file #1: C:/Users/UserPC/gdrive/research/bib/master.bib
-You've used 14 entries,
+You've used 15 entries,
             2909 wiz_defined-function locations,
-            725 strings with 7547 characters,
-and the built_in function-call counts, 47326 in all, are:
-= -- 7659
-> -- 530
+            730 strings with 7740 characters,
+and the built_in function-call counts, 49231 in all, are:
+= -- 7942
+> -- 554
 < -- 0
-+ -- 3542
-- -- 157
-* -- 3975
-:= -- 9684
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 196
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 214
-empty$ -- 464
-format.name$ -- 203
-if$ -- 8466
++ -- 3660
+- -- 164
+* -- 4126
+:= -- 10101
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 210
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 230
+empty$ -- 502
+format.name$ -- 212
+if$ -- 8800
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 45
-num.names$ -- 144
-pop$ -- 71
+missing$ -- 11
+newline$ -- 48
+num.names$ -- 154
+pop$ -- 74
 preamble$ -- 1
-purify$ -- 210
+purify$ -- 225
 quote$ -- 0
-skip$ -- 184
+skip$ -- 197
 stack$ -- 0
-substring$ -- 10732
-swap$ -- 38
-text.length$ -- 196
+substring$ -- 11121
+swap$ -- 41
+text.length$ -- 210
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 60
 warning$ -- 0
-while$ -- 312
+while$ -- 335
 width$ -- 0
-write$ -- 176
+write$ -- 188
