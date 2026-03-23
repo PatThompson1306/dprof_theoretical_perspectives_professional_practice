@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  20 MAR 2026 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  23 MAR 2026 07:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1102,8 +1102,8 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 60
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-ignored: Infinite glue shrinkage found in box being split [11{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) [12] (keywords.tex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 93.
+ignored: Infinite glue shrinkage found in box being split [11{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) [12] (keywords2.tex
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 81.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1112,7 +1112,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 96.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 84.
 
 ignored: Infinite glue shrinkage found in box being split [13]
 ignored: Infinite glue shrinkage found in box being split [14]) [15] (inclusion_criteria.tex
@@ -1163,14 +1163,14 @@ L3 programming layer <2026-01-19>
  ) 
 Here is how much of TeX's memory you used:
  40790 strings out of 467867
- 811087 string characters out of 5428398
- 1338031 words of memory out of 5000000
+ 811093 string characters out of 5428398
+ 1330030 words of memory out of 5000000
  68721 multiletter control sequences out of 15000+600000
  703702 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,108p,2592b,1259s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on theoretical_perspectives.pdf (30 pages, 554525 bytes).
+Output written on theoretical_perspectives.pdf (30 pages, 552915 bytes).
 PDF statistics:
  594 PDF objects out of 1000 (max. 8388607)
  116 named destinations out of 1000 (max. 500000)

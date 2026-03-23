@@ -14,9 +14,8 @@
 \hfuzz=3pt
 
 \begin{longtable}{%
-  >{\RaggedRight\arraybackslash}p{3.8cm}%   col 1  Core Terms
-  >{\RaggedRight\arraybackslash}p{4.4cm}%   col 2  Extended Terms
-  >{\RaggedRight\arraybackslash}p{6.2cm}%   col 3  Boolean Strings
+  >{\RaggedRight\arraybackslash}p{6.4cm}%   col 1  Terms
+  >{\RaggedRight\arraybackslash}p{7.8cm}%   col 2  Boolean Strings
 }
 
 \caption{Search Keywords by Track}
@@ -25,25 +24,23 @@
 % --- First page header ---
 \toprule
 \rowcolor{inkdark}
-\textcolor{white}{\textbf{Core Terms}} &
-\textcolor{white}{\textbf{Extended Terms}} &
+\textcolor{white}{\textbf{Terms}} &
 \textcolor{white}{\textbf{Boolean Strings}} \\
 \midrule
 \endfirsthead
 
 % --- Subsequent page header ---
-\multicolumn{3}{l}{\textit{Table~\ref{tab:keywords} continued}}\\[4pt]
+\multicolumn{2}{l}{\textit{Table~\ref{tab:keywords} continued}}\\[4pt]
 \toprule
 \rowcolor{inkdark}
-\textcolor{white}{\textbf{Core Terms}} &
-\textcolor{white}{\textbf{Extended Terms}} &
+\textcolor{white}{\textbf{Terms}} &
 \textcolor{white}{\textbf{Boolean Strings}} \\
 \midrule
 \endhead
 
 % --- Foot (non-final pages) ---
 \midrule
-\multicolumn{3}{r}{\textit{Continued on next page}}\\
+\multicolumn{2}{r}{\textit{Continued on next page}}\\
 \endfoot
 
 % --- Foot (final page) ---
@@ -52,43 +49,34 @@
 
 
 % ==========================
-%  TRACK 1 --- Criminology 
+%  TRACK 1 --- Criminology
 % ==========================
 
-\multicolumn{3}{c}{%
+\multicolumn{2}{c}{%
   \cellcolor{track1lt}\textcolor{track1}{%
     \textbf{Track 1 \textemdash{} Criminology}}}\\[2pt]
 
 % --- data row ---
-\begin{minipage}[t]{3.6cm}
+\begin{minipage}[t]{6.2cm}
 \vspace{0pt}
 \begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
-  \item CSA and CSAM
   \item Online grooming
-  \item Contact offending
+  \item Sexual grooming
+  \item Grooming behaviour
+  \item Child sexual abuse
+  \item CSA
+  \item CSAM
   \item Grooming language
-  \item Linguistic precursors
-  \item Grooming typology
-  \item Predatory grooming behaviour
-  \item Manipulation tactics
+  \item Grooming communication
+  \item Child
+  \item Victim
+  \item Sex offend*
+  \item Abuse
+  \item Contact offending
 \end{itemize}
 \end{minipage}
 &
-\begin{minipage}[t]{4.2cm}
-\vspace{0pt}
-\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
-  \item Online-to-offline offending
-  \item Grooming progression
-  \item Grooming escalation
-  \item Grooming stages
-  \item Trust development
-  \item Sexual communication with a child
-  \item Contact sex offending precursor behaviours
-  \item CSAM to contact offending behaviour trajectory
-\end{itemize}
-\end{minipage}
-&
-\begin{minipage}[t]{6.0cm}
+\begin{minipage}[t]{7.6cm}
 \vspace{0pt}
 \ttfamily\small
 (\bPhr{online grooming} \bOR{} \bPhr{sexual grooming}\\
@@ -114,47 +102,40 @@
 %  TRACK 2 --- Computer Science & NLP
 % ============================================================
 
-\multicolumn{3}{c}{%
+\multicolumn{2}{c}{%
   \cellcolor{track2lt}\textcolor{track2}{%
     \textbf{Track 2 \textemdash{} Computer Science \& NLP}}}\\[2pt]
 
-\begin{minipage}[t]{3.6cm}
+\begin{minipage}[t]{6.2cm}
 \vspace{0pt}
 \begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
-  \item Natural language processing
-  \item Text classification
-  \item Transformer models
   \item BERT
   \item RoBERTa
   \item DistilBERT
-  \item Large language models
-  \item Explainability
-  \item Corpus annotation
-  \item Digital conversation analysis
-  \item Linguistic feature extraction
-  \item Conversational pattern analysis
-\end{itemize}
-\end{minipage}
-&
-\begin{minipage}[t]{4.2cm}
-\vspace{0pt}
-\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
+  \item Text classification
+  \item Sequence classification
+  \item Grooming
+  \item Predatory
+  \item Child safety
+  \item Explainable AI
+  \item XAI
+  \item Interpretable machine learning
+  \item NLP
+  \item Natural language processing
+  \item Law enforcement
+  \item Policing
+  \item Criminal justice
   \item PAN shared dataset
-  \item Perverted Justice corpus
-  \item PJDB
-  \item Chat data augmentation NLP
-  \item F1 score / precision-recall classification NLP
-  \item Chat log analysis
-  \item Conversation-level classification
-  \item Hate speech detection
-  \item Toxic language detection
-  \item Conversational AI detection
-  \item Forensic linguistics
-  \item Proactive safeguarding technology
+  \item Perverted Justice
+  \item Chat log
+  \item Online conversation
+  \item Grooming detection
+  \item Predatory communication
+  \item Sexual solicitation
 \end{itemize}
 \end{minipage}
 &
-\begin{minipage}[t]{6.0cm}
+\begin{minipage}[t]{7.6cm}
 \vspace{0pt}
 \ttfamily\small
 (``BERT'' \bOR{} ``RoBERTa'' \bOR{} ``DistilBERT'')\\
@@ -185,44 +166,29 @@
 %  TRACK 3 --- Organisational Studies & Policing
 % ============================================================
 
-\multicolumn{3}{c}{%
+\multicolumn{2}{c}{%
   \cellcolor{track3lt}\textcolor{track3}{%
     \textbf{Track 3 \textemdash{} Organisational Studies \& Policing}}}\\[2pt]
 
-\begin{minipage}[t]{3.6cm}
+\begin{minipage}[t]{6.2cm}
 \vspace{0pt}
 \begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
-  \item Policing technology adoption \& implementation
-  \item Organisational policing change
-  \item Law enforcement innovation
-  \item Institutional barriers in policing \& public sector
-  \item Police culture and technology
-  \item AI in policing
-  \item Digital transformation in policing
+  \item Technology adoption
   \item Technology resistance
-  \item Evidence-based policing and technology
-\end{itemize}
-\end{minipage}
-&
-\begin{minipage}[t]{4.2cm}
-\vspace{0pt}
-\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
-  \item Tacit vs explicit knowledge policing
-  \item Knowledge management policing
-  \item Communities of practice law enforcement
-  \item Cross-sector technology transfer
-  \item Public sector AI adoption
-  \item Police reform
-  \item Technology scepticism
   \item Organisational inertia
-  \item Technical literacy leadership
-  \item National policing technology
-  \item Fragmented governance policing technology
-  \item Insider outsider role change
+  \item Policing
+  \item Law enforcement
+  \item Police force
+  \item Tacit knowledge
+  \item Explicit knowledge
+  \item Knowledge management
+  \item Police officer*
+  \item Police culture
+  \item Innovation
 \end{itemize}
 \end{minipage}
 &
-\begin{minipage}[t]{6.0cm}
+\begin{minipage}[t]{7.6cm}
 \vspace{0pt}
 \ttfamily\small
 (\bPhr{technology adoption} \bOR{}\\
@@ -250,40 +216,32 @@
 %  TRACK 4 --- Ethics, Law & Governance
 % ============================================================
 
-\multicolumn{3}{c}{%
+\multicolumn{2}{c}{%
   \cellcolor{track4lt}\textcolor{track4}{%
     \textbf{Track 4 \textemdash{} Ethics, Law \& Governance}}}\\[2pt]
 
-\begin{minipage}[t]{3.6cm}
+\begin{minipage}[t]{6.2cm}
 \vspace{0pt}
 \begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
   \item Algorithmic bias
-  \item Algorithmic decision-making
-  \item AI ethics
+  \item Automated decision-making
+  \item Algorithmic accountability
+  \item Law enforcement
+  \item Policing
+  \item Criminal justice
+  \item Ethics
+  \item Human rights
+  \item Fairness
   \item Data protection
   \item GDPR
-  \item Proportionality
-  \item Responsible AI
-  \item AI governance
-  \item Explainable AI
   \item UK DPA
+  \item NLP
+  \item Machine learning
+  \item Artificial intelligence
 \end{itemize}
 \end{minipage}
 &
-\begin{minipage}[t]{4.2cm}
-\vspace{0pt}
-\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
-  \item Predictive policing ethics
-  \item Automated decision-making law enforcement
-  \item Data minimisation
-  \item Algorithmic accountability
-  \item Ethical AI deployment
-  \item Rights-based safeguarding
-  \item EU to UK regulatory divergence
-\end{itemize}
-\end{minipage}
-&
-\begin{minipage}[t]{6.0cm}
+\begin{minipage}[t]{7.6cm}
 \vspace{0pt}
 \ttfamily\small
 (\bPhr{algorithmic bias} \bOR{}\\
@@ -309,26 +267,36 @@
 %  CROSS-TRACK --- Consolidated searches
 % ============================================================
 
-\multicolumn{3}{c}{%
+\multicolumn{2}{c}{%
   \cellcolor{crosslt}%
     \textbf{Cross-Track \textemdash{} Consolidated searches}}\\[2pt]
 
-\multicolumn{2}{>{\RaggedRight\arraybackslash}p{8.6cm}}{%
-  \begin{minipage}[t]{8.4cm}
-  \vspace{0pt}
-  \begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
-    \item Proactive safeguarding
-    \item Preventative intervention
-    \item Risk prediction
-    \item NLP in policing
-    \item AI child safeguarding
-    \item NLP grooming detection
-    \item Machine learning child protection
-    \item AI criminal justice deployment barriers
-  \end{itemize}
-  \end{minipage}}
+\begin{minipage}[t]{6.2cm}
+\vspace{0pt}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
+  \item Natural language processing
+  \item NLP
+  \item Text classification
+  \item Grooming
+  \item Child sexual exploitation
+  \item Online predator
+  \item Detection
+  \item Identification
+  \item Classification
+  \item Machine learning
+  \item Artificial intelligence
+  \item Policing
+  \item Law enforcement
+  \item Implementation
+  \item Adoption
+  \item Deployment
+  \item Barrier*
+  \item Challenge*
+  \item Constraint*
+\end{itemize}
+\end{minipage}
 &
-\begin{minipage}[t]{6.0cm}
+\begin{minipage}[t]{7.6cm}
 \vspace{0pt}
 \ttfamily\small
 (\bPhr{natural language processing} \bOR{} ``NLP''\\
