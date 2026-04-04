@@ -8,23 +8,23 @@ Database file #1: C:/Users/UserPC/gdrive/research/bib/master.bib
 You've used 15 entries,
             2909 wiz_defined-function locations,
             730 strings with 7740 characters,
-and the built_in function-call counts, 49231 in all, are:
+and the built_in function-call counts, 49237 in all, are:
 = -- 7942
 > -- 554
 < -- 0
 + -- 3660
 - -- 164
 * -- 4126
-:= -- 10101
+:= -- 10102
 add.period$ -- 15
 call.type$ -- 15
 change.case$ -- 210
 chr.to.int$ -- 15
 cite$ -- 15
-duplicate$ -- 230
-empty$ -- 502
+duplicate$ -- 231
+empty$ -- 504
 format.name$ -- 212
-if$ -- 8800
+if$ -- 8802
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 11

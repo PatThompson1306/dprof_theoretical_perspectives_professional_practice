@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  23 MAR 2026 07:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  4 APR 2026 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1059,7 +1059,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...numberline {8}Conclusions }{23}{chapter.8}
+l.35 ...numberline {8}Conclusions }{22}{chapter.8}
                                                   % [1
 
 
@@ -1092,17 +1092,18 @@ Chapter 2.
 [8
 
 ]
-<images/research_stack.png, id=258, 943.27406pt x 330.48468pt>
+<images/research_stack.png, id=261, 943.27406pt x 330.48468pt>
 File: images/research_stack.png Graphic file (type png)
 <use images/research_stack.png>
 Package pdftex.def Info: images/research_stack.png  used on input line 223.
 (pdftex.def)             Requested size: 364.19075pt x 175.70067pt.
- [9 <./images/research_stack.png>] [10] (search_matrix.tex
+ [9 <./images/research_stack.png>] (search_matrix.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 60.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-ignored: Infinite glue shrinkage found in box being split [11{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) [12] (keywords2.tex
+ignored: Infinite glue shrinkage found in box being split [10{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+ignored: Infinite glue shrinkage found in box being split [11]) [12] (keywords.tex
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 81.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1115,64 +1116,64 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 84.
 
 ignored: Infinite glue shrinkage found in box being split [13]
-ignored: Infinite glue shrinkage found in box being split [14]) [15] (inclusion_criteria.tex
+ignored: Infinite glue shrinkage found in box being split [14]) (inclusion_criteria.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 20.
-) (exclusion_criteria.tex) [16] [17]
+) (exclusion_criteria.tex [15]) [16]
 Chapter 3.
-[18
+[17
 
 ]
 Chapter 4.
-[19
+[18
 
 ]
 Chapter 5.
-[20
+[19
 
 ]
 Chapter 6.
-[21
+[20
 
 ]
 Chapter 7.
-[22
+[21
 
 ]
 Chapter 8.
-[23
+[22
 
-] [24
+] [23
 
 ]
 Appendix A.
-[25
+[24
 
 ]
 Appendix B.
-[26
+[25
 
-] (theoretical_perspectives.bbl [27
+] (theoretical_perspectives.bbl [26
 
 
-]) [28] (theoretical_perspectives.aux)
+]) [27] (theoretical_perspectives.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40790 strings out of 467867
- 811093 string characters out of 5428398
- 1330030 words of memory out of 5000000
+ 40783 strings out of 467867
+ 811014 string characters out of 5428398
+ 1330037 words of memory out of 5000000
  68721 multiletter control sequences out of 15000+600000
- 703702 words of font info for 189 fonts, out of 8000000 for 9000
+ 703429 words of font info for 186 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,108p,2592b,1259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,108p,2592b,1259s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on theoretical_perspectives.pdf (30 pages, 552915 bytes).
+Output written on theoretical_perspectives.pdf (29 pages, 554001 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
+ 593 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
  43343 words of extra memory for PDF output out of 51595 (max. 10000000)
 
