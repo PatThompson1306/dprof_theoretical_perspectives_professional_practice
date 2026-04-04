@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  4 APR 2026 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  4 APR 2026 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,7 +1092,7 @@ Chapter 2.
 [8
 
 ]
-<images/research_stack.png, id=261, 943.27406pt x 330.48468pt>
+<images/research_stack.png, id=262, 943.27406pt x 330.48468pt>
 File: images/research_stack.png Graphic file (type png)
 <use images/research_stack.png>
 Package pdftex.def Info: images/research_stack.png  used on input line 223.
@@ -1119,7 +1119,14 @@ ignored: Infinite glue shrinkage found in box being split [13]
 ignored: Infinite glue shrinkage found in box being split [14]) (inclusion_criteria.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 20.
-) (exclusion_criteria.tex [15]) [16]
+) (exclusion_criteria.tex [15])
+
+LaTeX Warning: Reference `fig:TBC PRISMA CHART' on page 16 undefined on input line 254.
+
+
+LaTeX Warning: Reference `fig:TBC PRISMA CHART' on page 16 undefined on input line 256.
+
+[16]
 Chapter 3.
 [17
 
@@ -1161,19 +1168,23 @@ Appendix B.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 40783 strings out of 467867
- 811014 string characters out of 5428398
+ 40790 strings out of 467867
+ 811100 string characters out of 5428398
  1330037 words of memory out of 5000000
- 68721 multiletter control sequences out of 15000+600000
- 703429 words of font info for 186 fonts, out of 8000000 for 9000
+ 68722 multiletter control sequences out of 15000+600000
+ 703702 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,108p,2592b,1259s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtti10.pfb>
-Output written on theoretical_perspectives.pdf (29 pages, 554001 bytes).
+Output written on theoretical_perspectives.pdf (29 pages, 557216 bytes).
 PDF statistics:
- 593 PDF objects out of 1000 (max. 8388607)
+ 601 PDF objects out of 1000 (max. 8388607)
  115 named destinations out of 1000 (max. 500000)
  43343 words of extra memory for PDF output out of 51595 (max. 10000000)
 
