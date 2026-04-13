@@ -37,4 +37,5 @@
 \contentsline {section}{\numberline {8.2}Implications for professional practice}{22}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Next steps}{22}{section.8.3}%
 \contentsline {chapter}{\numberline {A}Patch One - Upload and Feedback}{24}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{25}{appendix.B}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Patch one uploads, feedback and peer review}}{25}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{32}{appendix.B}%

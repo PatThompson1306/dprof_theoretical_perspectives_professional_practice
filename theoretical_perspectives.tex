@@ -43,7 +43,6 @@
 \definecolor{rowshade}{RGB}{245,243,250}
 \definecolor{incgreen}{RGB}{58,90,58}
 \definecolor{excred}{RGB}{110,58,44}
-
 \definecolor{inkdark}  {HTML}{1a1a1a}
 \definecolor{track1}   {HTML}{3d1f6e}
 \definecolor{track1lt} {HTML}{f3eeff}
@@ -107,6 +106,9 @@
 \usepackage[acronym]{glossaries}
 \makeglossaries
 \input{acronym-definitions.tex}
+
+% PDFs and appendices
+\usepackage{pdfpages}
 
 % Custom commands
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
@@ -405,7 +407,8 @@ Word count (Chapters 1–N): XXX words, calculated in accordance with standard a
 \appendix
 \chapter{Patch One - Upload and Feedback}
 \label{app:patch-one-upload-and-feedback}
-%Include supplementary tables, derivations, detailed calculations, or code listings.
+
+\includepdf[pages=-, addtotoc={1, section, 1, {Patch one uploads, feedback and peer review}, sec:patch-one-doc}]{appendix_one_content.pdf}
 \chapter{Patch Two - Upload and Feedback}
 \label{app:patch-two-upload-and-feedback}
 %----------------------------------------------------------------------
