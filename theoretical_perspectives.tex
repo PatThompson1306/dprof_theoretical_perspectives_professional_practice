@@ -34,6 +34,9 @@
 \usepackage{enumitem}
 \usepackage{colortbl}
 
+% Commenting
+\usepackage{comment}
+
 % Colour palette 
 \definecolor{track1}{RGB}{44,74,110}
 \definecolor{track2}{RGB}{58,90,58}
@@ -219,7 +222,6 @@ The multifaceted nature of this review demands a robust literature and note mana
 Zotero was selected for its robust literature management capabilities, including the ability to capture metadata, PDFs and notes on literature sources, and to auto generate and update a master bibliography file.  Obsidian was selected for its flexibility in note taking and synthesis, allowing for the creation of a network of linked notes which can be easily navigated and searched.  LaTeX was selected for its professional formatting capabilities, particularly for handling citations, figures and tables, and for its ability to draw directly from Zotero's auto-generated bibliography, thus ensuring consistency and ease of referencing.  
 
 All content is then automatically synced to a cloud store and defined content saved a second time to a GitHub repository.  My use of the \gls{zk} method and the associated software stack is illustrated in figure \ref{fig:research-stack}.
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth, height=0.25\textheight, keepaspectratio=false]{images/research_stack.png}
@@ -228,7 +230,6 @@ All content is then automatically synced to a cloud store and defined content sa
 \end{figure}
 
 \newpage
-
 \section{Search approach and databases}
 \label{sec:search-approach-and-databases}
 
@@ -237,12 +238,14 @@ Section \ref{sec:purpose-and-scope-of-the-paper} identifies four distinct resear
 \vspace{8pt}
 \input{search_matrix} 
 \vspace{8pt}
+
 \section{Keywords and search terms}
 \label{sec:keywords-and-search-terms}
 Key words and search terms are critical to the success of a literature review.  \citet{chigbu2023science} provides guidance on keyword selection and submission to selected databases.  The keywords and search terms utilised for each of the noted research tracks are defined in table \ref{tab:keywords}.  These align to the search strategy outlined in table \ref{tab:search-matrix}.  The keywords and search terms are designed to capture thematic content relevant to each track.
 Boolean operators (AND, OR, NOT) are used to combine keywords and search terms in a way that maximises the relevance of retrieved literature.  The specific Boolean operators used for each track are also defined in table \ref{tab:keywords}.
 \newpage
 \input{keywords.tex}
+
 \section{Inclusion and exclusion criteria}
 \label{sec:inclusion-and-exclusion-criteria}
 Tables \ref{tab:inclusion-criteria} and \ref{tab:exclusion-criteria} define the inclusion and exclusion criteria for each of the four research tracks.  These criteria are designed to ensure that the literature included in the review is relevant, high quality, and aligned with the research challenge.  The year date of 2018 is presented as this is largely considered to be the breakout year for the devlopment of \gls{nlp} transformer based models, \citep{khanna2024evolution}, an architecture which will be relevant to this research.  
@@ -262,7 +265,6 @@ Following this initial title screening, a secondary title review was completed. 
 Finally, an abstract based screening process was then implemented, which sought to identify papers which were not relevant to this research based on their abstract content and the inclusion and exclusion criteria noted in tables \ref{tab:inclusion-criteria} and \ref{tab:exclusion-criteria}.  This process was accompanied by a note taking process whereby a markdown template was used to capture the key information from each paper, including the research question, methods, findings and relevance to this research.  This process was designed to ensure that the review process was transparent and reproducible, and to support the subsequent synthesis of the literature.
 
 This process reduced the number of papers to 195 for review.
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth, height=0.5\textheight, keepaspectratio=false]{images/prisma_diagram.png}
@@ -270,83 +272,86 @@ This process reduced the number of papers to 195 for review.
     \label{fig:prisma_diagram}
 \end{figure}
 
-%--------C.3 The Landscape of Child Sexual Exploitation and Policing's Response--------
+%--------C.3 The Landscape of Child Sexual Exploitation and Policing's Response - 500 words approx --------
 \chapter{The Landscape of Child Sexual Exploitation and Policing's Response}  
 \label{ch:the-landscape-of-child-sexual-exploitation-and-policings-response}
-
-\section{Scale and trajectory of CSA}
-\label{sec:scale-and-trajectory-of-csa}
-Lorem impsum...
-% 190 words -- national and international evidence on prevalence and escalation, drawing on ... (anchor texts)
+% Brief overview of the problem space, the demand on policing and the gap between demand and proactive capability... 
 
 \section{The grooming to contact offending pathway}
 \label{sec:the-grooming-to-contact-offending-pathway}
 Lorem impsum...
-% 190 words -- what the literature says about how online grooming precedes contact offending and why this matters for intervention design ... (anchor texts)
+% How online grooming precedes contact offending and why this matters for intervention design ... 
 % I need to frame this as an intervention post online to 1-2-1 conversations recorded on mobile devices, which is the data source my research focuses on
-
-\section{Policing's reactive posture}
-\label{sec:policings-reactive-posture}
-Lorem impsum...
-% 190 words -- evidence of the gap between demand and proactive capability, structural and resource constraints ... (anchor texts)
 
 \section{The case for technological intervention}
 \label{sec:the-case-for-technological-intervention}
 Lorem impsum...
-% 180 words -- where the literature identifies opportunity for tools to shift policing towards earlier intervention ... (anchor texts)
+% Where the literature identifies opportunity for tools to shift policing towards a more technologically enabled proactive safeguarding model, and the potential of NLP to deliver this ... 
 
-
-%--------C.4  NLP and AI in Safeguarding and Criminal Justice Contexts --------
+%--------C.4  NLP and AI in Safeguarding and Criminal Justice Contexts - 500 words approx --------
 \chapter{NLP and AI in Safeguarding and Criminal Justice Contexts}  
 \label{ch:nlp-and-ai-in-safeguarding-and-criminal-justice-contexts}
 
 \section{NLP applications in public services}
 \label{sec:nlp-applications-in-public-services}
 Lorem impsum...
-% 175 words -- brief contextualisation of NLP use in health, social care and criminal justice drawing on ... (anchor texts)
+% Brief contextualisation of NLP use in health, social care and criminal justice ...
 
 \section{Computational approaches to grooming language detection}
 \label{sec:computational-approaches-to-grooming-language-detection}
 Lorem impsum...
-% 275 words -- critical review of existing studies, their methods, findings and limitations ... (anchor texts)
+% Critical review of existing studies, their methods, findings and limitations ... 
 
 \section{The data provenance problem}
 \label{sec:the-data-provenance-problem}
 Lorem impsum...
-% 275 words -- critically examine how existing studies rely on simulated or open-source datasets and why this limits ... (anchor texts)
+% Critically examine how existing studies rely on simulated or open-source datasets and why this limits professional relevance and operational deployment potential ...
 
-\section{What the technical literature leaves unanswered}
-\label{sec:what-the-technical-literature-leaves-unanswered}
-Lorem impsum...
-% 175 words -- synthesise the gap: NLP capability exists but the bridge to operational deployment remains unbuilt
-
-
-%--------C.5  Technology Adoption and Organisational Change in Policing --------
+%--------C.5  Technology Adoption and Organisational Change in Policing - 500 words approx --------
 \chapter{Technology Adoption and Organisational Change in Policing}  
 \label{ch:technology-adoption-and-organisational-change-in-policing}
 
 \section{Policing as a technology consumer}
 \label{sec:policing-as-a-technology-consumer}
 Lorem impsum...
-% 225 words -- the evidence on why policing struggles to adopt and embed innovation effectively, drawing on ... (anchor texts)
+% The evidence on why policing struggles to adopt and embed innovation effectively...
 
 \section{Tacit versus explicit knowledge cultures}
 \label{sec:tacit-versus-explicit-knowledge-cultures}
 Lorem impsum...
-% 225 words -- The cultural preference for street knowledge over book knowledge and its implications for technical change ... (anchor texts)
+% The cultural preference for street knowledge over book knowledge and its implications for technical change ... 
 
 \section{Theoretical frameworks for technology adoption}
 \label{sec:theoretical-frameworks-for-technology-adoption}
 Lorem impsum...
-% 275 words -- introduce and critically review relevant models (Technology Acceptance Model, Diffusion of Innovations, institutional theory) and evaluate their applicability to a policing context
+% Introduce and critically review relevant models (Technology Acceptance Model, Diffusion of Innovations, institutional theory) and evaluate their applicability to a policing context
 
 \section{Structural fragmentation as an implementation barrier}
 \label{sec:structural-fragmentation-as-an-implementation-barrier}
 Lorem impsum...
-% 175 words -- the 43-force landscape, autonomy, inconsistent risk appetite, and what the literature suggests about delivering change at national scale
+% The 43-force landscape, autonomy, inconsistent risk appetite, and what the literature suggests about delivering change at national scale vs national police service...
 
+%--------C.6  Ethical Considerations in AI-Driven Safeguarding - 500 words approx  --------
+\chapter{Ethical considerations in AI-driven safeguarding}
+\label{ch:ethical-considerations-in-ai-driven-safeguarding}
 
-%--------C.6  Synthesis: Where Technical Possibility Meets Organisational Reality  --------
+\section{Algorithmic bias, transparency and fairness}
+\label{sec:algorithmic-bias-transparency-and-fairness}
+Lorem impsum...
+% The risk of bias in training data and algorithms, and the implications for safeguarding outcomes ...
+
+\section{Data protection and privacy}
+\label{sec:data-protection-and-privacy}
+Lorem impsum...
+% The challenges of handling sensitive data in safeguarding contexts, and the legal and ethical frameworks governing this
+
+\section{Proportionality and ethical boundaries}
+\label{sec:proportionality-and-ethical-boundaries}
+Lorem impsum...
+% The ethical considerations around preventative safeguarding, including the balance between proactive intervention and respecting individual rights,
+% and the ethical implications of false positives and negatives in an NLP system designed for safeguarding
+
+%--------C.7  Synthesis: Where Technical Possibility Meets Organisational Reality - 500 words approx  --------
 \chapter{Synthesis: Where Technical Possibility Meets Organisational Reality}  
 \label{ch:synthesis-where-technical-possibility-meets-organisational-reality}
 
@@ -366,7 +371,7 @@ Lorem impsum...
 % 210 words -- identify which theoretical perspectives best explain the challenge your research addresses and justify your choices
 
 
-%--------C.7  Conceptual Framework and Research Questions  --------
+%--------C.8  Conceptual Framework and Research Questions - 500 words approx  --------
 \chapter{Conceptual Framework and Research Questions}  
 \label{ch:conceptual-framework-and-research-questions}
 
@@ -386,7 +391,7 @@ Lorem impsum...
 % 210 words -- present your four sub-questions in light of the literature, with any refinements the reading has prompted
 
 
-%--------C.8  Conclusions  --------
+%--------C.9  Conclusions  --------
 \chapter{Conclusions }  
 \label{ch:conclusions}
 

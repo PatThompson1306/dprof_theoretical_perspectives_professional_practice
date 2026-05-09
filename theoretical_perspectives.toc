@@ -1,0 +1,42 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Research context}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Purpose and scope of the paper}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Literature Search Strategy and Methodology}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Review Methodology and Rationale}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tools and software}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Search approach and databases}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Keywords and search terms}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{15}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Results and filtering process}{16}{section.2.6}%
+\contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The grooming to contact offending pathway}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The case for technological intervention}{18}{section.3.2}%
+\contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}NLP applications in public services}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The data provenance problem}{19}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Policing as a technology consumer}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{20}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Structural fragmentation as an implementation barrier}{20}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Ethical considerations in AI-driven safeguarding}{21}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{21}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data protection and privacy}{21}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{21}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{22}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The convergence problem}{22}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Inductive and deductive reasoning across the two tracks}{22}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Towards a theoretical position}{22}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{23}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{23}{section.8.1}%
+\contentsline {section}{\numberline {8.2}How the literature has shaped the framework}{23}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Refined research aim and sub-questions}{23}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Conclusions }{24}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Summary of the argument}{24}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Implications for professional practice}{24}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Next steps}{24}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Patch One - Upload and Feedback}{26}{chapter.A}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Patch one uploads, feedback and peer review}}{27}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{34}{chapter.B}%
