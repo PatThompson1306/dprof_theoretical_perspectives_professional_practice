@@ -10,9 +10,10 @@
 \contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{10}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Results and filtering process}{10}{section.2.6}%
 \contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The scale of CSA reporting and the demand on policing}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The grooming to contact offending pathway}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}The case for technological intervention - Identifying the research opportunity}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.1}The scale of CSA reporting}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The demand on law enforcement}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The grooming to contact offending pathway}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The case for technological intervention - Identifying the research opportunity}{14}{section.3.4}%
 \contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}NLP applications in public services}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{15}{section.4.2}%
