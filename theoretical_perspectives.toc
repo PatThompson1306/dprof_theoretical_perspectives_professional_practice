@@ -13,38 +13,38 @@
 \contentsline {section}{\numberline {3.1}The scale of CSA reporting}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The demand on law enforcement}{14}{section.3.2}%
 \contentsline {section}{\numberline {3.3}The grooming to contact offending pathway}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}The case for technological intervention - Identifying the research opportunity}{14}{section.3.4}%
-\contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}NLP applications in public services}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{15}{section.4.2}%
-\contentsline {section}{\numberline {4.3}The data provenance problem}{15}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{16}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Policing as a technology consumer}{16}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{16}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{16}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Structural fragmentation as an implementation barrier}{16}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Ethical considerations in AI-driven safeguarding}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{17}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Data protection and privacy}{17}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{17}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{18}{chapter.7}%
-\contentsline {section}{\numberline {7.1}The convergence problem}{18}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Inductive and deductive reasoning across the two tracks}{18}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Towards a theoretical position}{18}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{19}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{19}{section.8.1}%
-\contentsline {section}{\numberline {8.2}How the literature has shaped the framework}{19}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Refined research aim and sub-questions}{19}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Conclusions }{20}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Summary of the argument}{20}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Implications for professional practice}{20}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Next steps}{20}{section.9.3}%
-\contentsline {chapter}{\numberline {A}Search Matrix}{22}{chapter.A}%
-\contentsline {section}{\numberline {A.1}\ignorespaces {Literature Search Strategy}}{23}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Search Terms and Boolean Operators}{25}{chapter.B}%
-\contentsline {section}{\numberline {B.1}\ignorespaces {Search Terms and Boolean Operators}}{26}{section.B.1}%
-\contentsline {chapter}{\numberline {C}Inclusion and Exclusion Criteria}{28}{chapter.C}%
-\contentsline {section}{\numberline {C.1}\ignorespaces {Inclusion and Exclusion Criteria}}{29}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Patch One - Upload and Feedback}{30}{chapter.D}%
-\contentsline {section}{\numberline {D.1}\ignorespaces {Patch one uploads, feedback and peer review}}{31}{section.D.1}%
-\contentsline {chapter}{\numberline {E}Patch Two - Upload and Feedback}{38}{chapter.E}%
+\contentsline {section}{\numberline {3.4}The case for technological intervention - Identifying the research opportunity}{15}{section.3.4}%
+\contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}NLP applications in public services}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The data provenance problem}{16}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Policing as a technology consumer}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{17}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{17}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Structural fragmentation as an implementation barrier}{17}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Ethical considerations in AI-driven safeguarding}{18}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data protection and privacy}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{18}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{19}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The convergence problem}{19}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Inductive and deductive reasoning across the two tracks}{19}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Towards a theoretical position}{19}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{20}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{20}{section.8.1}%
+\contentsline {section}{\numberline {8.2}How the literature has shaped the framework}{20}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Refined research aim and sub-questions}{20}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Conclusions }{21}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Summary of the argument}{21}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Implications for professional practice}{21}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Next steps}{21}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Search Matrix}{23}{chapter.A}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Literature Search Strategy}}{24}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Search Terms and Boolean Operators}{26}{chapter.B}%
+\contentsline {section}{\numberline {B.1}\ignorespaces {Search Terms and Boolean Operators}}{27}{section.B.1}%
+\contentsline {chapter}{\numberline {C}Inclusion and Exclusion Criteria}{29}{chapter.C}%
+\contentsline {section}{\numberline {C.1}\ignorespaces {Inclusion and Exclusion Criteria}}{30}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Patch One - Upload and Feedback}{31}{chapter.D}%
+\contentsline {section}{\numberline {D.1}\ignorespaces {Patch one uploads, feedback and peer review}}{32}{section.D.1}%
+\contentsline {chapter}{\numberline {E}Patch Two - Upload and Feedback}{39}{chapter.E}%
