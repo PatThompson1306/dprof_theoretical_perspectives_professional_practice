@@ -9,42 +9,43 @@
 \contentsline {section}{\numberline {2.4}Keywords and search terms}{10}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{10}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Results and filtering process}{10}{section.2.6}%
-\contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The scale of CSA reporting}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The demand on law enforcement}{14}{section.3.2}%
-\contentsline {section}{\numberline {3.3}The grooming to contact offending pathway}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}The case for technological intervention - Identifying the research opportunity}{15}{section.3.4}%
-\contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}NLP applications in public services}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}The data provenance problem}{16}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Policing as a technology consumer}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{17}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{17}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Structural fragmentation as an implementation barrier}{17}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Ethical considerations in AI-driven safeguarding}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{18}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Data protection and privacy}{18}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{18}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{19}{chapter.7}%
-\contentsline {section}{\numberline {7.1}The convergence problem}{19}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Inductive and deductive reasoning across the two tracks}{19}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Towards a theoretical position}{19}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{20}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{20}{section.8.1}%
-\contentsline {section}{\numberline {8.2}How the literature has shaped the framework}{20}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Refined research aim and sub-questions}{20}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Conclusions }{21}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Summary of the argument}{21}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Implications for professional practice}{21}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Next steps}{21}{section.9.3}%
-\contentsline {chapter}{\numberline {A}Search Matrix}{23}{chapter.A}%
-\contentsline {section}{\numberline {A.1}\ignorespaces {Literature Search Strategy}}{24}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Search Terms and Boolean Operators}{26}{chapter.B}%
-\contentsline {section}{\numberline {B.1}\ignorespaces {Search Terms and Boolean Operators}}{27}{section.B.1}%
-\contentsline {chapter}{\numberline {C}Inclusion and Exclusion Criteria}{29}{chapter.C}%
-\contentsline {section}{\numberline {C.1}\ignorespaces {Inclusion and Exclusion Criteria}}{30}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Patch One - Upload and Feedback}{31}{chapter.D}%
-\contentsline {section}{\numberline {D.1}\ignorespaces {Patch one uploads, feedback and peer review}}{32}{section.D.1}%
-\contentsline {chapter}{\numberline {E}Patch Two - Upload and Feedback}{39}{chapter.E}%
+\contentsline {section}{\numberline {2.7}Reflections on the search and filtering process}{12}{section.2.7}%
+\contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The scale of CSA reporting}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The demand on law enforcement}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The grooming to contact offending pathway}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The case for technological intervention - Identifying the research opportunity}{17}{section.3.4}%
+\contentsline {chapter}{\numberline {4}NLP and AI in Safeguarding and Criminal Justice Contexts}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}NLP applications in public services}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Computational approaches to grooming language detection}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The data provenance problem}{18}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Policing as a technology consumer}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{19}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Structural fragmentation as an implementation barrier}{19}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Ethical considerations in AI-driven safeguarding}{20}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{20}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data protection and privacy}{20}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{20}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The convergence problem}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Inductive and deductive reasoning across the two tracks}{21}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Towards a theoretical position}{21}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{22}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{22}{section.8.1}%
+\contentsline {section}{\numberline {8.2}How the literature has shaped the framework}{22}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Refined research aim and sub-questions}{22}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Conclusions }{23}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Summary of the argument}{23}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Implications for professional practice}{23}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Next steps}{23}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Search Matrix}{25}{chapter.A}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Literature Search Strategy}}{26}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Search Terms and Boolean Operators}{28}{chapter.B}%
+\contentsline {section}{\numberline {B.1}\ignorespaces {Search Terms and Boolean Operators}}{29}{section.B.1}%
+\contentsline {chapter}{\numberline {C}Inclusion and Exclusion Criteria}{31}{chapter.C}%
+\contentsline {section}{\numberline {C.1}\ignorespaces {Inclusion and Exclusion Criteria}}{32}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Patch One - Upload and Feedback}{33}{chapter.D}%
+\contentsline {section}{\numberline {D.1}\ignorespaces {Patch one uploads, feedback and peer review}}{34}{section.D.1}%
+\contentsline {chapter}{\numberline {E}Patch Two - Upload and Feedback}{41}{chapter.E}%

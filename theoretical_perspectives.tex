@@ -26,6 +26,7 @@
 \usepackage{longtable}
 \usepackage{ragged2e}
 \usepackage[patch=none]{microtype}
+\usepackage{tabularx} 
 
 % Colour, boxes and lists
 \usepackage{xcolor}
@@ -37,7 +38,7 @@
 % Commenting
 \usepackage{comment}
 
-% Colour palette 
+% Colour palette - used on docs in appendices as images 
 \definecolor{track1}{RGB}{44,74,110}
 \definecolor{track2}{RGB}{58,90,58}
 \definecolor{track3}{RGB}{110,58,44}
@@ -67,9 +68,9 @@
 \usepackage{amsmath,amssymb,amsthm}
 
 % URLs and hyperlinks
-\usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
 \usepackage{bookmark}
+\usepackage{xurl}
 \Urlmuskip=0mu plus 1mu\relax
 
 % Code listings
@@ -181,7 +182,7 @@ The four thematic research areas are as follows:
 
 \begin{enumerate}
   \item What linguistic precursors of contact sex offending exist in offender-victim conversations?
-  \item Which \gls{nlp} methods can be most effectively realised within policing infrastructure?
+  \item Which \gls{nlp} methods can beused to identify these precursors and be most effectively realised within policing infrastructure?
   \item What implementation barriers exist within policing that may hinder NLP adoption?
   \item What strategies can be developed to overcome those barriers?
 \end{enumerate}
@@ -209,9 +210,9 @@ This literature review adopts a systematic integrative approach.  \citet{snyder2
 
 The interdisciplinary nature of this research, noted in section \ref{sec:purpose-and-scope-of-the-paper}, necessitates a review methodology that can accommodate multiple perspectives and evidence types.  An integrative design as defined by \citet{torraco2016writing} and \citet{torraco2005writing} allows for a review and synthesis across domains, building a conceptual framework which seeks to unify the disparate domains into a framework for operationalising and implementing an \gls{nlp} solution into a safeguarding \gls{csa} context.
 
-A systematic approach is layered into this integrative approach to allow for a targeted and transparent search and selection process in reviewing the evidence, ensuring that the review is both comprehensive and replicable.  This systematic layer is particularly important given the breadth of this review, which spans technical, organisational and ethical domains, each with their own bodies of literature and evidence types.  \citet{whittemore2005integrative} identifies that by adding a systematic approach to an integrative review, findings and subsequent synthesis across domains can lead to the delivery of evidence based practice improvements.
+A systematic approach is layered into this integrative approach to allow for a targeted and transparent search and selection process in reviewing the evidence, ensuring that the review is both comprehensive and replicable.  This systematic layer is particularly important given the breadth of this review, which spans technical, organisational and ethical domains, each with their own bodies of literature and evidence types.  \citet{whittemore2005integrative} identify that by adding a systematic approach to an integrative review, findings and subsequent synthesis across domains can lead to the delivery of evidence based practice improvements.
 
-From an academic perspective, a doctoral literature review needs to be defensible and reproducible.  Whilst the integrative approach allows for synthesis and framework development, a layered systematic approach ensures reproducibility whilst adding a counter balance to my own personal biases and my tendency to approach problems with a solutionist mindset.
+From an academic perspective, a doctoral literature review needs to be defensible and reproducible.  Whilst the integrative approach allows for synthesis and framework development, a systematic approach ensures reproducibility whilst adding a counter balance to my own personal biases and my tendency to approach problems with a solutionist mindset.
 
 \newpage
 
@@ -267,14 +268,20 @@ This process reduced the number of papers to 196.  These papers were then subjec
 
 \newpage
 
-This completed screening process resulted in a final selection of 94 papers for review.  The selection process is summarised in the \gls{prisma} diagram presented in figure \ref{fig:prisma_diagram}.
+This completed screening process resulted in a final selection of 100 papers for review.  The selection process is summarised in the \gls{prisma} diagram presented in figure \ref{fig:prisma_diagram}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio=true]{images/prisma_diagram.png}
+    \includegraphics[width=1\textwidth, height=0.6\textheight, keepaspectratio=false]{images/prisma_diagram.png}
     \caption{PRISMA diagram summarising the literature search and filtering process}
     \label{fig:prisma_diagram}
 \end{figure}
+
+\section{Reflections on the search and filtering process}
+\label{sec:reflections-on-the-search-and-filtering-process}
+The search and filtering process revealed a number of insights which have implications for this review and also for the journey towards defining the final research journey of this Professional Doctorate.
+
+The initial search return of 3,150 papers was significantly higher than anticipated, suggesting that the search strategy may have been too broad, or that the contemporary explosion of interest in \gls{ai} and \gls{nlp} has led to a large number of papers with excessively expansive key word flags.  This highlights the importance of a robust screening process to ensure that the literature included in the review is relevant and high quality, however it was quickly established that the inclusion and exclusion criteria presented in appendix \ref{app:inclusion-and-exclusion-criteria} did not provide enough generality to address the complexity of the research question.  The example shown in figure \ref{fig:obsidian-example} illustrates this challenge.  For this review, it is not believed that the \textit{sweet spot} between robust inclusion and exclusion criteria and the need for subjective judgement in the screening process has been wholly achieved.  This suggests that whilst a  systematic approach is important for ensuring transparency and reproducibility, a balance also needs to be found in applying professional experience and subjective domain experience to delivering a robust yet flexible review.
 
 %--------C.3 The Landscape of Child Sexual Exploitation and Policing's Response - 500 words approx --------
 \chapter{The Landscape of Child Sexual Exploitation and Policing's Response}  
@@ -304,15 +311,111 @@ Both academic and grey literature identify that the demand on policing resources
 
 \citet{jay2022report} suggests that the scale of known \gls{csa} demand may never be met by law enforcement, identifying that digital forensic delays and a constantly shifting set of policing priorities both impact on law enforcement's ability to tackle the issue. \citet{casey2025gbcse} adds to this summation, noting complexities around fragmented polcing systems and a lack of intelligence sharing further exacerbate the potential to tackle demand.  
 
-Whilst these comments focus on the known demand, \citet{winters2022universal} suggests that law enforcement may never have the capacity to proactively detect the grooming behaviours which may lead to the commission of sexual offences.  This is a point which is reinforced by \citet{li2020identifying} who describes the lengthy manual processes involved in identifying such behaviours and then targetting suspects in a proactive manner. 
+Whilst these comments focus on the known demand, \citet{li2020identifying} describes the lengthy manual processes involved in identifying grooming and predatory behaviours targetting suspects in a proactive manner whilst \citet{winters2022universal} suggests that law enforcement does not fully understand the complexities inherent in grooming communication which would allow for proactive detection of grooming behaviours which may lead to the commission of sexual offences.  
 
-The described grooming behaviours, and the complexities described all reflect the reality of the comments of \citet{finkelhor2024prevalence} and the findings of the \gls{csew}, that the lack of data concerning online sexual communications and abuse masks the scale of the \gls{csa} issue.  
+These complex grooming behaviours, and the demand issues described, reflect comments by \citet{finkelhor2024prevalence} and \citet{winters2022universal} and the findings of the \gls{csew}, that the true scale of \gls{csa} offending is unknown and will likely never be fully known.  This suggests that the ability for policing to proactively safeguard vulnerable children and to target offenders is limited to predominantly reacting to known demand .  This has implications for the development of technological solutions to address the gap between the prevalence of \gls{csa} and the lack of capacity to proactively prevent sexual offences from happening.
 
 \section{The grooming to contact offending pathway}
 \label{sec:the-grooming-to-contact-offending-pathway}
-Lorem impsum...
-% How online grooming precedes contact offending and why this matters for intervention design ... 
-% I need to frame this as an intervention post online to 1-2-1 conversations recorded on mobile devices, which is the data source my research focuses on
+The academic literature which describes the process of grooming a child before the commission of a sexual offence is expansive and complex.  Three contemporary grooming models have been identified from the literature;
+
+\citet{winters2017stages} provide a five stage \gls{sgm}.  This model has been subject to review and validation, \citep{winters2020validation} and has led towards the consideration by \citet{winters2022universal} of a universal definition of grooming.  The \gls{sgm} however focusses exclusively on in person grooming pathways, and does not offer insight into how grooming may occur in an online or digital context.  
+
+\citet{lorenzo-dus2016understanding} provides a staged model of grooming focussing on the online context only.  This model, entitled the \gls{ogdm}, has been expanded over time using growing corpora of conversational data, \citep{lorenzo-dus2017cause,lorenzo-dus2019your,lorenzo-dus2020communicative} and has been considered in operational law enforcement settings, \citet{swansea2023dragon}.
+
+Whilst the models presented by \citet{winters2017stages} and \citet{lorenzo-dus2016understanding} are practical in nature, \citet{elliott2017selfregulation} presents a more theoretical model of grooming, describing the process as a self-regulatory process which is influenced by both internal and external factors.  This model is less practical in nature but provides a theoretical lens through which to understand the grooming process.
+
+A summary table of these three models is presented in table \ref{tab:grooming-models}.
+
+\begingroup
+\footnotesize
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+\setlength{\tabcolsep}{4pt}
+\hbadness=10000
+\hfuzz=3pt
+\begin{longtable}{%
+  >{\RaggedRight\arraybackslash}p{3.0cm}%   Feature
+  >{\RaggedRight\arraybackslash}p{4.0cm}%   SGM
+  >{\RaggedRight\arraybackslash}p{4.0cm}%   OGDM
+  >{\RaggedRight\arraybackslash}p{4.0cm}%   SRMSG
+}
+\caption{Comparison of Three Models of Sexual Grooming}
+\label{tab:grooming-models}\\
+% --- First page header ---
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{Feature}} &
+\textcolor{white}{\textbf{Sexual Grooming Model (SGM)}} &
+\textcolor{white}{\textbf{Online Grooming Discourse Model (OGDM)}} &
+\textcolor{white}{\textbf{Self-Regulation Model of Sexual Grooming (SRMSG)}} \\
+\midrule
+\endfirsthead
+% --- Subsequent page header ---
+\multicolumn{4}{l}{\textit{Table~\ref{tab:grooming-models} continued}}\\[4pt]
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{Feature}} &
+\textcolor{white}{\textbf{Sexual Grooming Model (SGM)}} &
+\textcolor{white}{\textbf{Online Grooming Discourse Model (OGDM)}} &
+\textcolor{white}{\textbf{Self-Regulation Model of Sexual Grooming (SRMSG)}} \\
+\midrule
+\endhead
+% --- Foot (non-final pages) ---
+\midrule
+\multicolumn{4}{r}{\textit{Continued on next page}}\\
+\endfoot
+% --- Foot (final page) ---
+\bottomrule
+\endlastfoot
+% ============================================================
+%  ACADEMIC SOURCES
+% ============================================================
+\cellcolor{crosslt}\textbf{Academic Sources} &
+\cellcolor{track1lt}\textcolor{track1}{Winters (2017, 2020, 2022)} &
+\cellcolor{track2lt}\textcolor{track2}{Lorenzo-Dus (2016, 2017, 2020)} &
+\cellcolor{track3lt}\textcolor{track3}{Elliott (2017)} \\[4pt]
+% ============================================================
+%  GROOMING LOCATION
+% ============================================================
+\textbf{Grooming Location} &
+Focus on in-person (offline) grooming. &
+Focus on online (computer-mediated) environments. &
+Theoretical universal model. \\[4pt]
+% ============================================================
+%  STAGES
+% ============================================================
+\cellcolor{crosslt}\textbf{Stages} &
+\cellcolor{crosslt}Five stages: (1) victim selection, (2) gaining access and isolation, (3) trust development, (4) desensitisation, and (5) post-abuse maintenance. &
+\cellcolor{crosslt}Three phases: (1) Access, (2) Entrapment, and (3) Approach. &
+\cellcolor{crosslt}Two phases: (1) Potentiality and (2) Disclosure. \\[4pt]
+% ============================================================
+%  BASIS OF MODEL
+% ============================================================
+\textbf{Basis of Model} &
+Synthesised grooming literature to identify observable and measurable behaviours, latterly validated. &
+Founded on Computer-Mediated Discourse Analysis, Speech Act Theory, and Relational Work. &
+Founded in Control Theory and self-regulation. \\[4pt]
+% ============================================================
+%  STRENGTHS
+% ============================================================
+\cellcolor{incgreen!8}\textbf{Strengths} &
+\cellcolor{incgreen!8}Intuitive and understandable to practitioners. Empirically validated via expert review. &
+\cellcolor{incgreen!8}Notes that language can be multi functional in building trust and also enabling desensitisation. Also captures the ability to scale activities to multiple potential victims. &
+\cellcolor{incgreen!8}Presents as grounded in well established theories such as Control Theory and self-regulation. \\[4pt]
+% ============================================================
+%  LIMITATIONS
+% ============================================================
+\cellcolor{excred!6}\textbf{Limitations} &
+\cellcolor{excred!6}Focusses solely on in-person (offline) grooming, thereby limiting generalisability to online contexts. &
+\cellcolor{excred!6}Focusses solely on the online context, potentially overlooking other important factors. &
+\cellcolor{excred!6}Predominantly a theoretical model which requires validation. Potentially too abstract for practical application. \\[4pt]
+\end{longtable}
+\endgroup
+
+\section{Synthesising the existing grooming models}
+\label{sec:synthesising-the-existing-grooming-models}
+% Taken together, these models establish that grooming follows identifiable, staged linguistic patterns in both offline and online contexts — but a validated framework applicable to genuine, operationally-sourced digital conversation data does not yet exist
 
 \section{The case for technological intervention - Identifying the research opportunity}
 \label{sec:the-case-for-technological-intervention}
