@@ -28,3 +28,11 @@ T1 NotebookLM - https://notebooklm.google.com/notebook/055b3d40-2139-4be0-9526-b
 Command for inbuilt TexCount
 ----------------------------
 texcount -inc -sum -0 "C:\Users\UserPC\My Drive\research\papers\theoretical_perspectives\submission_paper\theoretical_perspectives.tex"
+
+Grooming Phases
+---------------
+developing children's trust
+separating them from their support networks
+determining how likely they are to go along with the behaviour being proposed to them
+introducing sexual content
+(in the case of so-called “contact-driven groomers”) arranging offline contact for sexual purposes
