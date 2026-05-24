@@ -1,0 +1,49 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Research context}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Purpose and scope of the paper}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Literature Search Strategy and Methodology}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Review Methodology and Rationale}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tools and software}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Search approach and databases}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Keywords and search terms}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Results and filtering process}{10}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Reflections on the search and filtering process}{12}{section.2.7}%
+\contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The scale of CSA reporting}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The demand on law enforcement}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The grooming to contact offending pathway}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Synthesising the existing grooming models}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.5}The case for technological intervention - Identifying the research opportunity}{17}{section.3.5}%
+\contentsline {chapter}{\numberline {4}NLP and Computational Approaches to Grooming Detection}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Transformer architecture. A technical baseline}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Scoping the classification challenge}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The data provenance challenge}{18}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Structural fragmentation and cultural resistance to change in policing}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{19}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Ethical and governance considerations}{20}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{20}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data protection and privacy}{20}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{20}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Points of convergence and tension}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Cross thematic inductive and deductive reasoning}{21}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{22}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{22}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Refined research aim and sub-questions}{22}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Conclusions }{23}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Summary of the argument}{23}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Implications for professional practice}{23}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Next steps}{23}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Search Matrix}{25}{chapter.A}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Literature Search Strategy}}{26}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Search Terms and Boolean Operators}{28}{chapter.B}%
+\contentsline {section}{\numberline {B.1}\ignorespaces {Search Terms and Boolean Operators}}{29}{section.B.1}%
+\contentsline {chapter}{\numberline {C}Inclusion and Exclusion Criteria}{31}{chapter.C}%
+\contentsline {section}{\numberline {C.1}\ignorespaces {Inclusion and Exclusion Criteria}}{32}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Patch One - Upload and Feedback}{33}{chapter.D}%
+\contentsline {section}{\numberline {D.1}\ignorespaces {Patch one uploads, feedback and peer review}}{34}{section.D.1}%
+\contentsline {chapter}{\numberline {E}Patch Two - Upload and Feedback}{41}{chapter.E}%
