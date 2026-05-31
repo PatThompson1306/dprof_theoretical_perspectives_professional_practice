@@ -1,9 +1,9 @@
-9th May - 1728 words meaning 3722 words remaining.  On words vs days, this is 50 / day
---------------------------------------------------------------------------------------
-
-(1) 30th May -- 21 days to upload patch 2 content
-(2) 26th June -- Presentation deadline is in 46 days
-(3) 3rd Aug -- Final deadline is in 85 days (accepting early submission for holiday)
+DEADLINES
+---------
+30th May -- Patch 2 content upload
+13th June -- Patch 2 content comments
+26th June -- Presentation deadline is in 46 days
+3rd Aug -- Final deadline is in 85 days (accepting early submission for holiday)
 
 
 PLAN
@@ -23,11 +23,14 @@ PLAN
 					   
 27th July to 3rd Aug = Conclusion / Abstract / tidy up and submission!
 
-T1 NotebookLM - https://notebooklm.google.com/notebook/055b3d40-2139-4be0-9526-b0008cfe3631 
 
 Command for inbuilt TexCount
 ----------------------------
 texcount -inc -sum -0 "C:\Users\UserPC\My Drive\research\papers\theoretical_perspectives\submission_paper\theoretical_perspectives.tex"
+
+
+NOTES
+-----
 
 Grooming Phases
 ---------------
@@ -36,3 +39,22 @@ separating them from their support networks
 determining how likely they are to go along with the behaviour being proposed to them
 introducing sexual content
 (in the case of so-called “contact-driven groomers”) arranging offline contact for sexual purposes
+
+IDEA
+----
+Phase 1 – Understanding How Groomers Operate
+--------------------------------------------
+Before building any technology, the research starts by getting the theory right. This phase involves deeply studying existing criminological research to understand how online groomers behave — particularly the difference between offenders who use the internet as a tool to arrange real-world meetings with children versus those who operate purely online. The goal is to produce a clear map of the "warning signs" that a conversation is escalating toward an actual offline meeting, drawing on what police and researchers already know about how these offenders communicate and operate. Think of this as building the expert knowledge base that everything else will be built on top of.
+
+Phase 2 – Analysing How These Conversations Actually Sound
+----------------------------------------------------------
+With that theoretical map in hand, the research then gets into the actual language used in these conversations. By analysing real or realistic chat logs, the study looks closely at the specific words, phrases, and conversation patterns that appear when a groomer is pushing toward a real-world meeting — things like references to locations, requests for secrecy, or the way an offender gradually mirrors a child's language to build false trust. Importantly, this phase looks at both sides of the conversation, not just what the offender says but how the victim responds, because the dynamic between the two is significant. The output is essentially a detailed dictionary of linguistic red flags, grounded in the criminological knowledge from Phase 1.
+
+Phase 3 – Teaching a Computer to Spot It and Explain Why
+--------------------------------------------------------
+The final phase takes everything learned in the first two and uses it to build an AI-powered detection tool. The system is trained to read through chat conversations and identify the specific warning signs identified in Phases 1 and 2, flagging when a conversation appears to be crossing from online exploitation into active planning for a real-world meeting. Crucially — and this is what makes it different from existing tools — when it raises an alert it doesn't just say "this looks dangerous." It explains why, in plain language that maps back to the criminological and linguistic evidence, so that a law enforcement analyst can quickly understand what they are looking at and make an informed decision about prioritisation. The aim is a practical triage tool that helps investigators manage overwhelming caseloads more effectively.
+
+Phase 4 – Getting the Tool into the Hands of Police
+---------------------------------------------------
+The final phase is about taking the working system out of the research environment and testing whether it can function in the real world of policing. This starts by working directly with law enforcement analysts to understand how they actually do their jobs and what a useful tool looks like in practice, then running a carefully supervised pilot where the system operates alongside existing workflows rather than replacing them — so that analyst judgement always remains in control. At the same time the research addresses the significant governance and legal questions that come with deploying any AI system in a policing context, ensuring the tool meets data protection requirements, is legally defensible, and includes clear accountability for when it gets things wrong. Finally the phase measures whether the tool actually makes a meaningful difference in practice — does it genuinely help analysts work through overwhelming caseloads faster, does it surface cases that might have been missed, and do its explanations hold up under the scrutiny of real operational use. The ultimate goal is not a finished product but a rigorously evidenced proof of concept that demonstrates the tool is ready for serious consideration as an operational asset in the fight against child sexual exploitation.
+

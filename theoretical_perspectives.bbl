@@ -9,6 +9,11 @@ Ariel, B. \harvardand\ Bland, M.  \harvardyearleft 2019\harvardyearright , `Is
 Basu, A.  \harvardyearleft 2020\harvardyearright , `What is zettelkasten and
   how to write "papers" using zettelkasten?'.
 
+\harvarditem{Belcic}{2024}{belcic2024what}
+Belcic, I.  \harvardyearleft 2024\harvardyearright , `What is
+  {{Classification}} in {{Machine Learning}}? \textbar{} {{IBM}}',
+  https://www.ibm.com/think/topics/classification-machine-learning.
+
 \harvarditem{Casey}{2025}{casey2025gbcse}
 Casey, L.  \harvardyearleft 2025\harvardyearright , `National {{Audit}} on
   {{Group-Based}} {{Child Sexual Exploitation}} and {{Abuse}}'.
@@ -42,6 +47,16 @@ Jay, A., Evans, M.~D., Frank, I. \harvardand\ Sharpling, D.  \harvardyearleft
   2022\harvardyearright , {\em The report of the independent inquiry into child
   sexual abuse: a report of the {{Inquiry Panel}}}, His Majesty's Stationery
   Office, London.
+
+\harvarditem[{Jose Gonzalez-Gomez} et~al.]{{Jose Gonzalez-Gomez}, {Margarita
+  Hernandez-Munoz}, Borja, Daniel~Azofeifa, Noguez \harvardand\
+  Caratozzolo}{2024}{josegonzalez-gomez2024analyzing}
+{Jose Gonzalez-Gomez}, L., {Margarita Hernandez-Munoz}, S., Borja, A.,
+  Daniel~Azofeifa, J., Noguez, J. \harvardand\ Caratozzolo, P.
+  \harvardyearleft 2024\harvardyearright , `Analyzing {{Natural Language
+  Processing Techniques}} to {{Extract Meaningful Information}} on {{Skills
+  Acquisition From Textual Content}}', {\em IEEE Access} {\bf
+  12},~139742--139757.
 
 \harvarditem{Kassem \harvardand\ Erken}{2025}{kassem2025their}
 Kassem, R. \harvardand\ Erken, E.  \harvardyearleft 2025\harvardyearright , `In
@@ -146,6 +161,14 @@ Torraco, R.~J.  \harvardyearleft 2016\harvardyearright , `Writing {{Integrative
   Literature Reviews}}: {{Using}} the {{Past}} and {{Present}} to {{Explore}}
   the {{Future}}', {\em Human Resource Development Review} {\bf
   15}(4),~404--428.
+
+\harvarditem[Vaswani et~al.]{Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  ukasz Kaiser \harvardand\ Polosukhin}{2017}{vaswani2017attention}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  ukasz Kaiser, {\L}. \harvardand\ Polosukhin, I.  \harvardyearleft
+  2017\harvardyearright , Attention is {{All}} you {{Need}}, {\em in} `Advances
+  in {{Neural Information Processing Systems}}', Vol.~30, Curran Associates,
+  Inc.
 
 \harvarditem{{VKPP}}{2025}{vkpp2025national}
 {VKPP}  \harvardyearleft 2025\harvardyearright , `National {{Analysis}} of

@@ -428,30 +428,37 @@ None of the presented models leverage real operational data taken from a law enf
 \label{sec:the-case-for-technological-intervention}
 The work of \citet{winters2016knew,winters2017stages} identify the difficulties inherent in human identification of grooming content.  These observations are compounded by \citet{li2020identifying} who notes the lengthy periods that are spent by law enforcement in reviewing suspect chat logs, often in circumstances after a contact offence as occured.
 
-The difficulty in identifying grooming content, the lengthy review processes and the increasing demand on law enforcement resources suggest that there is a significant opportunity for technological intervention to enhance proactive safeguarding opportunities.  The technical advancement of the application of computational linguistics by \cite{lorenzo-dus2016understanding, lorenzo-dus2017cause} provides an insight into ow how a tecnical solution may be developed, however their work is limited by the use of the Perverted Justice data set.
-
-The absence of models grounded in real offender-victim conversational data, capable of identifying linguistic patterns that precede contact offending, and applicable within the operational constraints of policing, represents a significant gap in both the academic literature and professional practice. 
-
-It is this gap that defines the research opportunity this paper seeks to address,continuing with chapter \ref{ch:nlp-and-computational-approaches-to-grooming-detection} which considers the technical landscape of \gls{ai} and \gls{nlp} in the \gls{csa} context.
+The difficulty in identifying grooming content, the lengthy review processes and the increasing demand on law enforcement resources suggests that there is a significant opportunity for technological intervention to enhance proactive safeguarding opportunities.  The technical advancement of the application of computational linguistics by \cite{lorenzo-dus2016understanding, lorenzo-dus2017cause} provides an insight into ow how a tecnical solution may be developed to address these challenges.  Chapter \ref{ch:nlp-and-computational-approaches-to-grooming-detection} considers the technical landscape of \gls{ai} and \gls{nlp} in the \gls{csa} context and begins the synthesis of the four research tracks by considering the technical feasibility of an \gls{nlp} solution to identify precursors of contact offending in offender-victim conversations.
 
 
 %--------C.4  NLP and AI in the grooming contexts - 500 words approx --------
 \chapter{NLP and Computational Approaches to Grooming Detection}  
 \label{ch:nlp-and-computational-approaches-to-grooming-detection}
+This chapter considers the technical landscape of \gls{ai} and \gls{nlp}, initially from a general perspective, before narrowing to the specific application of these technologies to the \gls{csa} context.  The chapter critically reviews the existing literature on \gls{nlp} applications in the \gls{csa} space and then reflects on the data provenance challenge, noting the limitations of the Perverted Justice dataset and the need for real world data to develop a model which is operationally deployable.  The chapter concludes by considering the interpretability and operational gap, noting that whilst technical capability may exist, there is a significant gap in understanding how to translate that capability into an operational solution which can be deployed within policing infrastructure.
 
+\section{Natural language processing. A technical baseline}
+\label{sec:natural-language-processing-a-technical-baseline}
+% Transformer architecture as the technical baseline; 2018 as the inflection point 
+\gls{nlp} is defined by \citet{josegonzalez-gomez2024analyzing} as a subset of \gls{ai} which \textit{works with text processing capabilities to understand texts like humans do}.
 
-\section{Transformer architecture. A technical baseline}
-\label{sec:transformer-architecture-a-technical-baseline}
-% Transformer architecture as the technical baseline; 2018 as the inflection point [
-lorem impsum...
+Amongst the many use cases which can be applied to \gls{nlp} technologies, the concept of text classification is relevance to this research.  Text classification is an established \gls{ml} methodology whereby algorithms are trained on labelled data to categorise text into predefined classes.  The trained algorithm can then be applied to new, unseen text to predict the appropriate category based on learned patterns and features, \citep{belcic2024what,josegonzalez-gomez2024analyzing}.
 
-\section{Scoping the classification challenge}
-\label{sec:scoping-the-classification-challenge}
+Whilst text classification is a well established \gls{ml} process, the technical landscape of \gls{nlp} has been transformed int he last ten years by the development of transformer architecture, \citep{vaswani2017attention}.  The transformer architecture takes traditional \gls{ml} approaches to \gls{nlp}, which largely followed a sequential processing approach and replaces it with a parallel processing approach, allowing for the simultaneous processing of all words in a sentence or document.  This allows for the capture of contextual relationships between words, which is critical for understanding the meaning of text.
+
+The transformer architecture is the foundation for \gls{llm} technologies which take the transformer architecture and scale it with large volumes of data and computational power to create algorithmic systems which can understand and generate human language with a high degree of accuracy, \citep{khanna2024evolution, raiaan2024review}.
+
+\section{Classification in the grooming context}
+\label{sec:classification-in-the-grooming-context}
 % Considering the classification challenge: binary vs multi class, sequence labelling vs document classification, and the implications for model development and operational deployment ...
 lorem impsum...
 
 \section{The data provenance challenge}
 \label{sec:the-data-provenance-challenge}
+% The data provenance challenge: the limitations of the Perverted Justice dataset, the need for real world data, and the ethical and practical challenges of obtaining such data ...
+lorem impsum...
+
+\section{From Detection to Understanding: The Interpretability and Operational Gap}
+\label{sec:from-detection-to-understanding-the-interpretability-and-operational-gap}
 % The data provenance challenge: the limitations of the Perverted Justice dataset, the need for real world data, and the ethical and practical challenges of obtaining such data ...
 lorem impsum...
 
