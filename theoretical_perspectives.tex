@@ -418,7 +418,7 @@ The models presented in table \ref{tab:grooming-models} all identify that the gr
 
 Each of the models offers are supported by degrees of rigor, with the \gls{sgm} being empirically validated by experts in the \gls{csa} field, the \gls{ogdm} leaning into the computational linguistics and grounding itself in Speech Act Theory, \citet{lorenzo-dus2016understanding, lorenzo-dus2017cause}, and the \gls{srmsg}, presenting as a theoretical model grounded in Control Theory, \citet{elliott2017selfregulation}.
 
-Whilst these models advance scholarly understanding of the grooming process, they are incommensurable.  The \gls{sgm} concerns itself entirely with in-person grooming and, whilst validated by experts, is based on fictional "vignettes" and not on real world data.  The \gls{ogdm} focusses on the online grooming context only, using chat data captured from the well known open source data set presented by the Perverted Justice Foundation; http://www.pjfi.org/.  This data set, collected between 2004 and 2016 presents adult-decoy interactions with online offenders, potentially missing the nuance and language that may be present between an adult groomer and a child victim.  The \gls{srmsg} is a theoretical model which synthesises previous models and is grounded in Control Theory, but it does not offer practical insights into the grooming process and is not based on real world data.
+Whilst these models advance scholarly understanding of the grooming process, they are incommensurable.  The \gls{sgm} concerns itself entirely with in-person grooming and, whilst validated by experts, is based on fictional "vignettes" and not on real world data.  The \gls{ogdm} focusses on the online grooming context only, using chat data captured from the well known open source data set presented by the \gls{pj} Foundation; http://www.pjfi.org/.  This data set, collected between 2004 and 2016 presents adult-decoy interactions with online offenders, potentially missing the nuance and language that may be present between an adult groomer and a child victim.  The \gls{srmsg} is a theoretical model which synthesises previous models and is grounded in Control Theory, but it does not offer practical insights into the grooming process and is not based on real world data.
 
 The difficulty in synthesising these models can be seen in the effort by \citet{winters2022universal} who attempt to produce a universal definition of sexual grooming.  They produce a definition based on a systematic review of thirteen preceding definitions, however their concluded definition text is grounded in their \gls{sgm} and so is inherently biased towards in-person grooming. 
 
@@ -434,7 +434,7 @@ The difficulty in identifying grooming content, the lengthy review processes and
 %--------C.4  NLP and AI in the grooming contexts - 500 words approx --------
 \chapter{NLP and Computational Approaches to Grooming Detection}  
 \label{ch:nlp-and-computational-approaches-to-grooming-detection}
-This chapter considers the technical landscape of \gls{ai} and \gls{nlp}, initially from a general perspective, before narrowing to the specific application of these technologies to the \gls{csa} context.  The chapter critically reviews the existing literature on \gls{nlp} applications in the \gls{csa} space and then reflects on the data provenance challenge, noting the limitations of the Perverted Justice dataset and the need for real world data to develop a model which is operationally deployable.  The chapter concludes by considering the interpretability and operational gap, noting that whilst technical capability may exist, there is a significant gap in understanding how to translate that capability into an operational solution which can be deployed within policing infrastructure.
+This chapter considers the technical landscape of \gls{ai} and \gls{nlp}, initially from a general perspective, before narrowing to the specific application of these technologies to the \gls{csa} context.  The chapter critically reviews the existing literature on \gls{nlp} applications in the \gls{csa} space and then reflects on the data provenance challenge, noting the limitations of the \gls{pj} dataset and the need for real world data to develop a model which is operationally deployable.  The chapter concludes by considering the interpretability and operational gap, noting that whilst technical capability may exist, there is a significant gap in understanding how to translate that capability into an operational solution which can be deployed within policing infrastructure.
 
 \section{Natural language processing. A technical baseline}
 \label{sec:natural-language-processing-a-technical-baseline}
@@ -450,7 +450,97 @@ The transformer architecture is the foundation for \gls{llm} technologies which 
 \section{Classification in the grooming context}
 \label{sec:classification-in-the-grooming-context}
 % Considering the classification challenge: binary vs multi class, sequence labelling vs document classification, and the implications for model development and operational deployment ...
-lorem impsum...
+As early as 2012, computer scientists were exploring the application of \gls{ml} and \gls{nlp} techniques to the detection of grooming content in online conversations, \citep{inches2012overview}.  Since then, there has been a growing body of technical research in this area, with a predominent focus on classifying text content as either being indicative of \text{grooming} or \text{not grooming}.
+
+\citet{leiva-bianchi2025effectiveness} provides a recent systematic review of the published literature which tackles the grooming classification problem identifying relevant \gls{ml} algorithms used, the datasets which fed that classification process and the effectiveness of the algorithms.  This summary is presented in table \ref{tab:nlp-studies-summary}.  It is immeciately apparent that the \gls{pj} dataset, and derivatives of it noted as PAN12 or PAN13, is the predominant data source for this research, with a significant number of studies using this dataset to train and test their algorithms.  This dataset is noted previously in section \ref{sec:synthesising-the-existing-grooming-models} as being a dataset of adult-decoy interactions with online offenders.  Further considerations around this dataset and the need for real world data are explored in section \ref{sec:the-data-provenance-challenge}.
+
+\begin{table}[ht]
+\centering
+\caption{Summary of reviewed studies - Acronyms and abbreviations defined in the table header}
+\label{tab:nlp-studies-summary}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\hfuzz=9pt
+\begin{tabular}{p{3.5cm} p{4.2cm} p{3.0cm} p{2.2cm} p{1.2cm}}
+    \multicolumn{5}{p{\linewidth}}{%
+    \textit{Abbreviations:}
+    \acrshort{ab} = \acrlong{ab};
+    \acrshort{bert} = \acrlong{bert};
+    \acrshort{bilstm} = \acrlong{bilstm};
+    \acrshort{blstm} = \acrlong{blstm};
+    \acrshort{bpnn} = \acrlong{bpnn};
+    \acrshort{cnn} = \acrlong{cnn};
+    \acrshort{dt} = \acrlong{dt};
+    \acrshort{gb} = \acrlong{gb};
+    \acrshort{gru} = \acrlong{gru};
+    \acrshort{knn} = \acrlong{knn};
+    \acrshort{logr} = \acrlong{logr};
+    \acrshort{lr} = \acrlong{lr};
+    \acrshort{lstm} = \acrlong{lstm};
+    \acrshort{mlp} = \acrlong{mlp};
+    \acrshort{nb} = \acrlong{nb};
+    \acrshort{pj} = \acrlong{pj};
+    \acrshort{rf} = \acrlong{rf};
+    \acrshort{ridge} = \acrlong{ridge};
+    \acrshort{rnn} = \acrlong{rnn};
+    \acrshort{svm} = \acrlong{svm};
+    \acrshort{svn} = \acrlong{svn}.
+}\\[4pt]
+\toprule
+\textbf{Authors and Year} & \textbf{\gls{ml} Algorithm} & \textbf{Dataset} & \textbf{Metrics} & \textbf{Quality} \\
+\midrule
+Agarwal et al.\ 2022        & \acrshort{mlp}                                                                                    & \textbf{PAN12}                     & P, R, F1, F05              & High   \\
+Amuchi et al.\ 2012         & \acrshort{nb}, \acrshort{svm}                                                                     & Private Chat                       & ACC                        & Medium \\
+Anderson et al.\ 2019       & \acrshort{ab}, \acrshort{logr}, \acrshort{nb}, \acrshort{rf}, \acrshort{svm}                      & \textbf{PAN13}, \textbf{\acrshort{pj}}  & ACC                   & High   \\
+Andleeb et al.\ 2019        & \acrshort{nb}, \acrshort{svm}                                                                     & MySpace, \textbf{\acrshort{pj}}    & ACC, P, F1                 & High   \\
+Ashcroft et al.\ 2015       & \acrshort{ab}                                                                                     & \textbf{PAN12}, \textbf{PAN13}     & ACC                        & High   \\
+Bogdanova et al.\ 2014      & \acrshort{svm}                                                                                    & CYBERSEX, NPS, \textbf{\acrshort{pj}} & ACC                     & Medium \\
+Borj et al.\ 2019           & \acrshort{nb}, \acrshort{rf}, \acrshort{svm}                                                      & \textbf{PAN12}                     & ACC, P, R, F1              & High   \\
+Borj et al.\ 2020           & \acrshort{nb}, \acrshort{rf}, \acrshort{svm}                                                      & \textbf{PAN12}                     & ACC, P, R, F1, F05, F2     & High   \\
+Borj et al.\ 2021           & \acrshort{gb}                                                                                     & \textbf{PAN12}                     & ACC, F1                    & High   \\
+Borj et al.\ 2023           & \acrshort{svm}, \acrshort{rf}, \acrshort{nb}                                                      & \textbf{PAN12}                     & ACC, P, R, F1, F05         & High   \\
+Bours et al.\ 2019          & \acrshort{logr}, \acrshort{mlp}, \acrshort{nb}, \acrshort{ridge}, \acrshort{svm}                  & \textbf{PAN12}                     & P, R, F1, F05, F2          & High   \\
+Cano et al.\ 2014           & \acrshort{svm}                                                                                    & \textbf{\acrshort{pj}}             & P, R, F1                   & High   \\
+Cardei et al.\ 2017         & \acrshort{rf}, \acrshort{svm}                                                                     & \textbf{PAN12}                     & P, R, F05                  & High   \\
+Cheong et al.\ 2015         & \acrshort{dt}, \acrshort{knn}, \acrshort{logr}, \acrshort{mlp}, \acrshort{nb}, \acrshort{rf}, \acrshort{svm} & MovieStarPlanet          & ACC, P, R, F1, F05         & High   \\
+Dhouioui et al.\ 2016       & \acrshort{svm}                                                                                    & Private Chat                       & F1                         & Medium \\
+Ebrahimi et al.\ 2016       & \acrshort{cnn}, \acrshort{mlp}, \acrshort{svm}                                                    & \textbf{PAN12}                     & P, R, F1                   & High   \\
+Ebrahimi, Suen et al.\ 2016 & \acrshort{nb}, \acrshort{svm}                                                                     & \textbf{PAN12}                     & ACC, P, R, F1              & High   \\
+Faraz et al.\ 2024          & \acrshort{gb}, \acrshort{knn}, \acrshort{svm}                                                     & \textbf{PAN12}                     & ACC, P, R, F1, F2, F05     & High   \\
+Fauzi et al.\ 2020          & \acrshort{dt}, \acrshort{knn}, \acrshort{logr}, \acrshort{mlp}, \acrshort{nb}, \acrshort{rf}, \acrshort{svm} & \textbf{PAN12}           & ACC, P, R, F1, F05         & High   \\
+Fauzi et al.\ 2023          & \acrshort{svm}                                                                                    & \textbf{PAN12}                     & ACC, P, R, F1, F05         & High   \\
+Gunawan et al.\ 2016        & \acrshort{knn}, \acrshort{svm}                                                                    & LITEROKA, \textbf{\acrshort{pj}}   & ACC                        & Medium \\
+Hamzah et al.\ 2021         & \acrshort{bilstm}, \acrshort{gb}, \acrshort{gru}                                                  & Chat n/s, \textbf{PAN12}           & ACC                        & Medium \\
+Isaza et al.\ 2022          & \acrshort{cnn}                                                                                    & \textbf{PAN12}                     & ACC, P, R, F1, S           & Medium \\
+Kim et al.\ 2020            & \acrshort{rnn}                                                                                    & \textbf{PAN12}                     & P, R, F1, F05              & Medium \\
+Kirupalini et al.\ 2021     & \acrshort{ab}, \acrshort{knn}, \acrshort{nb}, \acrshort{rf}, \acrshort{svm}                       & FUGLY, IRC, \textbf{\acrshort{pj}} & ACC, P, R, F1              & High   \\
+Melleby 2023                & \acrshort{bert}                                                                                   & \textbf{PAN12}, AIBA AS            & P, R, F1                   & High   \\
+Michalopoulos et al.\ 2014  & \acrshort{knn}, \acrshort{nb}, \acrshort{svm}                                                     & \textbf{\acrshort{pj}}             & ACC                        & Medium \\
+Milon et al.\ 2022          & \acrshort{mlp}                                                                                    & IRC, \textbf{\acrshort{pj}}        & F1                         & High   \\
+Misra et al.\ 2019          & \acrshort{cnn}                                                                                    & \textbf{PAN12}, \textbf{\acrshort{pj}} & F1                     & Medium \\
+Mohammed et al.\ 2024       & \acrshort{svm}, \acrshort{nb}, \acrshort{rf}                                                      & \textbf{PAN12}                     & ACC, P, R, F1              & Medium \\
+Morris et al.\ 2013         & \acrshort{svm}                                                                                    & \textbf{PAN12}                     & P, R, F1                   & High   \\
+Munoz et al.\ 2021          & \acrshort{cnn}                                                                                    & Chat n/s, \textbf{PAN12}           & ACC, R, F1                 & High   \\
+Ngejane et al.\ 2021        & \acrshort{blstm}, \acrshort{gb}, \acrshort{logr}, \acrshort{mlp}                                  & \textbf{PAN12}                     & ACC, P, R, F1              & High   \\
+Nyrem et al.\ 2023          & \acrshort{nb}, \acrshort{dt}, \acrshort{knn}, \acrshort{logr}, \acrshort{mlp}, \acrshort{rf}      & \textbf{PAN12}                     & ACC, P, R, F1              & High   \\
+Pandey et al.\ 2012         & \acrshort{svm}                                                                                    & Omegle, \textbf{\acrshort{pj}}     & ACC                        & Medium \\
+Parapar et al.\ 2014        & \acrshort{svm}                                                                                    & \textbf{PAN12}                     & P, R, F1                   & High   \\
+Peersman et al.\ 2012       & \acrshort{svm}                                                                                    & \textbf{PAN12}                     & P, R, F1                   & High   \\
+Pranoto et al.\ 2015        & \acrshort{logr}                                                                                   & \textbf{\acrshort{pj}}             & ACC, P, R                  & Medium \\
+Preu\ss{} et al.\ 2021      & \acrshort{mlp}                                                                                    & \textbf{PAN12}                     & P, R, F05, F2              & High   \\
+Ringenberg et al.\ 2019     & \acrshort{cnn}                                                                                    & \textbf{\acrshort{pj}}             & NA                         & Medium \\
+Suhartono et al.\ 2019      & \acrshort{bpnn}                                                                                   & \textbf{\acrshort{pj}}             & ACC                        & High   \\
+Vartapetiance et al.\ 2014  & \acrshort{nb}, \acrshort{svm}, \acrshort{dt}                                                      & \textbf{PAN12}                     & P, R, F1                   & High   \\
+Vogt et al.\ 2021           & \acrshort{bert}                                                                                   & CHATCODER, \textbf{PAN12}          & P, R, F1                   & High   \\
+Waezi et al.\ 2024          & \acrshort{svn}, \acrshort{rnn}, \acrshort{lstm}, \acrshort{gru}                                   & \textbf{PAN12}                     & F2, F05                    & High   \\
+Zambrano et al.\ 2019       & \acrshort{lr}                                                                                     & \textbf{\acrshort{pj}}             & ACC                        & Medium \\
+Zuo et al.\ 2018            & \acrshort{ab}, \acrshort{logr}, \acrshort{nb}, \acrshort{rf}                                      & Chat n/s, \textbf{PAN13}           & ACC                        & Medium \\
+Zuo et al.\ 2019            & \acrshort{bpnn}                                                                                   & Chat n/s, \textbf{PAN13}           & ACC                        & Medium \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
 
 \section{The data provenance challenge}
 \label{sec:the-data-provenance-challenge}
