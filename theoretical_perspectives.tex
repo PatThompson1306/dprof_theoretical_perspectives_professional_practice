@@ -449,10 +449,9 @@ The transformer architecture is the foundation for \gls{llm} technologies which 
 
 \section{Classification in the grooming context}
 \label{sec:classification-in-the-grooming-context}
-% Considering the classification challenge: binary vs multi class, sequence labelling vs document classification, and the implications for model development and operational deployment ...
 As early as 2012, computer scientists were exploring the application of \gls{ml} and \gls{nlp} techniques to the detection of grooming content in online conversations, \citep{inches2012overview}.  Since then, there has been a growing body of technical research in this area, with a predominent focus on classifying text content as either being indicative of \text{grooming} or \text{not grooming}.
 
-\citet{leiva-bianchi2025effectiveness} provides a recent systematic review of the published literature which tackles the grooming classification problem identifying relevant \gls{ml} algorithms used, the datasets which fed that classification process and the effectiveness of the algorithms.  This summary is presented in table \ref{tab:nlp-studies-summary}.  It is immeciately apparent that the \gls{pj} dataset, and derivatives of it noted as PAN12 or PAN13, is the predominant data source for this research, with a significant number of studies using this dataset to train and test their algorithms.  This dataset is noted previously in section \ref{sec:synthesising-the-existing-grooming-models} as being a dataset of adult-decoy interactions with online offenders.  Further considerations around this dataset and the need for real world data are explored in section \ref{sec:the-data-provenance-challenge}.
+\citet{leiva-bianchi2025effectiveness} provides a recent systematic review of the published literature which tackles the grooming classification problem identifying relevant \gls{ml} algorithms used, the datasets which fed that classification process and the effectiveness of those algorithms.  This summary is presented in table \ref{tab:nlp-studies-summary}.  It is immeciately apparent that the \gls{pj} dataset, and derivatives of it, noted as PAN12 or PAN13, are the predominant data source for this research, with a significant number of studies using these datasets to train and test their algorithms.  The \gls{pj} dataset is noted in section \ref{sec:synthesising-the-existing-grooming-models} as being a dataset of adult-decoy interactions with online offenders.  Further considerations around this dataset and the need for real world data are explored in section \ref{sec:the-data-provenance-challenge}.
 
 \begin{table}[ht]
 \centering
@@ -539,6 +538,23 @@ Zuo et al.\ 2019            & \acrshort{bpnn}                                   
 \bottomrule
 \end{tabular}
 \end{table}
+
+The predominant goal across the studies shown in table \ref{tab:nlp-studies-summary} was to provide accurate classification as to whether a given message or conversation could be classified as being indicative of grooming or not.  It is notable from the commentary provided by \citet{leiva-bianchi2025effectiveness} that whilst the studies rightly concern themselves with the accuracy of classification, there is a lack of focus in grounding any accuracy metric against any theoretical grooming models such as those described in section \ref{sec:synthesising-the-existing-grooming-models}.  
+
+Some studies not captured by \citet{leiva-bianchi2025effectiveness} do seek to provide a criminological or psychological grounding to their classification approaches;
+
+\citet{hamm2025comparing} ground their grooming detection methodology in Social Exchange Theory, noting that the grooming process is one of social transactional exchange between the offender and the victim.  \citet{hamm2025comparing} use this theoretical grounding to develop a model in which positive and negative sentiment identified from message strings are used as part of the classification process. 
+
+\citet{an2025revisiting} use \gls{lct} to frame their classification approach.  \gls{lct} is a grooming framework proposed by \citet{olson2007entrapping} which ientifies a five part cyclical grooming process, shown in figure \ref{fig:luring_communication_theory}.  \cite{an2025revisiting} use \gls{lct} as the labelling basis for their classification training process.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth, height=0.5\textheight, keepaspectratio=true]{images/luring_communication_theory.png}
+    \caption{Luring Communication Theory, taken from \citet{olson2007entrapping}}
+    \label{fig:luring_communication_theory}
+\end{figure}
+
+Whilst the papers considered in table \ref{tab:nlp-studies-summary} and noted above (\citet{hamm2025comparing} and \citet{an2025revisiting}) focus predominantly on the technical aspects of grooming detection, \citet{lorenzo-dus2019your} and \citet{lorenzo-dus2020communicative} provide a more linguistically grounded approach to grooming detection.  Whilst neither paper provides a technical classification model, they do considertechnical analyisis of linguistic features using methodologies such as \gls{cads} and \gls{lwic}.
 
 
 
