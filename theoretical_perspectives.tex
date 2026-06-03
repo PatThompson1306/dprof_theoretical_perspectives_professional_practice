@@ -554,18 +554,29 @@ Some studies not captured by \citet{leiva-bianchi2025effectiveness} do seek to p
     \label{fig:luring_communication_theory}
 \end{figure}
 
-Whilst the papers considered in table \ref{tab:nlp-studies-summary} and noted above (\citet{hamm2025comparing} and \citet{an2025revisiting}) focus predominantly on the technical aspects of grooming detection, \citet{lorenzo-dus2019your} and \citet{lorenzo-dus2020communicative} provide a more linguistically grounded approach to grooming detection.  Whilst neither paper provides a technical classification model, they do considertechnical analyisis of linguistic features using methodologies such as \gls{cads} and \gls{lwic}.
+Whilst the papers considered in table \ref{tab:nlp-studies-summary} and noted above focus predominantly on the technical aspects of grooming detection, \citet{lorenzo-dus2019your} and \citet{lorenzo-dus2020communicative} provide a more linguistically grounded approach. Whilst neither paper provides a technical classification model, both employ technical analysis of linguistic features using methodologies such as \gls{cads} and \gls{lwic}, with \citet{lorenzo-dus2016understanding,lorenzo-dus2017cause,lorenzo-dus2020communicative} grounding their analysis firmly in established linguistic theory.
 
+Cumulatively however, the literature predominantly focuses on binary language classification (grooming vs. non-grooming), often without clear grounding in a criminological or psychological grooming model.
 
+Treating grooming detection as a binary classification problem reduces the grooming process to a discrete state rather than recognising it as the dynamic, escalating process described in the literature. Section \ref{sec:the-grooming-to-contact-offending-pathway} describes the \gls{sgm} and \gls{ogdm} models, both of which note a sequential progression through distinct grooming stages. This multi-stage process is similarly reflected in \citet{olson2007entrapping}'s \gls{lct} model, shown in figure \ref{fig:luring_communication_theory}.
+
+The sequential nature of the grooming process suggests that linguistic markers indicative of escalation toward contact offending may be identifiable within 
+conversational data. Yet the identification of this threshold --- the point at which an online grooming offence transitions toward physical contact --- remains underexplored in the existing literature, representing a significant gap with direct relevance to practitioner-led proactive safeguarding.
 
 \section{The data provenance challenge}
 \label{sec:the-data-provenance-challenge}
-% The data provenance challenge: the limitations of the Perverted Justice dataset, the need for real world data, and the ethical and practical challenges of obtaining such data ...
-lorem impsum...
+Table \ref{tab:nlp-studies-summary} clearly shows the predominant use of the \gls{pj} dataset across research in this area.
+
+The \gls{pj} dataset, and derivatives of it (PAN12, PAN13), are the predominant data source for the technical research in this area.  The \gls{pj} dataset is a collection of adult-decoy interactions with online offenders.  Derivatives of this data set appended non-offensive content to the decoy data to create a more comprehensive dataset.  The dataset has been the primary dataset used by academia to train and test \gls{ml} algorithms for grooming detection.  
+
+The dataset has significant limitations.  
+% Interactions between adult decoys and offenders, rather than real world interactions between offenders and child victims.  
+%This raises questions about the generalisability of any model trained on this data to real world scenarios.
+%Age of the data - collected between 2004 and 2016, the data may not reflect current online communication patterns, platforms or grooming techniques.
 
 \section{From Detection to Understanding: The Interpretability and Operational Gap}
 \label{sec:from-detection-to-understanding-the-interpretability-and-operational-gap}
-% The data provenance challenge: the limitations of the Perverted Justice dataset, the need for real world data, and the ethical and practical challenges of obtaining such data ...
+% Stuff about the interpretability gap, the operational gap, and the need for research to address these gaps in order to translate technical capability into practical solutions for policing
 lorem impsum...
 
 %--------C.5  Technology Adoption and Organisational Change in Policing - 500 words approx --------

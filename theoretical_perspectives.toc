@@ -20,31 +20,31 @@
 \contentsline {section}{\numberline {4.1}Natural language processing. A technical baseline}{19}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Classification in the grooming context}{20}{section.4.2}%
 \contentsline {section}{\numberline {4.3}The data provenance challenge}{21}{section.4.3}%
-\contentsline {section}{\numberline {4.4}From Detection to Understanding: The Interpretability and Operational Gap}{21}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Structural fragmentation and cultural resistance to change in policing}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{23}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{23}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Ethical and governance considerations}{24}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{24}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Data protection and privacy}{24}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{24}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{25}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Points of convergence and tension}{25}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Cross thematic inductive and deductive reasoning}{25}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{26}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{26}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Refined research aim and sub-questions}{26}{section.8.2}%
-\contentsline {chapter}{\numberline {9}Conclusions }{27}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Summary of the argument}{27}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Implications for professional practice}{27}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Next steps}{27}{section.9.3}%
-\contentsline {chapter}{\numberline {A}Search Matrix}{29}{chapter.A}%
-\contentsline {section}{\numberline {A.1}\ignorespaces {Literature Search Strategy}}{30}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Search Terms and Boolean Operators}{32}{chapter.B}%
-\contentsline {section}{\numberline {B.1}\ignorespaces {Search Terms and Boolean Operators}}{33}{section.B.1}%
-\contentsline {chapter}{\numberline {C}Inclusion and Exclusion Criteria}{35}{chapter.C}%
-\contentsline {section}{\numberline {C.1}\ignorespaces {Inclusion and Exclusion Criteria}}{36}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Patch One - Upload and Feedback}{37}{chapter.D}%
-\contentsline {section}{\numberline {D.1}\ignorespaces {Patch one uploads, feedback and peer review}}{38}{section.D.1}%
-\contentsline {chapter}{\numberline {E}Patch Two - Upload and Feedback}{45}{chapter.E}%
+\contentsline {section}{\numberline {4.4}From Detection to Understanding: The Interpretability and Operational Gap}{22}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Technology Adoption and Organisational Change in Policing}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Structural fragmentation and cultural resistance to change in policing}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tacit versus explicit knowledge cultures}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{24}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Ethical and governance considerations}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Algorithmic bias, transparency and fairness}{25}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data protection and privacy}{25}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Proportionality and ethical boundaries}{25}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Synthesis: Where Technical Possibility Meets Organisational Reality}{26}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Points of convergence and tension}{26}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Cross thematic inductive and deductive reasoning}{26}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conceptual Framework and Research Questions}{27}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Presenting the conceptual framework}{27}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Refined research aim and sub-questions}{27}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Conclusions }{28}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Summary of the argument}{28}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Implications for professional practice}{28}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Next steps}{28}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Search Matrix}{30}{chapter.A}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Literature Search Strategy}}{31}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Search Terms and Boolean Operators}{33}{chapter.B}%
+\contentsline {section}{\numberline {B.1}\ignorespaces {Search Terms and Boolean Operators}}{34}{section.B.1}%
+\contentsline {chapter}{\numberline {C}Inclusion and Exclusion Criteria}{36}{chapter.C}%
+\contentsline {section}{\numberline {C.1}\ignorespaces {Inclusion and Exclusion Criteria}}{37}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Patch One - Upload and Feedback}{38}{chapter.D}%
+\contentsline {section}{\numberline {D.1}\ignorespaces {Patch one uploads, feedback and peer review}}{39}{section.D.1}%
+\contentsline {chapter}{\numberline {E}Patch Two - Upload and Feedback}{46}{chapter.E}%
