@@ -1,5 +1,14 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Agarwal et~al.]{Agarwal, {\"U}nl{\"u}, Wani \harvardand\
+  Bours}{2022}{agarwal2022predatory}
+Agarwal, N., {\"U}nl{\"u}, T., Wani, M. \harvardand\ Bours, P.
+  \harvardyearleft 2022\harvardyearright , Predatory {{Conversation Detection
+  Using Transfer Learning Approach}}, {\em in} `Lecture {{Notes}} in {{Computer
+  Science}} (including subseries {{Lecture Notes}} in {{Artificial
+  Intelligence}} and {{Lecture Notes}} in {{Bioinformatics}})', Vol. 13163
+  LNCS, pp.~488--499.
+
 \harvarditem[An et~al.]{An, Ryu, Do, Kim, Ok \harvardand\
   Lee}{2025}{an2025revisiting}
 An, J., Ryu, S., Do, H., Kim, Y., Ok, J. \harvardand\ Lee, G.~G.
@@ -19,6 +28,12 @@ Basu, A.  \harvardyearleft 2020\harvardyearright , `What is zettelkasten and
 Belcic, I.  \harvardyearleft 2024\harvardyearright , `What is
   {{Classification}} in {{Machine Learning}}? \textbar{} {{IBM}}',
   https://www.ibm.com/think/topics/classification-machine-learning.
+
+\harvarditem[Bihani et~al.]{Bihani, Ringenberg \harvardand\
+  Rayz}{2025}{bihani2025evaluating}
+Bihani, G., Ringenberg, T. \harvardand\ Rayz, J.  \harvardyearleft
+  2025\harvardyearright , `Evaluating {{Language Models}} on {{Grooming Risk
+  Estimation Using Fuzzy Theory}}', {\em arXiv} .
 
 \harvarditem{Casey}{2025}{casey2025gbcse}
 Casey, L.  \harvardyearleft 2025\harvardyearright , `National {{Audit}} on
@@ -40,6 +55,12 @@ Cooper, Y.  \harvardyearleft 2024\harvardyearright , `Home {{Secretary}}
 Elliott, I.~A.  \harvardyearleft 2017\harvardyearright , `A {{Self-Regulation
   Model}} of {{Sexual Grooming}}', {\em Trauma, Violence, \& Abuse} {\bf
   18}(1),~83--97.
+
+\harvarditem{Evans \harvardand\ {Lorenzo-Dus}}{2025}{evans2025corpusassisted}
+Evans, C. \harvardand\ {Lorenzo-Dus}, N.  \harvardyearleft
+  2025\harvardyearright , `A corpus-assisted discourse analysis of children's
+  and groomers' talk in online grooming interactions', {\em Applied Corpus
+  Linguistics} {\bf 5}(3).
 
 \harvarditem[Finkelhor et~al.]{Finkelhor, Turner \harvardand\
   Colburn}{2024}{finkelhor2024prevalence}
@@ -250,5 +271,11 @@ Winters, G.~M., Jeglic, E.~L. \harvardand\ Kaylor, L.~E.  \harvardyearleft
 Winters, G.~M., Kaylor, L.~E. \harvardand\ Jeglic, E.~L.  \harvardyearleft
   2022\harvardyearright , `Toward a {{Universal Definition}} of {{Child Sexual
   Grooming}}', {\em Deviant Behavior} {\bf 43}(8),~926--938.
+
+\harvarditem{Xiao}{2025}{xiao2025adapting}
+Xiao, Y.  \harvardyearleft 2025\harvardyearright , Adapting {{Generative LLMs}}
+  for {{High-Accuracy Online Grooming Detection}}, {\em in} `2025 6th
+  {{International Conference}} on {{Intelligent Computing}} and
+  {{Human-Computer Interaction}}, {{ICHCI}} 2025', pp.~206--209.
 
 \end{thebibliography}
