@@ -569,23 +569,24 @@ Zuo et al.\ 2019            & \acrshort{bpnn}                                   
 \label{sec:the-data-provenance-challenge}
 Table \ref{tab:nlp-studies-summary} clearly shows the predominant use of the \gls{pj} dataset across research in this area.
 
-The \gls{pj} dataset, and derivatives of it (PAN12, PAN13), are the predominant data source for the technical research in this area.  The \gls{pj} dataset is a collection of adult-decoy interactions with online offenders.  Derivatives of this data set appended non-offensive content to the decoy data to create a more comprehensive dataset.  The dataset has been the primary dataset used by academia to train and test \gls{ml} algorithms for grooming detection.  
-
-Despite its widespread use, the dataset has significant limitations which are summarised as follows:
+The \gls{pj} dataset, and derivatives of it (PAN12, PAN13), are the predominant data source for the technical research in this area.  The \gls{pj} dataset is a collection of adult-decoy interactions with online offenders.  Derivatives of this data set appended non-offensive content to the decoy data to create a more comprehensive dataset.  Despite its widespread use, the dataset has significant limitations which are summarised as follows:
 
 \begin{itemize}
     \item The use of adult decoys is described as lacking authenticity and potentially being unrepresentative of real-world grooming conversations, \citet{an2025revisiting,bihani2025evaluating,evans2025corpusassisted}.
-    \item The dataset was collected in the early 2002 and the last data was collected in 2016, meaning that the language and communication styles may not reflective of current grooming conversations, \citet{agarwal2022predatory,xiao2025adapting,lorenzo-dus2020communicative}.
+    \item The dataset was collected between 2004 and 2016.  It is noted that the decade that has followed has seen new communication patterns and platforms emerge, potentially leaving the language and communication styles in the \gls{pj} dataset as not reflective of current grooming conversations, \citet{agarwal2022predatory,xiao2025adapting,lorenzo-dus2020communicative}.
     \item The original \gls{pj} dataset is limited in size, containing only a small number of grooming conversations.  This lack of diversity in the dataset may limit the effectiveness of any models trained on it, \citet{an2025revisiting,inches2012overview}.
     \item There has been an over reliance on the \gls{pj} dataset across the research community, further limiting the generalisability of any results, \citet{an2025revisiting,leiva-bianchi2025effectiveness}.
  \end{itemize}
 
- % what would adequate data look like, and how might it be obtained within the constraints of a UK policing context
+ Whilst algorithmic models can be trained on synthetic data, the lack of real world data is a significant barrier to the development of an operationally deployable model.  The language and communication styles in real world grooming conversations may differ significantly from those in the \gls{pj} dataset, and without access to real world data, it is difficult to conceive that any model not trained on real world data can effectively identify grooming content in an operational context.
 
-\section{From Detection to realisation: The operational gap}
-\label{sec:from-detection-to-realisation-the-operational-gap}
-% Stuff about the interpretability gap, the operational gap, and the need for research to address these gaps in order to translate technical capability into practical solutions for policing
-lorem impsum...
+\section{The operational gap}
+\label{sec:the-operational-gap}
+Whilst section \ref{sec:the-data-provenance-challenge} identifies the data challenge in classifying grooming content, \citet{an2025revisiting} identifies that efforts to technically classify chat content as "grooming" or "not grooming" have primarily been considered from a post-hoc perspective.  This "after the event" classification mirrors the operational reality noted in section \ref{sec:the-demand-on-law-enforcement} where law enforcement are often in a position of having to review large volumes of chat data after a contact offence has occurred.  The opportunity for proactive safeguarding, to identify grooming content before it escalates toward contact offending, remains underexplored in the existing literature.  \citet{an2025revisiting} makes the case for attempting to the identify the optimal intervention point in the grooming process, however, as with the majority of the existing literature, their work is based on the \gls{pj} dataset and so is limited by the data provenance challenge noted in section \ref{sec:the-data-provenance-challenge}.
+
+Whilst many of the classification efforts claim success in proving concept in identifying grooming content, those that progress to a potential real world use case lean towards considering detection into social network chat groups or capturing live feeds in online conversations.  \citet{s.e.abdelhamid2026detection} discuss the delivery of a technical solution entitled \textbf{SafeGuard} which theorises the delivery of a grooming detection model which coould be used in the home or in schools, however this does not progress into realisation.  \citet{agarwal2022predatory} and \cite{xiao2025adapting} both contextualise their classification efforts within the realms of instant messaging platfroms, but neither offer real world deployment insight.  One of the possible reasons for this is noted by \citet{street2025enhanced} who notes the prevalence of \gls{e2ee} across modern messaging platfroms making the capture of live data for real world deployment a significant challenge.  
+
+For the law enforcement context specifically, the operational gap remains significant.  Multiple studies identify the potential for grooming classification to have a positive impact on safeguarding practice across law enforcement, \citep{inches2012overview,agarwal2022predatory,hamm2025comparing} but there appears to be a notable absence of research which considered the practicalities of deploying a potential technical solution to grooming classification within a law enforcement context.  This challenge is discussed in chapter \ref{ch:technology-adoption-and-organisational-change-in-policing}.
 
 %--------C.5  Technology Adoption and Organisational Change in Policing - 500 words approx --------
 \chapter{Technology Adoption and Organisational Change in Policing}  
