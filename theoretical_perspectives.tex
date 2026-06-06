@@ -5,7 +5,9 @@
 \usepackage[english]{babel}
 
 % Fonts and typography
-\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{tgheros}          % Premium Helvetica/Arial alternative
+\renewcommand{\familydefault}{\sfdefault} % Sets document default to sans-serif
 \hbadness=10000
 \hfuzz=\maxdimen
 
@@ -98,7 +100,8 @@
 \lhead{\leftmark}
 \rhead{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
-\setlength{\headheight}{27.2pt}
+\setlength{\headheight}{28pt}         % Safe rounded-up height
+\addtolength{\topmargin}{-0.8pt}     % Shifts top margin up slightly to compensate
 
 % Spacing and formatting
 \usepackage{enumitem}
@@ -369,14 +372,14 @@ A summary table of these three models is presented in table \ref{tab:grooming-mo
 % ============================================================
 %  ACADEMIC SOURCES
 % ============================================================
-\textbf{Academic Sources} &
+\textbf{Source} &
 Winters (2017, 2020, 2022) &
 Lorenzo-Dus (2016, 2017, 2020) &
 Elliott (2017) \\[4pt]
 % ============================================================
 %  GROOMING LOCATION
 % ============================================================
-\textbf{Grooming Location} &
+\textbf{Context} &
 Focus on in-person (offline) grooming. &
 Focus on online (computer-mediated) environments. &
 Theoretical universal model. \\[4pt]

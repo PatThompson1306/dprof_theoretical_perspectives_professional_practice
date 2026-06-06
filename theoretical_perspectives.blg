@@ -7,15 +7,15 @@ Reallocating 'name_of_file' (item size: 1) to 43 items.
 Database file #1: C:/Users/UserPC/gdrive/research/bib/master.bib
 You've used 48 entries,
             2909 wiz_defined-function locations,
-            895 strings with 14717 characters,
-and the built_in function-call counts, 230723 in all, are:
-= -- 37934
+            894 strings with 14576 characters,
+and the built_in function-call counts, 230719 in all, are:
+= -- 37933
 > -- 2917
 < -- 2
 + -- 18313
 - -- 892
-* -- 20121
-:= -- 45843
+* -- 20120
+:= -- 45842
 add.period$ -- 48
 call.type$ -- 48
 change.case$ -- 671
@@ -24,13 +24,13 @@ cite$ -- 48
 duplicate$ -- 755
 empty$ -- 1535
 format.name$ -- 1054
-if$ -- 41429
+if$ -- 41428
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 40
 newline$ -- 147
 num.names$ -- 500
-pop$ -- 223
+pop$ -- 224
 preamble$ -- 1
 purify$ -- 720
 quote$ -- 0
@@ -45,4 +45,4 @@ type$ -- 190
 warning$ -- 0
 while$ -- 1058
 width$ -- 0
-write$ -- 621
+write$ -- 620
