@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  10 JUN 2026 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.9)  12 JUN 2026 06:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1055,7 +1055,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...ch aim and sub-questions}{26}{section.7.3}
+l.35 ...numberline {8}Conclusions }{27}{chapter.8}
                                                   % [1
 
 
@@ -1088,13 +1088,13 @@ Chapter 2.
 [9
 
 ]
-<images/research_stack.png, id=341, 943.27406pt x 330.48468pt>
+<images/research_stack.png, id=337, 943.27406pt x 330.48468pt>
 File: images/research_stack.png Graphic file (type png)
 <use images/research_stack.png>
 Package pdftex.def Info: images/research_stack.png  used on input line 222.
 (pdftex.def)             Requested size: 455.24203pt x 159.4982pt.
  [10 <./images/research_stack.png>]
-<images/prisma_diagram.png, id=363, 643.6547pt x 454.69875pt>
+<images/prisma_diagram.png, id=359, 643.6547pt x 454.69875pt>
 File: images/prisma_diagram.png Graphic file (type png)
 <use images/prisma_diagram.png>
 Package pdftex.def Info: images/prisma_diagram.png  used on input line 247.
@@ -1133,7 +1133,7 @@ Chapter 4.
 [17
 
 ]
-<images/luring_communication_theory.png, id=581, 182.18062pt x 203.25937pt>
+<images/luring_communication_theory.png, id=577, 182.18062pt x 203.25937pt>
 File: images/luring_communication_theory.png Graphic file (type png)
 <use images/luring_communication_theory.png>
 Package pdftex.def Info: images/luring_communication_theory.png  used on input line 433.
@@ -1170,10 +1170,10 @@ Appendix A.
 
 
 pdfTeX warning: pdflatex (file ./appendix_1_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_1_content.pdf, id=963, 597.55246pt x 845.07718pt>
+<appendix_1_content.pdf, id=974, 597.55246pt x 845.07718pt>
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf>
-Package pdftex.def Info: appendix_1_content.pdf  used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf  used on input line 705.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1181,47 +1181,47 @@ pdfTeX warning: pdflatex (file ./appendix_1_content.pdf): PDF inclusion: found P
 
 
 pdfTeX warning: pdflatex (file ./appendix_1_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_1_content.pdf, id=965, page=1, 597.55246pt x 845.07718pt>
+<appendix_1_content.pdf, id=976, page=1, 597.55246pt x 845.07718pt>
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 1>
-Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 705.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 1>
-Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 705.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [29
 
 ]
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 1>
-Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 705.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 1>
-Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 705.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 1>
-Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page1 used on input line 705.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [30
 
  <./appendix_1_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_1_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_1_content.pdf, id=987, page=2, 597.55246pt x 845.07718pt>
+<appendix_1_content.pdf, id=998, page=2, 597.55246pt x 845.07718pt>
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 2>
-Package pdftex.def Info: appendix_1_content.pdf , page2 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page2 used on input line 705.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 2>
-Package pdftex.def Info: appendix_1_content.pdf , page2 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page2 used on input line 705.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_1_content.pdf Graphic file (type pdf)
 <use appendix_1_content.pdf, page 2>
-Package pdftex.def Info: appendix_1_content.pdf , page2 used on input line 710.
+Package pdftex.def Info: appendix_1_content.pdf , page2 used on input line 705.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [31
 
@@ -1230,10 +1230,10 @@ Appendix B.
 
 
 pdfTeX warning: pdflatex (file ./appendix_2_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_2_content.pdf, id=998, 597.55246pt x 845.07718pt>
+<appendix_2_content.pdf, id=1009, 597.55246pt x 845.07718pt>
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf>
-Package pdftex.def Info: appendix_2_content.pdf  used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf  used on input line 708.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1241,47 +1241,47 @@ pdfTeX warning: pdflatex (file ./appendix_2_content.pdf): PDF inclusion: found P
 
 
 pdfTeX warning: pdflatex (file ./appendix_2_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_2_content.pdf, id=1000, page=1, 597.55246pt x 845.07718pt>
+<appendix_2_content.pdf, id=1011, page=1, 597.55246pt x 845.07718pt>
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 1>
-Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 708.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 1>
-Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 708.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [32
 
 ]
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 1>
-Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 708.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 1>
-Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 708.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 1>
-Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page1 used on input line 708.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [33
 
  <./appendix_2_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_2_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_2_content.pdf, id=1021, page=2, 597.55246pt x 845.07718pt>
+<appendix_2_content.pdf, id=1032, page=2, 597.55246pt x 845.07718pt>
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 2>
-Package pdftex.def Info: appendix_2_content.pdf , page2 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page2 used on input line 708.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 2>
-Package pdftex.def Info: appendix_2_content.pdf , page2 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page2 used on input line 708.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_2_content.pdf Graphic file (type pdf)
 <use appendix_2_content.pdf, page 2>
-Package pdftex.def Info: appendix_2_content.pdf , page2 used on input line 713.
+Package pdftex.def Info: appendix_2_content.pdf , page2 used on input line 708.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [34
 
@@ -1290,10 +1290,10 @@ Appendix C.
 
 
 pdfTeX warning: pdflatex (file ./appendix_3_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_3_content.pdf, id=1032, 597.55246pt x 845.07718pt>
+<appendix_3_content.pdf, id=1043, 597.55246pt x 845.07718pt>
 File: appendix_3_content.pdf Graphic file (type pdf)
 <use appendix_3_content.pdf>
-Package pdftex.def Info: appendix_3_content.pdf  used on input line 717.
+Package pdftex.def Info: appendix_3_content.pdf  used on input line 712.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1301,29 +1301,29 @@ pdfTeX warning: pdflatex (file ./appendix_3_content.pdf): PDF inclusion: found P
 
 
 pdfTeX warning: pdflatex (file ./appendix_3_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_3_content.pdf, id=1034, page=1, 597.55246pt x 845.07718pt>
+<appendix_3_content.pdf, id=1045, page=1, 597.55246pt x 845.07718pt>
 File: appendix_3_content.pdf Graphic file (type pdf)
 <use appendix_3_content.pdf, page 1>
-Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 717.
+Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 712.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: appendix_3_content.pdf Graphic file (type pdf)
 <use appendix_3_content.pdf, page 1>
-Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 717.
+Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 712.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [35
 
 ]
 File: appendix_3_content.pdf Graphic file (type pdf)
 <use appendix_3_content.pdf, page 1>
-Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 717.
+Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 712.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_3_content.pdf Graphic file (type pdf)
 <use appendix_3_content.pdf, page 1>
-Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 717.
+Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 712.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: appendix_3_content.pdf Graphic file (type pdf)
 <use appendix_3_content.pdf, page 1>
-Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 717.
+Package pdftex.def Info: appendix_3_content.pdf , page1 used on input line 712.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [36
 
@@ -1332,10 +1332,10 @@ Appendix D.
 
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1056, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1067, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf>
-Package pdftex.def Info: appendix_4_content.pdf  used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf  used on input line 716.
 (pdftex.def)             Requested size: 963.59766pt x 542.02367pt.
 
 
@@ -1343,137 +1343,137 @@ pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found P
 
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1058, page=1, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1069, page=1, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 1>
-Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 716.
 (pdftex.def)             Requested size: 963.59766pt x 542.02367pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 1>
-Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 [37
 
 ]
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 1>
-Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 1>
-Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 1>
-Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page1 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
  [38
 
  <./appendix_4_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1076, page=2, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1087, page=2, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 2>
-Package pdftex.def Info: appendix_4_content.pdf , page2 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page2 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 2>
-Package pdftex.def Info: appendix_4_content.pdf , page2 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page2 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 2>
-Package pdftex.def Info: appendix_4_content.pdf , page2 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page2 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 [39
 
  <./appendix_4_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1088, page=3, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1099, page=3, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 3>
-Package pdftex.def Info: appendix_4_content.pdf , page3 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page3 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 3>
-Package pdftex.def Info: appendix_4_content.pdf , page3 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page3 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 3>
-Package pdftex.def Info: appendix_4_content.pdf , page3 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page3 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 [40
 
  <./appendix_4_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1103, page=4, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1114, page=4, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 4>
-Package pdftex.def Info: appendix_4_content.pdf , page4 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page4 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 4>
-Package pdftex.def Info: appendix_4_content.pdf , page4 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page4 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 4>
-Package pdftex.def Info: appendix_4_content.pdf , page4 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page4 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 [41
 
  <./appendix_4_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1113, page=5, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1124, page=5, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 5>
-Package pdftex.def Info: appendix_4_content.pdf , page5 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page5 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 5>
-Package pdftex.def Info: appendix_4_content.pdf , page5 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page5 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 5>
-Package pdftex.def Info: appendix_4_content.pdf , page5 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page5 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 [42
 
  <./appendix_4_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1122, page=6, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1133, page=6, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 6>
-Package pdftex.def Info: appendix_4_content.pdf , page6 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page6 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 6>
-Package pdftex.def Info: appendix_4_content.pdf , page6 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page6 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 6>
-Package pdftex.def Info: appendix_4_content.pdf , page6 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page6 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 [43
 
  <./appendix_4_content.pdf>]
 
 pdfTeX warning: pdflatex (file ./appendix_4_content.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix_4_content.pdf, id=1131, page=7, 963.6pt x 542.025pt>
+<appendix_4_content.pdf, id=1142, page=7, 963.6pt x 542.025pt>
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 7>
-Package pdftex.def Info: appendix_4_content.pdf , page7 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page7 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 7>
-Package pdftex.def Info: appendix_4_content.pdf , page7 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page7 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 File: appendix_4_content.pdf Graphic file (type pdf)
 <use appendix_4_content.pdf, page 7>
-Package pdftex.def Info: appendix_4_content.pdf , page7 used on input line 721.
+Package pdftex.def Info: appendix_4_content.pdf , page7 used on input line 716.
 (pdftex.def)             Requested size: 597.86693pt x 336.30014pt.
 [44
 
@@ -1492,16 +1492,16 @@ L3 programming layer <2026-03-20>
  ) 
 Here is how much of TeX's memory you used:
  42900 strings out of 467691
- 845629 string characters out of 5425052
- 1385695 words of memory out of 5000000
- 70909 multiletter control sequences out of 15000+600000
- 694944 words of font info for 193 fonts, out of 8000000 for 9000
+ 845618 string characters out of 5425052
+ 1385606 words of memory out of 5000000
+ 70908 multiletter control sequences out of 15000+600000
+ 695044 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,17n,108p,2592b,812s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/UserPC/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/UserPC/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/UserPC/AppData/Roaming/MiKTeX/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on theoretical_perspectives.pdf (51 pages, 1975973 bytes).
+Output written on theoretical_perspectives.pdf (51 pages, 1979370 bytes).
 PDF statistics:
- 1371 PDF objects out of 1440 (max. 8388607)
- 214 named destinations out of 1000 (max. 500000)
- 43517 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1376 PDF objects out of 1440 (max. 8388607)
+ 213 named destinations out of 1000 (max. 500000)
+ 43501 words of extra memory for PDF output out of 51595 (max. 10000000)
 
