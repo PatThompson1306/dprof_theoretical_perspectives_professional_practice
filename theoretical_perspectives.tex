@@ -5,8 +5,9 @@
 \usepackage[english]{babel}
 
 % Fonts and typography
-\usepackage[T1]{fontenc}
-\usepackage{tgheros}          % Premium Helvetica/Arial alternative
+\usepackage{tgheros}          
+\usepackage{lmodern}
+\usepackage{cabin}   % replaces tgheros, has small-caps support
 \renewcommand{\familydefault}{\sfdefault} % Sets document default to sans-serif
 \hbadness=10000
 \hfuzz=\maxdimen
@@ -77,7 +78,6 @@
 
 % Code listings
 \usepackage{listings}
-\usepackage{xcolor}
 \lstset{
   basicstyle=\ttfamily\small,
   breaklines=true,
@@ -104,7 +104,6 @@
 \addtolength{\topmargin}{-0.8pt}     % Shifts top margin up slightly to compensate
 
 % Spacing and formatting
-\usepackage{enumitem}
 \usepackage{setspace}
 \usepackage{parskip}
 \usepackage{dirtytalk}
@@ -226,15 +225,587 @@ The multifaceted nature of this review demanded a robust approach to literature 
 
 \section{Search approach and databases}
 \label{sec:search-approach-and-databases}
-The search strategy for this review, including database selection, keywords, and inclusion and exclusion criteria for each of the four research tracks, is presented in full in Appendix \ref{app:search-matrix}. Section \ref{sec:results-and-filtering-process} details the subsequent screening process and final literature selection.
+The search strategy for this review, including database selection, keywords, and inclusion and exclusion criteria for each of the four research tracks, is presented in full in table \ref{tab:search-matrix}.
+
+\newpage
+
+\begingroup
+\footnotesize
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+\setlength{\tabcolsep}{4pt}
+\hbadness=10000
+\hfuzz=3pt
+
+\begin{longtable}{%
+  >{\centering\arraybackslash}p{4.4cm}%   Analytical Question  
+  >{\centering\arraybackslash}p{2.6cm}%   Databases            
+  >{\centering\arraybackslash}p{7.7cm}%   Database Justification 
+}
+\caption{Literature Review Search Matrix}
+\label{tab:search-matrix}\\
+
+% --- First page header ---
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{Analytical Question}} &
+\textcolor{white}{\textbf{Databases}} &
+\textcolor{white}{\textbf{Database Justification}} \\
+\midrule
+\endfirsthead
+
+% --- Subsequent page header ---
+\multicolumn{3}{l}{\textit{Table~\ref{tab:search-matrix} continued}}\\[4pt]
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{Analytical Question}} &
+\textcolor{white}{\textbf{Databases}} &
+\textcolor{white}{\textbf{Database Justification}} \\
+\midrule
+\endhead
+
+% --- Foot (non-final pages) ---
+\midrule
+\multicolumn{3}{r}{\textit{Continued on next page}}\\
+\endfoot
+
+% --- Foot (final page) ---
+\bottomrule
+\multicolumn{3}{p{14.5cm}}{%
+  \textit{Note.} Databases assigned per track based on disciplinary
+  indexing coverage.  See Table~\ref{tab:keywords} for full keyword sets per track.}\\
+\endlastfoot
+
+% ============================================================
+%  TRACK 1 --- Criminology & Behavioural Science
+% ============================================================
+
+\multicolumn{3}{c}{%
+  \cellcolor{track1lt}\textcolor{track1}{%
+    \textbf{Track 1 \textemdash{} Criminology}}}\\[2pt]
+
+\textit{What linguistic and behavioural precursors of contact sex offending exist in
+offender--victim conversations, and how do grooming typologies characterise
+the progression toward contact abuse?} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Scopus
+  \item PsycINFO
+  \item Web of Science
+  \item Criminal Justice Abstracts
+  \item ProQuest
+  \item Google Scholar
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item \textbf{Scopus} --- Broad peer reviewed coverage across policing and criminology topics.
+  \item \textbf{PsycINFO} --- Consideration of psychological and behavioural dimensions of offending.
+  \item \textbf{Web of Science} --- Broad peer reviewed coverage across policing and criminology topics.
+  \item \textbf{Criminal Justice Abstracts} --- Dedicated criminological literature inclusive of coverage of sex-offending typologies.
+  \item \textbf{ProQuest} --- Includes the Criminal Justice Database focussed on crime-related research, law enforcement practices, and police administration.
+  \item \textbf{Google Scholar} --- Grey literature, NGO reports, and regulatory publications alongside mainstream citation trails.
+\end{itemize} \\[8pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 2 --- Computer Science & NLP
+% ============================================================
+
+\multicolumn{3}{c}{%
+  \cellcolor{track2lt}\textcolor{track2}{%
+    \textbf{Track 2 \textemdash{} Computer Science \& \gls{nlp}}}}\\[2pt]
+
+\textit{Which \gls{nlp} methods can be most effectively realised within policing
+infrastructure, and what does the evidence base reveal about model performance,
+explainability, and operational deployment constraints?} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item IEEE Xplore
+  \item ACM Digital Library
+  \item ACL Anthology
+  \item arXiv (cs.CL, cs.AI, cs.CY)
+  \item Papers With Code
+  \item Scopus
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item \textbf{IEEE Xplore} --- \gls{ieee} curated database for applied \gls{nlp} architecture, development and deployment.
+  \item \textbf{ACM Digital Library} --- Curated by the \gls{acm}; similar in stature for \gls{nlp} content as \textbf{IEEE Xplore}.
+  \item \textbf{ACL Anthology} --- Curated by the \gls{acl}; linguistics-grounded \gls{nlp} resource with a focus on language understanding and generation, essential for conversational analysis.
+  \item \textbf{arXiv} (cs.CL) --- Pre-print access to novel language model research.
+  \item \textbf{Papers With Code} --- Community driven repository linking code implementations to research papers, crucial for identifying reproducible \gls{nlp} methods and benchmarks.
+  \item \textbf{Scopus} --- Interdisciplinary bridge between technical and applied criminological literature.
+\end{itemize} \\[8pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 3 --- Organisational Studies & Policing
+% ============================================================
+
+\multicolumn{3}{c}{%
+  \cellcolor{track3lt}\textcolor{track3}{%
+    \textbf{Track 3 \textemdash{} Organisational Structures \& Policing}}}\\[2pt]
+
+\textit{What structural, cultural, and institutional factors act as barriers to or
+enablers of NLP adoption in policing organisations, and how does change management
+theory account for technology resistance in law enforcement?} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item Web of Science
+  \item Criminal Justice Abstracts
+  \item PsycINFO
+  \item ProQuest
+  \item Dimensions
+  \item Google Scholar
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item \textbf{Web of Science} --- Peer-reviewed journals across the social sciences, inclusive of law enforcement and organisational change.
+  \item \textbf{Criminal Justice Abstracts} --- Focused research on policing and policing culture.
+  \item \textbf{PsycINFO} --- Human and organisational literature featuring law enforcement contexts.
+  \item \textbf{ProQuest} --- Includes the Criminal Justice Database focussed on crime-related research, law enforcement practices, and police administration.
+  \item \textbf{Dimensions} --- \gls{ai} powered search tool for the identification of emerging research clusters in public-sector innovation.
+  \item \textbf{Google Scholar} --- Established open source search engine, used here for grey literature and policy reports from law-enforcement agencies and inspectorates.
+\end{itemize} \\[8pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 4 --- Ethics, Law & Governance
+% ============================================================
+
+\multicolumn{3}{c}{%
+  \cellcolor{track4lt}\textcolor{track4}{%
+    \textbf{Track 4 \textemdash{} Ethics, Law \& Governance}}}\\[2pt]
+
+\textit{What ethical and regulatory constraints govern NLP deployment in law
+enforcement, and how should proportionality, data protection, and rights-based
+frameworks shape the design and oversight of such systems?} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item HeinOnline
+  \item SSRN
+  \item EUR\nobreakdash-Lex
+  \item PhilPapers
+  \item ProQuest \& Scopus
+  \item Dimensions
+\end{itemize} &
+%
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt,align=left]
+  \item \textbf{HeinOnline} --- Links to the Law Journal Library containing peer reviewed articles on the ethical implications of \gls{ai} bias.
+  \item \textbf{SSRN} --- \gls{ssrn} contains dedicated sections on criminal justice research focussed on \gls{ai} and technology adoption.
+  \item \textbf{EUR\nobreakdash-Lex} --- Access to \gls{eu} legislative instruments, including the AI Act and GDPR, relevant to algorithmic oversight in law enforcement across the \gls{eu}.
+  \item \textbf{PhilPapers} --- Repository of academic literature exploring the intersection of ethics, law, and governance regarding police use of \gls{ai}.
+  \item \textbf{ProQuest} \& \textbf{Scopus} --- Both offer broad peer reviewed coverage across policing and criminology topics with crossover in ethical and legal research.
+  \item \textbf{Dimensions} --- \gls{ai} powered search tool for the identification of emerging research clusters in ethical and legal dimensions of AI deployment.
+\end{itemize} \\[8pt]
+
+\end{longtable}
+\endgroup
 
 \section{Keywords and search terms}
 \label{sec:keywords-and-search-terms}
-Keywords and Boolean search strings for each research track, developed in accordance with \citet{chigbu2023science}, are defined in Appendix \ref{app:search-terms-and-boolean-operators}.  
+Keywords and Boolean search strings for each research track, developed in accordance with \citet{chigbu2023science}, are defined in table \ref{tab:keywords}.  
+
+% Convenience macros for Boolean operators
+\newcommand{\bAND}{\textbf{\textcolor{opAND}{AND}}}
+\newcommand{\bOR}{\textcolor{opOR}{OR}}
+\newcommand{\bNEAR}[1]{\textcolor{opNEAR}{NEAR/#1}}
+\newcommand{\bTRUNC}{\textcolor{opTRUNC}{*}}
+\newcommand{\bPhr}[1]{\textcolor{opPHR}{``#1''}}
+
+\begingroup
+\footnotesize
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+\setlength{\tabcolsep}{4pt}
+\hbadness=10000
+\hfuzz=3pt
+
+\begin{longtable}{%
+  >{\RaggedRight\arraybackslash}p{6.4cm}%   col 1  Terms
+  >{\RaggedRight\arraybackslash}p{7.8cm}%   col 2  Boolean Strings
+}
+
+\caption{Search Keywords by Track}
+\label{tab:keywords}\\
+
+% --- First page header ---
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{Terms}} &
+\textcolor{white}{\textbf{Boolean Strings}} \\
+\midrule
+\endfirsthead
+
+% --- Subsequent page header ---
+\multicolumn{2}{l}{\textit{Table~\ref{tab:keywords} continued}}\\[4pt]
+\toprule
+\rowcolor{inkdark}
+\textcolor{white}{\textbf{Terms}} &
+\textcolor{white}{\textbf{Boolean Strings}} \\
+\midrule
+\endhead
+
+% --- Foot (non-final pages) ---
+\midrule
+\multicolumn{2}{r}{\textit{Continued on next page}}\\
+\endfoot
+
+% --- Foot (final page) ---
+\bottomrule
+\endlastfoot
+
+
+% ==========================
+%  TRACK 1 --- Criminology
+% ==========================
+
+\multicolumn{2}{c}{%
+  \cellcolor{track1lt}\textcolor{track1}{%
+    \textbf{Track 1 \textemdash{} Criminology}}}\\[2pt]
+
+% --- data row ---
+\begin{minipage}[t]{6.2cm}
+\vspace{0pt}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
+  \item Online grooming
+  \item Sexual grooming
+  \item Grooming behaviour
+  \item Child sexual abuse
+  \item CSA
+  \item CSAM
+  \item Grooming language
+  \item Grooming communication
+  \item Child
+  \item Victim
+  \item Sex offend*
+  \item Abuse
+  \item Contact offending
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{7.6cm}
+\vspace{0pt}
+\ttfamily\small
+(\bPhr{online grooming} \bOR{} \bPhr{sexual grooming}\\
+\hspace*{1em}\bOR{} \bPhr{grooming behaviour})\\
+\bAND{} (\bPhr{child sexual abuse} \bOR{}\\
+\hspace*{1em}\bPhr{CSA} \bOR{} \bPhr{CSAM})
+
+\medskip
+(\bPhr{grooming language} \bOR{}\\
+\hspace*{1em}\bPhr{grooming communication})\\
+\bAND{} (``child'' \bOR{} ``victim'')\\
+\bAND{} (\bPhr{sex offend\bTRUNC{}} \bOR{} ``abuse'')
+
+\medskip
+\textit{Proximity (Scopus / WoS):}\\
+``grooming'' \bNEAR{5} \bPhr{contact offending}
+\end{minipage}
+\\[4pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 2 --- Computer Science & NLP
+% ============================================================
+
+\multicolumn{2}{c}{%
+  \cellcolor{track2lt}\textcolor{track2}{%
+    \textbf{Track 2 \textemdash{} Computer Science \& NLP}}}\\[2pt]
+
+\begin{minipage}[t]{6.2cm}
+\vspace{0pt}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
+  \item BERT
+  \item RoBERTa
+  \item DistilBERT
+  \item Text classification
+  \item Sequence classification
+  \item Grooming
+  \item Predatory
+  \item Child safety
+  \item Explainable AI
+  \item XAI
+  \item Interpretable machine learning
+  \item NLP
+  \item Natural language processing
+  \item Law enforcement
+  \item Policing
+  \item Criminal justice
+  \item PAN shared dataset
+  \item Perverted Justice
+  \item Chat log
+  \item Online conversation
+  \item Grooming detection
+  \item Predatory communication
+  \item Sexual solicitation
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{7.6cm}
+\vspace{0pt}
+\ttfamily\small
+(``BERT'' \bOR{} ``RoBERTa'' \bOR{} ``DistilBERT'')\\
+\bAND{} (\bPhr{text classification} \bOR{}\\
+\hspace*{1em}\bPhr{sequence classification})\\
+\bAND{} (``grooming'' \bOR{} ``predatory'' \bOR{}\\
+\hspace*{1em}\bPhr{child safety})
+
+\medskip
+(\bPhr{explainable AI} \bOR{} ``XAI'' \bOR{}\\
+\hspace*{1em}\bPhr{interpretable machine learning})\\
+\bAND{} (``NLP'' \bOR{} \bPhr{natural language processing})\\
+\bAND{} (\bPhr{law enforcement} \bOR{} ``policing'' \bOR{}\\
+\hspace*{1em}\bPhr{criminal justice})
+
+\medskip
+(\bPhr{PAN shared dataset} \bOR{} \bPhr{Perverted Justice}\\
+\hspace*{1em}\bOR{} \bPhr{chat log} \bOR{} \bPhr{online conversation})\\
+\bAND{} (\bPhr{grooming detection} \bOR{}\\
+\hspace*{1em}\bPhr{predatory communication} \bOR{}\\
+\hspace*{1em}\bPhr{sexual solicitation})
+\end{minipage}
+\\[4pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 3 --- Organisational Studies & Policing
+% ============================================================
+
+\multicolumn{2}{c}{%
+  \cellcolor{track3lt}\textcolor{track3}{%
+    \textbf{Track 3 \textemdash{} Organisational Studies \& Policing}}}\\[2pt]
+
+\begin{minipage}[t]{6.2cm}
+\vspace{0pt}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
+  \item Technology adoption
+  \item Technology resistance
+  \item Organisational inertia
+  \item Policing
+  \item Law enforcement
+  \item Police force
+  \item Tacit knowledge
+  \item Explicit knowledge
+  \item Knowledge management
+  \item Police officer*
+  \item Police culture
+  \item Innovation
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{7.6cm}
+\vspace{0pt}
+\ttfamily\small
+(\bPhr{technology adoption} \bOR{}\\
+\hspace*{1em}\bPhr{technology resistance} \bOR{}\\
+\hspace*{1em}\bPhr{organisational inertia})\\
+\bAND{} (``policing'' \bOR{} \bPhr{law enforcement}\\
+\hspace*{1em}\bOR{} \bPhr{police force})
+
+\medskip
+(\bPhr{tacit knowledge} \bOR{} \bPhr{explicit knowledge}\\
+\hspace*{1em}\bOR{} \bPhr{knowledge management})\\
+\bAND{} (``policing'' \bOR{} \bPhr{police officer\bTRUNC{}}\\
+\hspace*{1em}\bOR{} \bPhr{law enforcement})
+
+\medskip
+\textit{Proximity (WoS):}\\
+\bPhr{police culture} \bNEAR{8}\\
+(\bPhr{technology resistance} \bOR{} ``innovation'')
+\end{minipage}
+\\[4pt]
+
+\midrule
+
+% ============================================================
+%  TRACK 4 --- Ethics, Law & Governance
+% ============================================================
+
+\multicolumn{2}{c}{%
+  \cellcolor{track4lt}\textcolor{track4}{%
+    \textbf{Track 4 \textemdash{} Ethics, Law \& Governance}}}\\[2pt]
+
+\begin{minipage}[t]{6.2cm}
+\vspace{0pt}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
+  \item Algorithmic bias
+  \item Automated decision-making
+  \item Algorithmic accountability
+  \item Law enforcement
+  \item Policing
+  \item Criminal justice
+  \item Ethics
+  \item Human rights
+  \item Fairness
+  \item Data protection
+  \item GDPR
+  \item UK DPA
+  \item NLP
+  \item Machine learning
+  \item Artificial intelligence
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{7.6cm}
+\vspace{0pt}
+\ttfamily\small
+(\bPhr{algorithmic bias} \bOR{}\\
+\hspace*{1em}\bPhr{automated decision-making} \bOR{}\\
+\hspace*{1em}\bPhr{algorithmic accountability})\\
+\bAND{} (\bPhr{law enforcement} \bOR{} ``policing'' \bOR{}\\
+\hspace*{1em}\bPhr{criminal justice})\\
+\bAND{} (``ethics'' \bOR{} \bPhr{human rights}\\
+\hspace*{1em}\bOR{} ``fairness'')
+
+\medskip
+(\bPhr{data protection} \bOR{} ``GDPR''\\
+\hspace*{1em}\bOR{} \bPhr{UK DPA})\\
+\bAND{} (``NLP'' \bOR{} \bPhr{machine learning}\\
+\hspace*{1em}\bOR{} \bPhr{artificial intelligence})\\
+\bAND{} (``policing'' \bOR{} \bPhr{criminal justice})
+\end{minipage}
+\\[4pt]
+
+\midrule
+
+% ============================================================
+%  CROSS-TRACK --- Consolidated searches
+% ============================================================
+
+\multicolumn{2}{c}{%
+  \cellcolor{crosslt}%
+    \textbf{Cross-Track \textemdash{} Consolidated searches}}\\[2pt]
+
+\begin{minipage}[t]{6.2cm}
+\vspace{0pt}
+\begin{itemize}[leftmargin=*,nosep,topsep=2pt,partopsep=0pt,itemindent=0pt]
+  \item Natural language processing
+  \item NLP
+  \item Text classification
+  \item Grooming
+  \item Child sexual exploitation
+  \item Online predator
+  \item Detection
+  \item Identification
+  \item Classification
+  \item Machine learning
+  \item Artificial intelligence
+  \item Policing
+  \item Law enforcement
+  \item Implementation
+  \item Adoption
+  \item Deployment
+  \item Barrier*
+  \item Challenge*
+  \item Constraint*
+\end{itemize}
+\end{minipage}
+&
+\begin{minipage}[t]{7.6cm}
+\vspace{0pt}
+\ttfamily\small
+(\bPhr{natural language processing} \bOR{} ``NLP''\\
+\hspace*{1em}\bOR{} \bPhr{text classification})\\
+\bAND{} (``grooming'' \bOR{}\\
+\hspace*{1em}\bPhr{child sexual exploitation} \bOR{}\\
+\hspace*{1em}\bPhr{online predator})\\
+\bAND{} (``detection'' \bOR{} ``identification''\\
+\hspace*{1em}\bOR{} ``classification'')
+
+\medskip
+(``NLP'' \bOR{} \bPhr{machine learning}\\
+\hspace*{1em}\bOR{} \bPhr{artificial intelligence})\\
+\bAND{} (``policing'' \bOR{} \bPhr{law enforcement})\\
+\bAND{} (``implementation'' \bOR{} ``adoption''\\
+\hspace*{1em}\bOR{} ``deployment'')\\
+\bAND{} (``barrier\bTRUNC{}'' \bOR{} ``challenge\bTRUNC{}''\\
+\hspace*{1em}\bOR{} ``constraint\bTRUNC{}'')
+\end{minipage}
+\\[4pt]
+
+\end{longtable}
+\endgroup
 
 \section{Inclusion and exclusion criteria}
 \label{sec:inclusion-and-exclusion-criteria}
-Appendix \ref{app:inclusion-and-exclusion-criteria} defines the inclusion and exclusion criteria for each of the four research tracks.  These criteria are designed to ensure that the literature included in the review is relevant, high quality, and aligned with the research challenge.  The year date of 2018 is presented as this is largely considered to be the breakout year for the development of \gls{nlp} transformer based models, \citep{khanna2024evolution}, a technical architecture discussed in chapter \ref{ch:nlp-and-computational-approaches-to-grooming-detection}. 
+Tables \ref{tab:inclusion-criteria} and \ref{tab:exclusion-criteria} define the inclusion and exclusion criteria for each of the four research tracks.  These criteria are designed to ensure that the literature included in the review is relevant, high quality, and aligned with the research challenge.  The year date of 2018 is presented as this is largely considered to be the breakout year for the development of \gls{nlp} transformer based models, \citep{khanna2024evolution}, a technical architecture discussed in chapter \ref{ch:nlp-and-computational-approaches-to-grooming-detection}. 
+
+\begingroup
+\captionsetup{hypcap=false}
+\captionof{table}{Inclusion Criteria}
+\label{tab:inclusion-criteria}
+\endgroup
+\begin{tcolorbox}[
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=incgreen,
+  title={\textbf{Inclusion Criteria}},
+  fonttitle=\small\bfseries,
+  coltitle=white,
+  attach boxed title to top left={yshift=-2mm, xshift=6mm},
+  boxed title style={colback=incgreen, colframe=incgreen},
+  top=6pt, bottom=6pt, left=8pt, right=8pt,
+  before upper={\small}
+]
+\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{%
+  @{}%
+  >{\bfseries\arraybackslash}p{0.9cm}%
+  >{\arraybackslash}p{\dimexpr\tcbtextwidth-0.9cm\relax}%
+  @{}%
+}
+IC1 & Peer-reviewed articles, conference proceedings, and edited book chapters, 2018--present. \\[3pt]
+IC2 & Grey literature from authoritative sources, for example \gls{npcc} and Home Office, 2018--present. \\[3pt]
+IC3 & \gls{nlp}, machine learning, or computational linguistics applied to safeguarding, criminal justice, or similar contexts. \\[3pt]
+IC4 & Grooming, \gls{csa}, or online predatory behaviour with linguistic or behavioural focus. \\[3pt]
+IC5 & Organisational, cultural, or governance studies on technology adoption in policing or comparable public-sector contexts. \\[3pt]
+IC7 & Pre-2018 foundational works where theoretical significance is established. \\
+\end{tabular}
+\end{tcolorbox}
+
+\newpage
+
+\begingroup
+\captionsetup{hypcap=false}
+\captionof{table}{Exclusion Criteria}
+\label{tab:exclusion-criteria}
+\endgroup
+\begin{tcolorbox}[
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=excred,
+  title={\textbf{Exclusion Criteria}},
+  fonttitle=\small\bfseries,
+  coltitle=white,
+  attach boxed title to top left={yshift=-2mm, xshift=6mm},
+  boxed title style={colback=excred, colframe=excred},
+  top=6pt, bottom=6pt, left=8pt, right=8pt,
+  before upper={\small}
+]
+\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{%
+  @{}%
+  >{\bfseries\arraybackslash}p{0.9cm}%
+  >{\arraybackslash}p{\dimexpr\tcbtextwidth-0.9cm\relax}%
+  @{}%
+}
+EC1 & Sources prior to 2018 unless meeting IC7. \\[3pt]
+EC2 & Non-peer-reviewed opinion pieces, blog posts, or media articles unless from authoritative professional or statutory bodies. \\[3pt]
+EC3 & Studies focused on adult sexual offending with no relevance to child safeguarding contexts. \\[3pt]
+EC4 & Technical \gls{nlp} literature without contextto safeguarding, criminal justice, or policing (foundational instructional / code text not included)\\[3pt]
+EC5 & Technology adoption studies from sectors lacking structural or cultural comparability to UK policing. \\[3pt]
+EC6 & Duplicate publications; where multiple versions exist, the most recent peer-reviewed version is retained. \\[3pt]
+EC7 & Sources for which full text cannot be obtained via institutional access, inter-library loan, or open-access repositories within a reasonable retrieval window. \\
+\end{tabular}
+\end{tcolorbox}
 
 \section{Results and filtering process}
 \label{sec:results-and-filtering-process}
@@ -242,19 +813,19 @@ A \gls{prisma} diagram is presented in figure \ref{fig:prisma_diagram} which sum
 
 From an initial return of 3,150 records, a three-stage screening process reduced the corpus to 100 papers for review, supplemented by 22 purposefully selected seminal works.
 
+\section{Reflections on the search and filtering process}
+\label{sec:reflections-on-the-search-and-filtering-process}
+Reflecting on this process identifies limitations in search precision.  The Boolean strings presented in table \ref{tab:keywords} were insufficiently refined, returning a volume of literature that the inclusion and exclusion criteria were not robust enough to filter efficiently, requiring a degree of subjective judgement that a tighter search strategy may have reduced.
+
+Whilst the final selection of papers used in this review was informed by a structured and repeatable process, this experience highlights the value of iterative Boolean refinement prior to full database submission. Future 
+searches within this doctoral programme will incorporate pilot searches to test string precision before full execution, reducing reliance on post-hoc subjective filtering.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth, height=0.6\textheight, keepaspectratio=false]{images/prisma_diagram.png}
     \caption{PRISMA diagram summarising the literature search and filtering process}
     \label{fig:prisma_diagram}
 \end{figure}
-
-\section{Reflections on the search and filtering process}
-\label{sec:reflections-on-the-search-and-filtering-process}
-Reflecting on this process identifies limitations in search precision.  The Boolean strings presented in appendix \ref{app:search-terms-and-boolean-operators} were insufficiently refined, returning a volume of literature that the inclusion and exclusion criteria were not robust enough to filter efficiently, requiring a degree of subjective judgement that a tighter search strategy may have reduced.
-
-Whilst the final selection of papers used in this review was informed by a structured and repeatable process, this experience highlights the value of iterative Boolean refinement prior to full database submission. Future 
-searches within this doctoral programme will incorporate pilot searches to test string precision before full execution, reducing reliance on post-hoc subjective filtering.
 
 %--------C.3 The Landscape of Child Sexual Exploitation and Policing's Response - 500 words approx --------
 \chapter{The Landscape of Child Sexual Exploitation and Policing's Response}  
@@ -297,7 +868,6 @@ The academic literature which describes the process of grooming a child before t
 Whilst the models presented by \citet{winters2017stages} and \citet{lorenzo-dus2016understanding} are practical in nature, \citet{elliott2017selfregulation} presents a more theoretical model of grooming, describing the process as a self-regulatory process which is influenced by both an offender's psychological make up in addition to an ongoing external feedback loop affecting external behaviours.  This model is less practical in nature but provides a structured theoretical framework through which to understand the grooming process.
 
 A summary table of these three models is presented in table \ref{tab:grooming-models}.
-
 
 \begingroup
 \footnotesize
@@ -565,7 +1135,7 @@ Section \ref{sec:the-case-for-technological-intervention} notes commentary by \c
 
 \section{Tacit knowledge, algorithms and trust in technology}
 \label{sec:tacit-knowledge-algorithms-and-trust-in-technology}
-In their 2020 study which introduced a predictive policing algorithm into a live policing patrol environment, \citet{ratcliffe2020conflicts} identify a tension between tradecraft and technology.  Officers expressed cynicism at technology being able to replicate their experience, and they expressed frustration when the technology did not predict instances of crime.  This tension is captured directly in a fieldwork note whereby an officer comments, \textit{"There is a man petting a watering can, and you guys think you can predict where the next burglary is gonna happen?"}, \citep{ratcliffe2020conflicts}.
+In their 2020 study which introduced a predictive policing algorithm into an operational policing environment, \citet{ratcliffe2020conflicts} identify a tension between tradecraft and technology.  Officers expressed cynicism at technology being able to replicate their experience, and they expressed frustration when the technology did not predict instances of crime.  This tension is captured directly in a fieldwork note whereby an officer comments, \textit{"There is a man petting a watering can, and you guys think you can predict where the next burglary is gonna happen?"}, \citep{ratcliffe2020conflicts}.
 
 \citet{ratcliffe2020conflicts} ground their analysis of "tradecraft versus technology" within a taxonomy of normative order cultural stuctures proposed by \citet{herbert1998police}.  Specifically when considering predictive technology, \citet{ratcliffe2020conflicts} sugests that algorithmic policing conflicts against three normative orders, specifically;
 \newpage
@@ -646,12 +1216,7 @@ This collaborative process is explored further by \citet{halford2025transformer}
     \label{fig:transformer-led-policing}
 \end{figure}
 
-
-
-% Halford's paper on Transformer Led Policing
-
-
-
+Whilst the \gls{tlp} is noted by \citet{halford2025transformer} as being applicable to the deployments of generative \gls{ai} into policing, the notable inclusion of the \textit{discuss} "cog" speaks directly to the findings of \cite{marciniak2023algorithmic} that \gls{ai} innovation within policing needs to be done in collaboration with practitioners, and that the adoption of \gls{ai} into policing is not a purely technical challenge, but a sociotechnical challenge which requires engagement with the unique culture of policing.  This observation circles back to the findings of \citet{gundhus2013experience} and \citet{ratcliffe2020conflicts} and suggests that engagement of tacit knowledge in any design will be a critical factor in the successful adoption of any technical solution into a law enforcement context.
 
 %--------C.6  Ethical Considerations in AI-Driven Safeguarding - 500 words approx  --------
 \chapter{Ethical and governance considerations}
@@ -713,20 +1278,10 @@ Word count (Chapters 1–N): XXX words, calculated in accordance with standard a
 %----------------------------------------------------------------------
 %Appendices
 \appendix
-\chapter{Search Matrix}
-\label{app:search-matrix}
-\includepdf[pages=-, addtotoc={1, section, 1, {Literature Search Strategy}, sec:lit-search-doc}]{appendix_1_content.pdf}
-\chapter{Search Terms and Boolean Operators}
-\label{app:search-terms-and-boolean-operators}
-\includepdf[pages=-, addtotoc={1, section, 1, {Search Terms and Boolean Operators}, sec:keywords-doc}]{appendix_2_content.pdf}
-
-\chapter{Inclusion and Exclusion Criteria}
-\label{app:inclusion-and-exclusion-criteria}
-\includepdf[pages=-, addtotoc={1, section, 1, {Inclusion and Exclusion Criteria}, sec:incl-excl-doc}]{appendix_3_content.pdf}
 
 \chapter{Patch One - Upload and Feedback}
 \label{app:patch-one-upload-and-feedback}
-\includepdf[pages=-, addtotoc={1, section, 1, {Patch one uploads, feedback and peer review}, sec:patch-one-doc}]{appendix_4_content.pdf}
+\includepdf[pages=-, addtotoc={1, section, 1, {Patch one uploads, feedback and peer review}, sec:patch-one-doc}]{appendix_1_content.pdf}
 
 \chapter{Patch Two - Upload and Feedback}
 \label{app:patch-two-upload-and-feedback}

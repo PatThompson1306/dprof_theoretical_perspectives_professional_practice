@@ -1,0 +1,40 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Research context}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Purpose and scope of the paper}{9}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Literature Search Strategy and Methodology}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Review Methodology and Rationale}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tools and software}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Search approach and databases}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Keywords and search terms}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Inclusion and exclusion criteria}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Results and filtering process}{17}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Reflections on the search and filtering process}{17}{section.2.7}%
+\contentsline {chapter}{\numberline {3}The Landscape of Child Sexual Exploitation and Policing's Response}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The scale of CSA reporting}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The demand on law enforcement}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The grooming to contact offending pathway}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Synthesising the existing grooming models}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}The case for technological intervention - Identifying the research opportunity}{22}{section.3.5}%
+\contentsline {chapter}{\numberline {4}NLP and Computational Approaches to Grooming Detection}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Natural language processing. A technical baseline}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Classification in the grooming context}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The data provenance challenge}{25}{section.4.3}%
+\contentsline {section}{\numberline {4.4}The operational gap}{26}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Technology adoption and implementation in Policing}{28}{chapter.5}%
+\contentsline {section}{\numberline {5.1}UK Policing: Cultural fragmentation and an innovation deficit}{28}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tacit knowledge, algorithms and trust in technology}{28}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{30}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Ethical and governance considerations}{32}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Algorithmic accountability in criminal justice}{32}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data protection and privacy}{32}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Proportionality and preventative safeguarding}{32}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Synthesis, conceptual framework and research questions}{33}{chapter.7}%
+\contentsline {section}{\numberline {7.1}A conceptual framework}{33}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Refined research aim and sub-questions}{33}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusions }{34}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Implications for professional practice}{34}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Next steps}{34}{section.8.2}%
+\contentsline {chapter}{\numberline {A}Patch One - Upload and Feedback}{36}{chapter.A}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Patch one uploads, feedback and peer review}}{37}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{44}{chapter.B}%

@@ -2,9 +2,8 @@ DEADLINES
 ---------
 [COMPLETED 20/05/2026] 30th May -- Patch 2 content upload
 [COMPLETED 03/06/2026] 13th June -- Patch 2 content comments
-26th June -- Presentation deadline is in 46 days
-3rd Aug -- Final deadline is in 85 days (accepting early submission for holiday)
-
+26th June -- Presentation 
+3rd Aug -- Final deadline 
 
 ASSIGNMENT PLAN
 ---------------
@@ -12,7 +11,7 @@ ASSIGNMENT PLAN
 
 [COMPLETED 05/06/2026] 25th May to 7th June = C.4  NLP and AI in Safeguarding and Criminal Justice Contexts
 
-8th June to 21st June = C.5  Technology Adoption and Organisational Change in Policing
+[COMPLETED 13/06/2026] 8th June to 21st June = C.5  Technology Adoption and Organisational Change in Policing
 
 22nd June to 25th June = Presentation preparation
 
