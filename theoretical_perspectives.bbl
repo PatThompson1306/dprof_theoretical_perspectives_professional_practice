@@ -19,6 +19,12 @@ Ariel, B. \harvardand\ Bland, M.  \harvardyearleft 2019\harvardyearright , `Is
   crime rising or falling? a comparison of police-recorded crime and
   victimization surveys',  pp.~7--31.
 
+\harvarditem[Babuta et~al.]{Babuta, Oswald \harvardand\
+  Rinik}{2018}{babuta2018machine}
+Babuta, A., Oswald, M. \harvardand\ Rinik, C.  \harvardyearleft
+  2018\harvardyearright , `Machine learning algorithms and police
+  decision-making', {\em Legal, Ethical, and Regulatory Challenges} .
+
 \harvarditem{Basu}{2020}{basu2020what}
 Basu, A.  \harvardyearleft 2020\harvardyearright , `What is zettelkasten and
   how to write "papers" using zettelkasten?'.
@@ -34,9 +40,23 @@ Bihani, G., Ringenberg, T. \harvardand\ Rayz, J.  \harvardyearleft
   2025\harvardyearright , `Evaluating language models on grooming risk
   estimation using fuzzy theory', {\em arXiv} .
 
+\harvarditem[Borgesano et~al.]{Borgesano, De~Maio, Laghi \harvardand\
+  Musmanno}{2025}{borgesano2025artificial}
+Borgesano, F., De~Maio, A., Laghi, P. \harvardand\ Musmanno, R.
+  \harvardyearleft 2025\harvardyearright , `Artificial intelligence and
+  justice: a systematic literature review and future research perspectives on
+  justice 5.0', {\em European Journal of Innovation Management} {\bf
+  28}(11),~349--385.
+
 \harvarditem{Casey}{2025}{casey2025gbcse}
 Casey, L.  \harvardyearleft 2025\harvardyearright , `National audit on
   group-based child sexual exploitation and abuse'.
+
+\harvarditem{{CEPEJ}}{2018}{cepej2018ethics}
+{CEPEJ}  \harvardyearleft 2018\harvardyearright , `Cepej european ethical
+  charter on the use of artificial intelligence (ai) in judicial systems and
+  their environment - european commission for the efficiency of justice (cepej)
+  - www.coe.int'.
 
 \harvarditem[Chigbu et~al.]{Chigbu, Atiku \harvardand\
   Du~Plessis}{2023}{chigbu2023science}
@@ -48,6 +68,19 @@ Chigbu, U.~E., Atiku, S.~O. \harvardand\ Du~Plessis, C.~C.  \harvardyearleft
 Cooper, Y.  \harvardyearleft 2024\harvardyearright , `Home secretary announces
   major policing reforms',
   https://www.gov.uk/government/news/home-secretary-announces-major-policing-reforms.
+
+\harvarditem[Dechesne et~al.]{Dechesne, Dignum, Zardiashvili \harvardand\
+  Bieger}{2019}{dechesne2019long}
+Dechesne, F., Dignum, V., Zardiashvili, L. \harvardand\ Bieger, J.
+  \harvardyearleft 2019\harvardyearright , `Long-term research strategy for
+  artificial intelligence and ethics at the police', {\em Long-term Research
+  Strategy for Artificial Intelligence and Ethics at the Police} .
+
+\harvarditem[Dixon et~al.]{Dixon, Birks \harvardand\ {Assoc Computat
+  Linguist}}{2021}{dixon2021improving}
+Dixon, A., Birks, D. \harvardand\ {Assoc Computat Linguist}  \harvardyearleft
+  2021\harvardyearright , Improving policing with natural language processing,
+  {\em in} `University of Leeds', pp.~115--124.
 
 \harvarditem{Dolwick}{2009}{dolwick2009social}
 Dolwick, J.~S.  \harvardyearleft 2009\harvardyearright , ``the social' and
@@ -65,6 +98,11 @@ Dubravova, H., Cap, J., Holubova, K. \harvardand\ Hribnak, L.  \harvardyearleft
 Elliott, I.~A.  \harvardyearleft 2017\harvardyearright , `A self-regulation
   model of sexual grooming', {\em Trauma, Violence, \& Abuse} {\bf
   18}(1),~83--97.
+
+\harvarditem{Erdogan}{2024}{erdogan2024diving}
+Erdogan, I.  \harvardyearleft 2024\harvardyearright , `Diving into the iceberg:
+  Establishing transparency in ai for law enforcement', {\em European Papers -
+  A Journal on Law and Integration} {\bf 9}(3),~956--977.
 
 \harvarditem{Evans \harvardand\ {Lorenzo-Dus}}{2025}{evans2025corpusassisted}
 Evans, C. \harvardand\ {Lorenzo-Dus}, N.  \harvardyearleft
@@ -115,6 +153,15 @@ Herbert, S.  \harvardyearleft 1998\harvardyearright , `Police subculture
 Inches, G. \harvardand\ Crestani, F.  \harvardyearleft 2012\harvardyearright ,
   `Overview of the international sexual predator identification competition at
   pan-2012'.
+
+\harvarditem[Iryna et~al.]{Iryna, Antonina, Yuliia, Nadiia, Lutsiv \harvardand\
+  Andrii}{2025}{iryna2025implementation}
+Iryna, Y., Antonina, F.-M., Yuliia, M., Nadiia, M., Lutsiv, R. \harvardand\
+  Andrii, K.  \harvardyearleft 2025\harvardyearright , The implementation of
+  artificial intelligence in criminal law practice: Challenges and prospects
+  for development, {\em in} `Proceedings of the IEEE International Conference
+  on Intelligent Data Acquisition and Advanced Computing Systems: Technology
+  and Applications, IDAACS', pp.~630--635.
 
 \harvarditem[Jay et~al.]{Jay, Evans, Frank \harvardand\
   Sharpling}{2022}{jay2022report}
@@ -193,11 +240,25 @@ Lindsay, R., Jackson, T.~W. \harvardand\ Cooke, L.  \harvardyearleft
   sexual groomers: Recurring patterns in their language use', {\em Journal of
   Pragmatics} {\bf 155},~15--27.
 
+\harvarditem{Manning \harvardand\ Agnew}{2020}{manning2020policing}
+Manning, M. \harvardand\ Agnew, S.  \harvardyearleft 2020\harvardyearright ,
+  Policing in the era of ai and smart societies: Austerity; legitimacy and
+  blurring the line of consent, {\em in} H.~Jahankhani, B.~Akhgar, P.~Cochrane
+  \harvardand\ M.~Dastbaz, eds, `Policing in the Era of AI and Smart
+  Societies', Springer International Publishing, Cham, pp.~59--82.
+
 \harvarditem{Marciniak}{2023}{marciniak2023algorithmic}
 Marciniak, D.  \harvardyearleft 2023\harvardyearright , `Algorithmic policing:
   An exploratory study of the algorithmically mediated construction of
   individual risk in a uk police force', {\em Policing and Society: An
   International Journal of Research and Policy} {\bf 33},~449--463.
+
+\harvarditem[Mwendwa et~al.]{Mwendwa, Chouhan \harvardand\
+  Etyang}{2026}{mwendwa2026future}
+Mwendwa, G., Chouhan, L. \harvardand\ Etyang, F.  \harvardyearleft
+  2026\harvardyearright , The future of policing and justice: A systematic
+  review of ai's role and ethical challenges, {\em in} `Lecture Notes in
+  Networks and Systems', Vol. 1673 LNNS, pp.~143--162.
 
 \harvarditem{{National Police Chiefs' Council}}{2025}{CPAI2025}
 {National Police Chiefs' Council}  \harvardyearleft 2025\harvardyearright ,
@@ -231,6 +292,12 @@ Olson, L., Daggs, J., Ellevold, B. \harvardand\ Rogers, T.  \harvardyearleft
   2007\harvardyearright , `Entrapping the innocent: Toward a theory of child
   sexual predators' luring communication', {\em Communication Theory} {\bf
   17}(3).
+
+\harvarditem{Oswald}{2021}{oswald2021threepillar}
+Oswald, M.  \harvardyearleft 2021\harvardyearright , `A three-pillar approach
+  to achieving trustworthy and accountable use of ai and emerging technology in
+  policing in england and wales: Lessons from the west midlands data ethics
+  model'.
 
 \harvarditem[Raiaan et~al.]{Raiaan, Mukta, Fatema, Fahad, Sakib, Mim, Ahmad,
   Ali \harvardand\ Azam}{2024}{raiaan2024review}
