@@ -27,14 +27,14 @@
 \contentsline {section}{\numberline {5.3}Theoretical frameworks for technology adoption}{30}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Ethical and governance considerations}{32}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Core ethical issues in criminal justice}{32}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Theoretical grounding}{33}{section.6.2}%
-\contentsline {section}{\numberline {6.3}From principle to practice}{33}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Synthesis, conceptual framework and research questions}{34}{chapter.7}%
-\contentsline {section}{\numberline {7.1}A conceptual framework}{34}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Refined research aim and sub-questions}{34}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Conclusions }{35}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Implications for professional practice}{35}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Next steps}{35}{section.8.2}%
-\contentsline {chapter}{\numberline {A}Patch One - Upload and Feedback}{37}{chapter.A}%
-\contentsline {section}{\numberline {A.1}\ignorespaces {Patch one uploads, feedback and peer review}}{38}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{45}{chapter.B}%
+\contentsline {section}{\numberline {6.2}Theoretical grounding}{32}{section.6.2}%
+\contentsline {section}{\numberline {6.3}From principle to practice}{32}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Synthesis, conceptual framework and research questions}{33}{chapter.7}%
+\contentsline {section}{\numberline {7.1}A conceptual framework}{33}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Refined research aim and sub-questions}{33}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusions }{34}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Implications for professional practice}{34}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Next steps}{34}{section.8.2}%
+\contentsline {chapter}{\numberline {A}Patch One - Upload and Feedback}{36}{chapter.A}%
+\contentsline {section}{\numberline {A.1}\ignorespaces {Patch one uploads, feedback and peer review}}{37}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Patch Two - Upload and Feedback}{44}{chapter.B}%
